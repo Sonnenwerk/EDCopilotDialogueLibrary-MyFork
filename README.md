@@ -42,4 +42,4 @@ Feel free to expand and improve the phrase library! Here’s how you can get inv
 
 ---
   
-Feel free to share ideas, suggestions, or issues through the repository’s **Issues** section! Fly safe, Commander!  
+Feel free to share ideas, suggestions, or issues through the repository’s **Issues** section or on the EDCopilot Discord. Fly safe, Commander!  
