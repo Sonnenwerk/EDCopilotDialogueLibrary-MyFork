@@ -2,6 +2,8 @@
 
 Welcome to the **EDCopilotDialogueLibrary**, a collection of phrases and dialogue for use with [EDCoPilot](https://www.razzafrag.com/). This repository contains pre-formatted phrases for various in-game events, helping enhance your experience as a commander in the vastness of space.  
 
+I will add more phrases over time.  
+
 ---
 
 ## Repository Structure  
@@ -26,7 +28,7 @@ If you’d like to contribute, there’s a template file located in the `templat
 
 ## How to Contribute  
 
-We encourage contributions to expand and improve the phrase library! Here’s how you can get involved:  
+Feel free to expand and improve the phrase library! Here’s how you can get involved:  
 
 1. **Add New Phrases**  
    - Browse the `SpeechExtensions` folder for existing categories.  
