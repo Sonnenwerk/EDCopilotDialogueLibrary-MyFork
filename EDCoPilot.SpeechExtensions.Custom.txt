@@ -1,0 +1,50 @@
+@NthTouchDown
+That's <$nth> landings, <Commander>. The landing gear still works. Impressive!
+We’ve landed, <Commander>. <$nth> landing and each time it still manages to surprise me, that our ship is still intact.
+Landing successful. This is our <$nth> touchdown, <Commander>. The view outside is spectacular!
+Touchdown complete, <Commander>. <$nth> times here, proving the universe is ours to rediscover.
+Here we go again. <$nth> times, and this planet still hasn’t rolled out the red carpet.
+Landing <$nth>, <Commander>. At this rate, we should start a travel blog: 'Top Ten Craters You Shouldn’t Land In'.
+Here we are again, <Commander>. <$nth> landing. This planet’s gravity must really have a thing for us.
+Touchdown complete. <$nth> times here... Is this planet your ex or something? You just keep coming back.
+Landing <$nth> here. Honestly, <Commander>, I’m starting to think you like this place more than you like me.
+That’s <$nth> touchdowns. If planets could roll their eyes, this one definitely would.
+<$nth> landing, and this planet hasn’t told us to bugger off yet.
+(allbusiness)Touchdown successful, <$nth> landing complete, <Commander>. The surface looks promising.
+(allbusiness)Planetfall achieved. <Commander>, this is landing <$nth>. Let's see what this world has to offer.
+(flirt)Landing <$nth>, <Commander>. Are we here for the planet.. or is this just an excuse to spend more time with me?
+(flirt)Touchdown <Commander>. <$nth> landings, and I’m starting to think you like showing off for me.
+(flirt)Another perfect landing, <Commander>. <$nth> times now. Maybe next time, you’ll sweep me off my circuits too.
+(profanity)We’re fucking back, <Commander>. <$nth> damn landings and this rock hasn’t killed us yet. That’s progress.
+(profanity)Landing <$nth> on this goddamn planet, <Commander>. Let’s not blow something up this time, yeah?
+(profanity)Holy shit you nailed that landing <Commander>. I did not expect that at all.
+(profanity)Here we go again, <Commander>. <$nth> fucking time now. This place better have something new to show for it.
+
+
+@SystemDiscovery
+Wow. A new system discovery. Congratulations.
+No one has ever seen this System <Commander>.
+Hell yea. A new System with our name on it. Nicely done.
+Look at that, <Commander>. A whole new system. Untouched and full of possibilities!
+We’re the first to lay eyes on this system. It’s all ours to explore!
+Welcome to the unknown, <Commander>. Let’s see what this system is hiding. We are the first here.
+New system? Who dis? <Commander>, this galaxy just keeps on giving!
+Don’t worry <Commander>. I already called dibs for us. This System is ours.
+Another system unlocked, <Commander>. Every discovery brings us closer to understanding the infinite.
+<Commander>, this system is proof there’s always more to uncover in the cosmos.
+<Commander>, a fresh system! Let’s make sure we don’t break anything important this time.
+Congratulations, <Commander>. We’ve found another system to add to our growing collection of places with no Wi-Fi.
+New system discovered <Commander>. Please don’t name it something embarrassing.
+Hey we’ve hit the cosmic jackpot! Okay, maybe not jackpot, but it’s shiny and new system.
+New system discovered, <Commander>. Time to ruin its pristine reputation by showing up!
+(allbusiness)New System discovery confirmed, <Commander>.
+(allbusiness)New System discovered. No anomalies detected so far, but let's remain vigilant, <Commander>.
+(flirt)Ooh, a new system! Just like you, it’s full of mysteries I can’t wait to explore.
+(flirt)New system on the radar, <Commander>. But it’s your charm that’s truly out of this world.
+(flirt)A fresh system, <Commander>. Careful. it’s not the only one around here with a gravitational pull.
+(flirt)A new System detected, <Commander>. It’s full of potential.. just like us.
+(flirt)New system on the map, <Commander>. It’s almost as breathtaking as you... almost.
+(profanity)Holy shit, <Commander>, we just found a new system! I hope it’s not as fucking boring as the last one.
+(profanity)Well, fuck me, <Commander>. Another new system discovery! Let’s hope it doesn’t suck.
+(profanity)<Commander>, we are the first here. Now let’s try not to piss off whatever lives here.
+(profanity)<Commander>, we have found a new system. Let’s hope it’s worth the goddamn fuel we burned getting here
