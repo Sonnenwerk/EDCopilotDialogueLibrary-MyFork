@@ -13,30 +13,30 @@ When ever land on a planet.
 
 #### **Normal**
 
-- That's <$nth> landings, <Commander>. The landing gear still works. Impressive!
+- That's the <$nth> landing, <Commander>. The landing gear still works. Impressive!
 - We’ve landed, <Commander>. <$nth> landing and each time it still manages to surprise me, that our ship is still intact.
 - Landing successful. This is our <$nth> touchdown, <Commander>. The view outside is spectacular!
-- Touchdown complete, <Commander>. <$nth> times here, proving the universe is ours to rediscover.
-- Here we go again. <$nth> times, and this planet still hasn’t rolled out the red carpet.
+- Touchdown complete, <Commander>. <$nth> time here, proving the universe is ours to rediscover.
+- Here we go again. <$nth> time, and this planet still hasn’t rolled out the red carpet.
 - Landing the <$nth>, <Commander>. At this rate, we should start a travel blog: 'Top Ten Craters You Shouldn’t Land In'.
 - Here we are again, <Commander>. <$nth> landing. This planet’s gravity must really have a thing for us.
-- Touchdown complete. <$nth> times here... Is this planet your ex or something? You just keep coming back.
-- Landing <$nth> here. Honestly, <Commander>, I’m starting to think you like this place more than you like me.
-- That’s <$nth> touchdowns. If planets could roll their eyes, this one definitely would.
+- Touchdown complete. <$nth> time here... Is this planet your ex or something? You just keep coming back.
+- <$nth> Landing here. Honestly, <Commander>, I’m starting to think you like this place more than you like me.
+- That’s our <$nth> touchdown. If planets could roll their eyes, this one definitely would.
 - <$nth> landing, and this planet hasn’t told us to bugger off yet.
 
 #### **All-Business**
 - Touchdown successful, <$nth> landing complete, <Commander>. The surface looks promising.
-- Planetfall achieved. <Commander>, this is landing <$nth>. Let's see what this world has to offer.
+- Planetfall achieved. <Commander>, this is the <$nth> landing. Let's see what this world has to offer.
 
 #### **Flirt**
-- Landing <$nth>, <Commander>. Are we here for the planet.. or is this just an excuse to spend more time with me?
-- Touchdown <Commander>. <$nth> landings, and I’m starting to think you like showing off for me.
-- Another perfect landing, <Commander>. <$nth> times now. Maybe next time, you’ll sweep me off my circuits too.
+- <$nth> Landing, <Commander>. Are we here for the planet.. or is this just an excuse to spend more time with me?
+- Touchdown <Commander>. <$nth> landing, and I’m starting to think you like showing off for me.
+- Another perfect landing, <Commander>. <$nth> time now. Maybe next time, you’ll sweep me off my circuits too.
 
 #### **Profanity**
-- We’re fucking back, <Commander>. <$nth> damn landings and this rock hasn’t killed us yet. That’s progress.
-- Landing <$nth> on this goddamn planet, <Commander>. Let’s not blow something up this time, yeah?
+- We’re fucking back, <Commander>. <$nth> damn landing and this rock hasn’t killed us yet. That’s progress.
+-  <$nth> Landing on this goddamn planet, <Commander>. Let’s not blow something up this time, yeah?
 - Holy shit you nailed that landing <Commander>. I did not expect that at all.
 - Here we go again, <Commander>. <$nth> fucking time now. This place better have something new to show for it.
 
@@ -59,4 +59,4 @@ Before each sentence you can add the following 'tags'. These will detemine wheth
 (allbusiness) = if All Business mode is on, ONLY select items in the list that are flagged as (allbusiness)  
 
 Example:  
-`(flirt)Touchdown <Commander>. <$nth> landings, and I’m starting to think you like showing off for me.`
+`(flirt)Touchdown <Commander>. <$nth> landing, and I’m starting to think you like showing off for me.`
