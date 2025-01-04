@@ -12,24 +12,24 @@ This document lists all phrases categorized by event type, with explanations and
 ### Phrases:
 
 #### **Normal**
-- "Example phrase 1 for normal tone."
-- "Example phrase 2 for normal tone."
-- "Example phrase 3 for normal tone."
+- Example phrase 1 for normal tone.
+- Example phrase 2 for normal tone.
+- Example phrase 3 for normal tone.
 
 #### **All-Business**
-- "Example phrase 1 for all-business tone."
-- "Example phrase 2 for all-business tone."
-- "Example phrase 3 for all-business tone."
+- Example phrase 1 for all-business tone.
+- Example phrase 2 for all-business tone.
+- Example phrase 3 for all-business tone.
 
 #### **Flirt**
-- "Example phrase 1 for flirt tone."
-- "Example phrase 2 for flirt tone."
-- "Example phrase 3 for flirt tone."
+- Example phrase 1 for flirt tone.
+- Example phrase 2 for flirt tone.
+- Example phrase 3 for flirt tone.
 
 #### **Profanity**
-- "Example phrase 1 for profanity tone."
-- "Example phrase 2 for profanity tone."
-- "Example phrase 3 for profanity tone."
+- Example phrase 1 for profanity tone.
+- Example phrase 2 for profanity tone.
+- Example phrase 3 for profanity tone.
 
 ---
 
@@ -41,24 +41,24 @@ This document lists all phrases categorized by event type, with explanations and
 ### Phrases:
 
 #### **Normal**
-- "Example phrase 1 for normal tone."
-- "Example phrase 2 for normal tone."
-- "Example phrase 3 for normal tone."
+- Example phrase 1 for normal tone.
+- Example phrase 2 for normal tone.
+- Example phrase 3 for normal tone.
 
 #### **All-Business**
-- "Example phrase 1 for all-business tone."
-- "Example phrase 2 for all-business tone."
-- "Example phrase 3 for all-business tone."
+- Example phrase 1 for all-business tone.
+- Example phrase 2 for all-business tone.
+- Example phrase 3 for all-business tone.
 
 #### **Flirt**
-- "Example phrase 1 for flirt tone."
-- "Example phrase 2 for flirt tone."
-- "Example phrase 3 for flirt tone."
+- Example phrase 1 for flirt tone.
+- Example phrase 2 for flirt tone.
+- Example phrase 3 for flirt tone.
 
 #### **Profanity**
-- "Example phrase 1 for profanity tone."
-- "Example phrase 2 for profanity tone."
-- "Example phrase 3 for profanity tone."
+- Example phrase 1 for profanity tone.
+- Example phrase 2 for profanity tone.
+- Example phrase 3 for profanity tone.
 
 ---
 
