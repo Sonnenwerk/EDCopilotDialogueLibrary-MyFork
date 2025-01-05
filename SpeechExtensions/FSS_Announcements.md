@@ -82,17 +82,14 @@ Discovered Signals on a body. (Biosignal, Human, Geo)
 ### Phrases:
 
 #### **Normal**
-- I have found <$signal-count-string> on body <$bodyShort>.
-- There are <$signal-count-string> on body <$bodyShort>.
-- <$bodyShort> is landable and has an atmosphere. Time to gear up for surface exploration, <Commander>!
-- <$bodyShort> has an atmosphere and is landable! If you listen closely, you can almost hear it whisper, ‘Come visit!
-- <$bodyShort> is landable and breathable-ish. Perfect for a picnic... or just stretching the landing gear.
+- I have found <$signal_count_string> on body <$bodyShort>.
+- There are <$signal_count_string> on body <$bodyShort>.
 
 #### **All-Business**
-- Scan results show <$signal-count-string> on body <$bodyShort>.
+- Scan results show <$signal_count_string> on body <$bodyShort>.
 
 #### **Flirt**
-- I detected a good looking commander. Oh.. and <$signal-count-string> on body <$bodyShort>.
+- I detected a good looking commander. Oh.. and <$signal_count_string> on body <$bodyShort>.
 ---
 
 # Notes
