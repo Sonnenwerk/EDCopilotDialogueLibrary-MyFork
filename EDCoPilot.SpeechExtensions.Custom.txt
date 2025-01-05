@@ -66,6 +66,7 @@ I have found <$signal_count_string> on body <$bodyShort>.
 There are <$signal_count_string> on body <$bodyShort>.
 (allbusiness)Scan results show <$signal_count_string> on body <$bodyShort>.
 (flirt)I detected a good looking commander. Oh.. and <$signal_count_string> on body <$bodyShort>.
+(profanity)FFS... I mean FSS shows <$signal_count_string> on <$bodyShort>.
 
 
 @SystemDiscovery
@@ -88,7 +89,7 @@ New system discovered, <Commander>. Time to ruin its pristine reputation by show
 (allbusiness)New System discovered. No anomalies detected so far, but let's remain vigilant, <Commander>.
 (flirt)Ooh, a new system! Just like you, it’s full of mysteries I can’t wait to explore.
 (flirt)New system on the radar, <Commander>. But it’s your charm that’s truly out of this world.
-(flirt)A fresh system, <Commander>. Careful. it’s not the only one around here with a gravitational pull.
+(flirt)A fresh system, <Commander>. Careful. It's main star is not the only one around here with a gravitational pull.
 (flirt)A new System detected, <Commander>. It’s full of potential.. just like us.
 (flirt)New system on the map, <Commander>. It’s almost as breathtaking as you... almost.
 (profanity)Holy shit, <Commander>, we just found a new system! I hope it’s not as fucking boring as the last one.

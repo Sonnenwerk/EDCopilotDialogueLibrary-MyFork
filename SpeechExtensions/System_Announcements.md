@@ -35,7 +35,7 @@ When ever you jumo into a System that has not been discovered yet.
 #### **Flirt**
 - Ooh, a new system! Just like you, it’s full of mysteries I can’t wait to explore.
 - New system on the radar, <Commander>. But it’s your charm that’s truly out of this world.
-- A fresh system, <Commander>. Careful. it’s not the only one around here with a gravitational pull.
+- A fresh system, <Commander>. Careful. It's main star is not the only one around here with a gravitational pull.
 - A new System detected, <Commander>. It’s full of potential.. just like us.
 - New system on the map, <Commander>. It’s almost as breathtaking as you... almost.
 
