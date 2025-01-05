@@ -94,7 +94,7 @@ Discovered Signals on a body. (Biosignal, Human, Geo)
 
 # Notes
 
-[Add any additional notes or instructions here, such as placeholders like `<Commander>` or `<$nth>` and their usage.]
+Placeholders: <Commander> <$bodyName> <$bodyShort> <$signal_count_string> <$nth>
 
 You can add these phrases to your `EDCoPilot.SpeechExtensions.Custom.txt` in `\EDCoPilot\User custom files`.
 The format is a @event-type assigned to a particular event in EDCoPilot, followed by a list of sentences you want to be selected from when the event is triggered
