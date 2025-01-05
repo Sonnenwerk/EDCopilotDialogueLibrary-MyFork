@@ -74,6 +74,27 @@ Landable planet scanned
 - <Commander>, <$bodyShort> is landable with atmosphere. But the real question is: can I land a spot in your heart?
 ---
 
+## Event Type: @FSSSignalCountAnnouncement
+
+### Explanation:
+Discovered Signals on a body. (Biosignal, Human, Geo)
+
+### Phrases:
+
+#### **Normal**
+- I have found <$signal-count-string> on body <$bodyShort>.
+- There are <$signal-count-string> on body <$bodyShort>.
+- <$bodyShort> is landable and has an atmosphere. Time to gear up for surface exploration, <Commander>!
+- <$bodyShort> has an atmosphere and is landable! If you listen closely, you can almost hear it whisper, ‘Come visit!
+- <$bodyShort> is landable and breathable-ish. Perfect for a picnic... or just stretching the landing gear.
+
+#### **All-Business**
+- Scan results show <$signal-count-string> on body <$bodyShort>.
+
+#### **Flirt**
+- I detected a good looking commander. Oh.. and <$signal-count-string> on body <$bodyShort>.
+---
+
 # Notes
 
 [Add any additional notes or instructions here, such as placeholders like `<Commander>` or `<$nth>` and their usage.]
