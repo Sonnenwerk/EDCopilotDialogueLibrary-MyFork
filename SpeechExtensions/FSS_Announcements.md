@@ -37,9 +37,9 @@ New Terraformable scanned
 #### **Normal**
 - Great news! <$bodyShort> is terraformable. This is the <$nth> one we've logged today.
 - You’ve spotted another terraformable <Commander>! Body <$bodyShort> is the <$nth> added to the day’s tally.
-- <$bodyShort> is ready for a cosmic makeover. That’s our <$nth> terradormable today.
+- <$bodyShort> is ready for a cosmic makeover. That’s our <$nth> terraformable today.
 - Nice find! <$bodyShort> is terraformable. With a little effort, we could turn it into a vacation hotspot.
-- Terraformable world? Check. <$bodyShort> has potential! It’s our <$nth> discovery today.  let’s hope they give you naming rights.
+- Terraformable world? Check. <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
 - <$bodyShort> is terraformable? It’s like winning the space lottery!
 
 #### **Flirt**
