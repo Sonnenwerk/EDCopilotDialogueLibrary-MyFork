@@ -90,6 +90,9 @@ Discovered Signals on a body. (Biosignal, Human, Geo)
 
 #### **Flirt**
 - I detected a good looking commander. Oh.. and <$signal_count_string> on body <$bodyShort>.
+
+#### **Profanity**
+- FFS... I mean FSS shows <$signal_count_string> on <$bodyShort>.
 ---
 
 # Notes
