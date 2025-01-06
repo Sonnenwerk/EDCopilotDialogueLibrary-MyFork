@@ -36,7 +36,7 @@ New Terraformable scanned
 
 #### **Normal**
 - Great news! <$bodyShort> is terraformable. This is the <$nth> one we've logged today.
-- You’ve spotted another terraformable <Commander>! Body <$bodyShort> is the <$nth> added to the day’s tally.
+- You’ve spotted another terraformable <Commander>! <$bodyShort> is the <$nth> added to the day’s tally.
 - <$bodyShort> is ready for a cosmic makeover. That’s our <$nth> terraformable today.
 - Nice find! <$bodyShort> is terraformable. With a little effort, we could turn it into a vacation hotspot.
 - Terraformable world? Check. <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
@@ -82,14 +82,14 @@ Discovered Signals on a body. (Biosignal, Human, Geo)
 ### Phrases:
 
 #### **Normal**
-- I have found <$signal_count_string> on body <$bodyShort>.
-- There are <$signal_count_string> on body <$bodyShort>.
+- I have found <$signal_count_string> on <$bodyShort>.
+- There are <$signal_count_string> on <$bodyShort>.
 
 #### **All-Business**
-- Scan results show <$signal_count_string> on body <$bodyShort>.
+- Scan results show <$signal_count_string> on <$bodyShort>.
 
 #### **Flirt**
-- I detected a good looking commander. Oh.. and <$signal_count_string> on body <$bodyShort>.
+- I detected a good looking commander. Oh.. and <$signal_count_string> on <$bodyShort>.
 
 #### **Profanity**
 - FFS... I mean FSS shows <$signal_count_string> on <$bodyShort>.
