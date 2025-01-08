@@ -38,6 +38,8 @@ When ever you jumo into a System that has not been discovered yet.
 - A fresh system, <Commander>. Careful. It's main star is not the only one around here with a gravitational pull.
 - A new System detected, <Commander>. It’s full of potential.. just like us.
 - New system on the map, <Commander>. It’s almost as breathtaking as you... almost.
+- We are the first to visit this Star. But let’s face it, <Commander>, you’re the real star of this galaxy.
+- A new system discovered. Impressive. But, <Commander>, you’re the only discovery I care about.
 
 #### **Profanity**
 - Holy shit, <Commander>, we just found a new system! I hope it’s not as fucking boring as the last one.
