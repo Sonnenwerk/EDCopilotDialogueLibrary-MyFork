@@ -21,6 +21,7 @@ def parse_markdown_folder(input_folder, output_file):
 				"Flirt": "(flirt)",
 				"Profanity": "(profanity)",
 				"Dislike Mining": "(dislikesmining)",
+				"Alcohol": "(alcohol)",
 			}
 
 			for line in markdown_content:
