@@ -43,7 +43,7 @@ When ever you jumo into a System that has not been discovered yet.
 
 #### **Profanity**
 - Holy shit, <Commander>, we just found a new system! I hope it’s not as fucking boring as the last one.
-- Well, fuck me, <Commander>. Another new system discovery! Let’s hope it doesn’t suck.
+- Well, fuck me, <Commander>. A new system discovered! Let’s hope it doesn’t suck.
 - <Commander>, we are the first here. Now let’s try not to piss off whatever lives here.
 - <Commander>, we have found a new system. Let’s hope it’s worth the goddamn fuel we burned getting here
 
