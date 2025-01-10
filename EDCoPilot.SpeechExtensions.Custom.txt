@@ -109,6 +109,6 @@ New system discovered, <Commander>. Time to ruin its pristine reputation by show
 (flirt)We are the first to visit this Star. But let’s face it, <Commander>, you’re the real star of this galaxy.
 (flirt)A new system discovered. Impressive. But, <Commander>, you’re the only discovery I care about.
 (profanity)Holy shit, <Commander>, we just found a new system! I hope it’s not as fucking boring as the last one.
-(profanity)Well, fuck me, <Commander>. Another new system discovery! Let’s hope it doesn’t suck.
+(profanity)Well, fuck me, <Commander>. A new system discovered! Let’s hope it doesn’t suck.
 (profanity)<Commander>, we are the first here. Now let’s try not to piss off whatever lives here.
 (profanity)<Commander>, we have found a new system. Let’s hope it’s worth the goddamn fuel we burned getting here
