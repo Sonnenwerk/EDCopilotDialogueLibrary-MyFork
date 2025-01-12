@@ -39,7 +39,7 @@ New Terraformable scanned
 - You’ve spotted another terraformable <Commander>! <$bodyShort> is the <$nth> added to the day’s tally.
 - <$bodyShort> is ready for a cosmic makeover. That’s our <$nth> terraformable today.
 - Nice find! <$bodyShort> is terraformable. With a little effort, we could turn it into a vacation hotspot.
-- Terraformable world? Check. <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
+- Terraformable world? Check. Body <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
 - <$bodyShort> is terraformable? It’s like winning the space lottery!
 
 #### **Flirt**
@@ -49,8 +49,8 @@ New Terraformable scanned
 
 #### **Profanity**
 - Terraformable, <$bodyShort>? Hell yes, that’s another one for you, <Commander>. That’s <$nth> today!
-- Terraformable alert! <$bodyShort>. Damn, <Commander>, you’re making it look too easy.
-- Terraformable world, <$bodyShort>. Shit, <Commander>, you’re like a magnet for these beauties!
+- Terraformable alert! Body <$bodyShort>. Damn, <Commander>, you’re making it look too easy.
+- <$bodyShort> is a terraformable world. Shit, <Commander>, you’re like a magnet for these beauties!
 
 ---
 
@@ -97,7 +97,7 @@ Discovered Signals on a body. (Biosignal, Human, Geo)
 #### **All-Business**
 - Scan results show <$signal_count_string> on <$bodyShort>.
 - Update: <$bodyShort> revealed <$signal_count_string>. Standing by for further instructions, <Commander>.
-- Scanning complete. <$bodyShort> has <$signal_count_string>. Logging the data now."
+- Scanning complete. <$bodyShort> has <$signal_count_string>. Logging the data now.
 
 #### **Flirt**
 - I detected a good looking commander. Oh.. and <$signal_count_string> on <$bodyShort>.
