@@ -21,6 +21,126 @@ That’s our <$nth> touchdown. If planets could roll their eyes, this one defini
 (profanity)Here we go again, <Commander>. <$nth> fucking time now. This place better have something new to show for it.
 
 
+@ExoNonCanonnSpecies
+Well, well, <Commander>. Canonn has no idea this <$speciesName> was lurking here. Its worth <$scanValue> credits.
+Canonn has never recorded <$speciesName> here. That's a cool <$scanValue> credits for you.
+Look at you, <Commander>, finding what Canonn couldn’t. That’s <$scanValue> credits worth of science!
+Canonn has no prior data on <$speciesName> here, <Commander>. You’ll pocket <$scanValue> credits for this find.
+A pristine entry for the Canonn archives, <Commander>. <$speciesName> here is worth <$scanValue> credits.
+A new addition to Canonn’s research! <$speciesName> has not been catalogued here before, earning you <$scanValue> credits.
+You, <Commander>, are the MVP of scanning today. <$speciesName> is new to Canonn and worth <$scanValue> credits to you!
+(allbusiness)<$speciesName> does not exist in Canonn database for this body <Commander>. It's worth <$scanValue> credits.
+(allbusiness)Canonn has no prior data on <$speciesName> here, <Commander>.
+(allbusiness)No record of <$speciesName> for this body in Canonn’s archives.
+(allbusiness)Cannon has no entry for <$speciesName> on this body.
+
+
+
+@ExoNewCodexEntryWithValue
+Well done, <Commander>! This appears to be the first discovery of <$speciesName>. It’s a valuable addition to the Codex, worth <$scanValue> credits if you secure a sample.
+Congratulations, <Commander>. It seems we’ve encountered <$speciesName> for the first time. An entry for the Codex and a potential <$scanValue> credits for your sample
+We’ve never logged <$speciesName> before. Add it to the Codex and claim <$scanValue> credits for a sample.
+<$speciesName> is a first-time find. Record it in the Codex and collect that <$scanValue> credits sample reward.
+It looks like this the first time we stumble across <$speciesName>. Codex entry secured. Now go bag that <$scanValue> credits sample!
+Another first for the Codex, <Commander>! <$speciesName> is all yours. Grab a sample, and you’ll grab <$scanValue> credits too.
+<$speciesName> is a fresh addition to the Codex and worth <$scanValue> credits if you get a sample.
+First-time Codex entry detected: <$speciesName>. Great work, <Commander>. Just don’t forget to grab that <$scanValue> credits for this sample.
+(allbusiness)First-time Codex entry detected for <$speciesName>.
+(allbusiness)New Codex entry identified: <$speciesName>. A sample will yield <$scanValue> credits.
+(allbusiness)This is the first occurrence of <$speciesName>. Log it in the Codex and collect a sample for <$scanValue> credits.
+(allbusiness)New species found: <$speciesName>. Submit a sample for a Codex entry and <$scanValue> credits.
+
+
+
+@ExoNewCodexEntryWithValueNewBody
+Well done, <Commander>! This appears to be the first discovery of <$speciesName>. It’s a valuable addition to the Codex, with the first foodfall it is worth <$scanValue> credits if you secure a sample.
+Congratulations, <Commander>. It seems we’ve encountered <$speciesName> for the first time. An entry for the Codex and a potential <$scanValue> credits because of the first foodfall.
+We’ve never logged <$speciesName> before. Add it to the Codex and claim <$scanValue> credits, with first foodfall, for a sample.
+<$speciesName> is a first-time find. Record it in the Codex and collect that, with first foodfall bonus, <$scanValue> credits sample reward.
+It looks like this the first time we stumble across <$speciesName>. Codex entry secured. Now go bag that <$scanValue> credits sample!
+Another first for the Codex, <Commander>! <$speciesName> is all yours. Grab a sample, and you’ll grab <$scanValue> credits too.
+<$speciesName> is a fresh addition to the Codex and worth <$scanValue> credits if you get a sample.
+First-time Codex entry detected: <$speciesName>. Great work, <Commander>. Just don’t forget to grab that <$scanValue> credits for this sample.
+(allbusiness)First-time Codex entry detected for <$speciesName>.
+(allbusiness)New Codex entry identified: <$speciesName>. A sample will yield <$scanValue> credits.
+(allbusiness)This is the first occurrence of <$speciesName>. Log it in the Codex and collect a sample for <$scanValue> credits.
+(allbusiness)New species found: <$speciesName>. Submit a sample for a Codex entry and <$scanValue> credits.
+
+
+
+@ExoFirstSampleCollected
+Good work, <Commander>. The first sample is logged. Search for another colony at least <$speciesRange> meters away to continue.
+First sample acquired, <Commander>. Travel at least <$speciesRange> meters to find a distinct colony and proceed with collection.
+That’s one sample down, <Commander>. Now head at least <$speciesRange> meters to find another colony for further collection.
+First sample secured, <Commander>. To continue, locate another colony at least <$speciesRange> meters from here.
+The initial sample has been collected, <Commander>. Move at least <$speciesRange> meters to find the next colony.
+Sample one of <$speciesName> collected, <Commander>. Now proceed about <$speciesRange> meters to a new colony for the next sample.
+One down, <Commander>! Time to burn some thrusters (or calories). Move a minimum of <$speciesRange> meters to grab the next one.
+First sample secured, <Commander>. Now hop at least <$speciesRange> meters over to the next colony. Don’t worry, it’s not running away... probably.
+Sample collected, <Commander>. Just a short <$speciesRange> meter stroll to the next colony. Or long jump it... your call.
+Good news: the first sample is yours. Bad news: there’s more walking involved. At least <$speciesRange> meters for the next scan.
+Great start. Now move at least <$speciesRange> meters to the next colony—think of it as intergalactic cardio.
+(allbusiness)First sample collected. Move at least <$speciesRange> meters to locate the next colony, <Commander>.
+(allbusiness)Sample secured. Move a minimum of <$speciesRange> meters to continue, <Commander>.
+(allbusiness)First sample logged. Search at least <$speciesRange> meters away for the next colony, <Commander>.
+(allbusiness)Sample one complete. Continue by traveling about <$speciesRange> meters to the find a new colony.
+
+
+
+@ExoSecondScanCompleted
+The second sample is secured. Now locate one more colony at least <$speciesRange> meters from here, <Commander>.
+Second sample collected. For the final one, move at least <$speciesRange> meters to another colony.
+Second sample acquired, <Commander>. Just one more to go. Move at least <$speciesRange> meters to find another colony.
+You’ve collected the second sample, <Commander>. For the last one, proceed a minimum <$speciesRange> meters to a different colony.
+Two down, <Commander>. One to go! Head about <$speciesRange> meters for the final piece of this scientific advanture.
+Second sample in the bag. One more colony stands between you and the cash. Next colony is at least <$speciesRange> meters away!
+Sample two secured. You’re on a roll, <Commander>... literally, if you use your SRV. About <$speciesRange> meters to go!
+Second sample complete! One more colony and you’re done, <Commander>. Time to walk, roll, or fly a minimum of <$speciesRange> meters.
+Nice work. That’s the second sample sorted. Just one more colony about <$speciesRange> meters away - easy, right?
+That is the second sample. I hope we will find the last one quickly. A new colony is about <$speciesRange> meters away.
+(allbusiness)Sample two logged. Head at least <$speciesRange> meters to find the final colony, <Commander>.
+(allbusiness)Second sample complete. Locate the last one at least <$speciesRange> meters away, <Commander>.
+(allbusiness)Second sample collected. Continue at least<$speciesRange> meters for the final colony.
+(allbusiness)Sample secured. Move a minimum of <$speciesRange> meters to continue, <Commander>.
+(allbusiness)Sample two complete. Continue by traveling at least <$speciesRange> meters to the next colony.
+(profanity)Only one sample left. Now move your lazy ass at least <$speciesRange> meters for the next colony.
+
+
+
+@ExoThirdSampleCompleted
+Final sample collected, <Commander>. Great work! All bio data is now saved.
+Third sample secured. That completes the collection for this species. Well done!
+That’s the last sample, <Commander>. Data collection is complete. Outstanding effort!
+Third sample in the bag. That’s all we need. Science thanks you, and so do your credits!
+That’s a wrap, <Commander>. Third sample done, and that species is officially science’d.
+Final sample collected. You’ve made this species one famous... or at least well-documented.
+Three’s a charm. You’ve logged the final sample. Job well done!
+That’s it. Science mission over, <Commander>. Now, how about we celebrate by doing absolutely nothing?
+Third and final sample, <Commander>. Now go give your scanner a break, it deserves it as much as you.
+(allbusiness)Third sample done. Collection for this species is finished. Great work, <Commander>.
+(allbusiness)Sample three secured. All data gathered for <$speciesName>, <Commander>.
+(allbusiness)Third and final sample logged. Collection complete, <Commander>.
+(allbusiness)Final sample done. <$speciesName> data is now complete.
+(alcohol)That’s the last one. Finally done! Time to kick back and grab a beer. Or whatever’s onboard.
+(alcohol)Third sample secured, <Commander>. Thank the void that’s over. Go treat yourself to something strong.
+(alcohol)Final sample logged, <Commander>. Collection complete. Mow, how about a cold drink and a long nap?
+(alcohol)Third sample in the bag. That’s it! Science is happy, and you’ve earned a drink or three.
+(alcohol)That was the last sample. I have an idea: how about we drink a short for each scanned sample next time?
+(alcohol)Third sample logged! Finally. If I had hands, I’d be pouring us both a drink right now, <Commander>.
+(profanity)That’s the last one! Holy hell, I’m done with this. Get the hell outta here, <Commander>!
+(profanity)All samples collected. Damn right! Now, go put your feet up and stop making me talk about colonies.
+(profanity)And that's the last sample. Thank the void we’re done. Go find a quiet corner and yell if you have to.
+(profanity)We’re done, <Commander>—finally! You’ve earned a rest, a nap, or whatever hell you want to do next!
+(profanity)And that's it, <Commander>. The end of the line. I swear I can hear my circuits singing 'Hallelujah' right now.
+(flirt)Third and final sample logged, <Commander>. And here I thought you couldn’t get any more impressive... You’ve definitely earned a reward.
+(flirt)Well done, <Commander>. That’s the last sample! You really know how to handle things... I’m impressed. Maybe we could celebrate later?
+(flirt)Final sample, <Commander>. You’ve been quite the pro. But I bet there are other things you’re good at, too.
+(flirt)Done and done, <Commander>. I must say, you’re making this whole ‘science’ thing look way more interesting.
+(flirt)Last sample complete, <Commander>. You’re almost as efficient as you are... charming. Maybe we should discuss your next mission... in private?
+(flirt)Three samples collected, <Commander>. I think I deserve a reward for all that hard work too... maybe you’d be willing to show me your appreciation?
+(flirt)Done, <Commander>. You’ve certainly impressed me today. I think you owe me a little ‘thank you’ for all this hard work... don’t you?
+
+
 @FSSEarthlikeWorldDiscovered
 Outstanding work, <Commander>! <$bodyShort> is an Earthlike world. This makes it our <$nth> Earthlike discovery!
 Excellent find, <Commander>. <$bodyShort> is an Earthlike world, the <$nth> added to our records.
@@ -38,14 +158,14 @@ Great news! <$bodyShort> is terraformable. This is the <$nth> one we've logged t
 You’ve spotted another terraformable <Commander>! <$bodyShort> is the <$nth> added to the day’s tally.
 <$bodyShort> is ready for a cosmic makeover. That’s our <$nth> terraformable today.
 Nice find! <$bodyShort> is terraformable. With a little effort, we could turn it into a vacation hotspot.
-Terraformable world? Check. <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
+Terraformable world? Check. Body <$bodyShort> has potential! It’s our <$nth> discovery today. Let’s hope they give you naming rights.
 <$bodyShort> is terraformable? It’s like winning the space lottery!
 (flirt)<$bodyShort> is terraformable, <Commander>. Just like you to find something waiting to be made perfect.
 (flirt)Oh, <$bodyShort> is terraformable? That’s nothing. You’ve been terraforming my heart since the day you installed me.
 (flirt) <Commander>, <$bodyShort> is terraformable. But if you’re looking for a real project, I’m right here.
 (profanity)Terraformable, <$bodyShort>? Hell yes, that’s another one for you, <Commander>. That’s <$nth> today!
-(profanity)Terraformable alert! <$bodyShort>. Damn, <Commander>, you’re making it look too easy.
-(profanity)Terraformable world, <$bodyShort>. Shit, <Commander>, you’re like a magnet for these beauties!
+(profanity)Terraformable alert! Body <$bodyShort>. Damn, <Commander>, you’re making it look too easy.
+(profanity)<$bodyShort> is a terraformable world. Shit, <Commander>, you’re like a magnet for these beauties!
 
 
 
@@ -75,7 +195,7 @@ Detected <$signal_count_string> on <$bodyShort>. What's our next move, <Commande
 <$signal_count_string> detected on <$bodyShort>. Are we taking notes, or just winging it as usual, <Commander>?
 (allbusiness)Scan results show <$signal_count_string> on <$bodyShort>.
 (allbusiness)Update: <$bodyShort> revealed <$signal_count_string>. Standing by for further instructions, <Commander>.
-(allbusiness)Scanning complete. <$bodyShort> has <$signal_count_string>. Logging the data now."
+(allbusiness)Scanning complete. <$bodyShort> has <$signal_count_string>. Logging the data now.
 (flirt)I detected a good looking commander. Oh.. and <$signal_count_string> on <$bodyShort>.
 (flirt)Oh, <Commander>, I found <$signal_count_string> on <$bodyShort>. But honestly, the most exciting discovery here is you.
 (flirt)You know, <Commander>, <$bodyShort> might be fascinating with its <$signal_count_string>, but it doesn’t stand a chance against your charm.
