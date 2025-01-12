@@ -20,6 +20,7 @@ Here’s a list of available files (click to view):
 - [Announcements for Planets](./SpeechExtensions/Body_Announcements.md)  
 - [Announcements for Systems](./SpeechExtensions/System_Announcements.md) 
 - [Announcements for FSS](./SpeechExtensions/FSS_Announcements.md) 
+- [Announcements for Exobiology](./SpeechExtensions/Exobiology_Announcements.md)
 
 
 ### Template for Adding Phrases
