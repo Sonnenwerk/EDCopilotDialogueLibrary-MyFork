@@ -158,9 +158,9 @@ When ever you scanned the last sample.
 
 #### **All-Business**
 - Third sample done. Collection for this species is finished. Great work, <Commander>.
-- Sample three secured. All data gathered for <$speciesName>, <Commander>.
+- Sample three secured. All data saved, <Commander>.
 - Third and final sample logged. Collection complete, <Commander>.
-- Final sample done. <$speciesName> data is now complete.
+- Final sample done. Data collection is now complete.
 
 #### **Alcohol**
 - That’s the last one. Finally done! Time to kick back and grab a beer. Or whatever’s onboard.
@@ -174,7 +174,7 @@ When ever you scanned the last sample.
 - That’s the last one! Holy hell, I’m done with this. Get the hell outta here, <Commander>!
 - All samples collected. Damn right! Now, go put your feet up and stop making me talk about colonies.
 - And that's the last sample. Thank the void we’re done. Go find a quiet corner and yell if you have to.
-- We’re done, <Commander>—finally! You’ve earned a rest, a nap, or whatever hell you want to do next!
+- We’re done, <Commander> — finally! You’ve earned a rest, a nap, or whatever hell you want to do next!
 - And that's it, <Commander>. The end of the line. I swear I can hear my circuits singing 'Hallelujah' right now.
 
 #### **Flirt** 
