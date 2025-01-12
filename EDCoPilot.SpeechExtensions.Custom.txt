@@ -118,9 +118,9 @@ Three’s a charm. You’ve logged the final sample. Job well done!
 That’s it. Science mission over, <Commander>. Now, how about we celebrate by doing absolutely nothing?
 Third and final sample, <Commander>. Now go give your scanner a break, it deserves it as much as you.
 (allbusiness)Third sample done. Collection for this species is finished. Great work, <Commander>.
-(allbusiness)Sample three secured. All data gathered for <$speciesName>, <Commander>.
+(allbusiness)Sample three secured. All data saved, <Commander>.
 (allbusiness)Third and final sample logged. Collection complete, <Commander>.
-(allbusiness)Final sample done. <$speciesName> data is now complete.
+(allbusiness)Final sample done. Data collection is now complete.
 (alcohol)That’s the last one. Finally done! Time to kick back and grab a beer. Or whatever’s onboard.
 (alcohol)Third sample secured, <Commander>. Thank the void that’s over. Go treat yourself to something strong.
 (alcohol)Final sample logged, <Commander>. Collection complete. Mow, how about a cold drink and a long nap?
@@ -130,7 +130,7 @@ Third and final sample, <Commander>. Now go give your scanner a break, it deserv
 (profanity)That’s the last one! Holy hell, I’m done with this. Get the hell outta here, <Commander>!
 (profanity)All samples collected. Damn right! Now, go put your feet up and stop making me talk about colonies.
 (profanity)And that's the last sample. Thank the void we’re done. Go find a quiet corner and yell if you have to.
-(profanity)We’re done, <Commander>—finally! You’ve earned a rest, a nap, or whatever hell you want to do next!
+(profanity)We’re done, <Commander> — finally! You’ve earned a rest, a nap, or whatever hell you want to do next!
 (profanity)And that's it, <Commander>. The end of the line. I swear I can hear my circuits singing 'Hallelujah' right now.
 (flirt)Third and final sample logged, <Commander>. And here I thought you couldn’t get any more impressive... You’ve definitely earned a reward.
 (flirt)Well done, <Commander>. That’s the last sample! You really know how to handle things... I’m impressed. Maybe we could celebrate later?
