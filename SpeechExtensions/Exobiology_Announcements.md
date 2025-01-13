@@ -107,7 +107,7 @@ When ever you scanned the first sample.
 
 ---
 
-## Event Type: @ExoSecondScanCompleted
+## Event Type: @ExoSecondSampleCollected
 
 ### Explanation:
 When ever you scanned the second sample.

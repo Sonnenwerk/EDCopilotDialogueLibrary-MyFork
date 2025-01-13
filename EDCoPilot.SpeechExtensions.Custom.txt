@@ -87,7 +87,7 @@ Great start. Now move at least <$speciesRange> meters to the next colony—think
 
 
 
-@ExoSecondScanCompleted
+@ExoSecondSampleCollected
 The second sample is secured. Now locate one more colony at least <$speciesRange> meters from here, <Commander>.
 Second sample collected. For the final one, move at least <$speciesRange> meters to another colony.
 Second sample acquired, <Commander>. Just one more to go. Move at least <$speciesRange> meters to find another colony.
