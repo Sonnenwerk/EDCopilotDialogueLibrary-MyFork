@@ -1,0 +1,63 @@
+[example]
+[<ship1>] <callsign> to <mycallsign>. Is that you Commander <cmdrname>? I thought I recognized <myshipname>. I've heard of your deeds all the way from <randomstarsystem>. I'm a big fan, <cmdraddress>
+[<stationname>] <callsign> this is <stationname> control. You are broadcasting on an open channel.
+[<ship1>] Apologies <stationname> control. 
+[\example]
+
+[example]
+[<stationname>] Attention all ships within this flight sector.   This is <stationname> space traffic control. Be advised that threats or aggressive actions against any vessel in this zone will not be tolerated and will be countered with extreme prejudice. 
+[\example]
+
+[example]
+[<ship1>] I swear to god..   If you scan me one more time! 
+[\example]
+
+[example]
+[<ship1>] This is not the ship you are looking for.
+[<ship2>] Oh shut up with your Star Wars nonsense. 
+[\example]
+
+[example]
+[<ship1>] Scan finished. Be about your business!
+[<ship2>] I WAS TRYING TO!
+[\example]
+
+[example]
+[<stationname>] To the idiot who is trying to land on pad <landingpad>.   Its the wrong one.    Traffic control over.
+[\example]
+
+[example]
+[<stationname>] <callsign> begin airlock transition, navigate right with greens to your right.
+[<ship1>] Acknowledged. Right turn out of the airlock.
+[<stationname>] <callsign> try your other right.
+[\example]
+
+[example]
+[<ship1>] I'm bored. Where the bitches at?
+[<stationname>] Last caller state callsign.
+[<ship1>] I said I'm bored, not stupid.
+[\example]
+
+[example]
+[<ship1>] <stationname> Tower, this is <callsign>, ready for Launch.
+[<stationname>] <callsign> hold position at current landing pad. We are currently vectoring a Heavy Transport and holding all traffic.
+[<ship2>] <othercallsign> heavy to <stationname> Tower, airlock transition complete, beginning landing sequence. 
+[<stationname>] Acknowledged <othercallsign> heavy
+[<ship2>] What a cute little ship. Did you make it all by yourself <callsign>?
+[<ship1>] I made it out of Heavy Transport parts. Another landing like yours, and I'll have enough parts for another one.
+[\example]
+
+[example]
+[<stationname>] Be advised. You are in a no fire zone. Stow your weapons immediately. Our weapons are stronger then yours.
+[\example]
+
+[example]
+[<ship1>] I really need to take a monster dump!
+[<stationname>] Um...this is <stationname> space traffic control. You are on an open channel.
+[<ship1>] Oh crap! Sorry about that.
+[<ship2>] Haha Crap. Literally.
+[<ship3>] The mood in here was gloomy until just now. Thanks for this!
+[<stationname>] Keep the channel clear please.
+[<ship4>] um...speaking of a clear channel...
+[<ship1>] Funny...NOT!
+[\example]
