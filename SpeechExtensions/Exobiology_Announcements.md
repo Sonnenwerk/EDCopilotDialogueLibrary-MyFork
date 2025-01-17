@@ -151,7 +151,7 @@ When ever you scanned the last sample.
 - That’s the last sample, <Commander>. Data collection is complete. Outstanding effort!
 - Third sample in the bag. That’s all we need. Science thanks you, and so do your credits!
 - That’s a wrap, <Commander>. Third sample done, and that species is officially science’d.
-- Final sample collected. You’ve made this species one famous... or at least well-documented.
+- Final sample collected. You’ve made this species famous. Or at least well-documented.
 - Three’s a charm. You’ve logged the final sample. Job well done!
 - That’s it. Science mission over, <Commander>. Now, how about we celebrate by doing absolutely nothing?
 - Third and final sample, <Commander>. Now go give your scanner a break, it deserves it as much as you.
