@@ -21,7 +21,7 @@ When ever the sample you just took is not synced with backend systems.
 - You, <Commander>, are the MVP of scanning today. <$speciesName> is new to Canonn and worth <$scanValue> credits to you!
 
 #### **All-Business**
-- <$speciesName> does not exist in Canonn database for this body <Commander>. It's worth <$scanValue> credits.
+- <$speciesName> does not exist in the Canonn database for this body <Commander>. It's worth <$scanValue> credits.
 - Canonn has no prior data on <$speciesName> here, <Commander>.
 - No record of <$speciesName> for this body in Canonn’s archives.
 - Cannon has no entry for <$speciesName> on this body.
@@ -94,7 +94,7 @@ When ever you scanned the first sample.
 - Sample one of <$speciesName> collected, <Commander>. Now proceed about <$speciesRange> meters to a new colony for the next sample.
 - One down, <Commander>! Time to burn some thrusters (or calories). Move a minimum of <$speciesRange> meters to grab the next one.
 - First sample secured, <Commander>. Now hop at least <$speciesRange> meters over to the next colony. Don’t worry, it’s not running away... probably.
-- Sample collected, <Commander>. Just a short <$speciesRange> meter stroll to the next colony. Or long jump it... your call.
+- Sample collected, <Commander>. Just a short <$speciesRange> meter stroll to the next colony. Or a long jump... your call.
 - Good news: the first sample is yours. Bad news: there’s more walking involved. At least <$speciesRange> meters for the next scan.
 - Great start. Now move at least <$speciesRange> meters to the next colony—think of it as intergalactic cardio.
 
@@ -102,7 +102,7 @@ When ever you scanned the first sample.
 - First sample collected. Move at least <$speciesRange> meters to locate the next colony, <Commander>.
 - Sample secured. Move a minimum of <$speciesRange> meters to continue, <Commander>.
 - First sample logged. Search at least <$speciesRange> meters away for the next colony, <Commander>.
-- Sample one complete. Continue by traveling about <$speciesRange> meters to the find a new colony.
+- Sample one complete. Continue by traveling about <$speciesRange> meters to find a new colony.
 
 
 ---
