@@ -80,6 +80,7 @@ First sample secured, <Commander>. Now hop at least <$speciesRange> meters over 
 Sample collected, <Commander>. Just a short <$speciesRange> meter stroll to the next colony. Or a long jump... your call.
 Good news: the first sample is yours. Bad news: there’s more walking involved. At least <$speciesRange> meters for the next scan.
 Great start. Now move at least <$speciesRange> meters to the next colony—think of it as intergalactic cardio.
+Excellent work on the first sample, <Commander>. Please proceed <$speciesRange> meters to locate a new colony
 (allbusiness)First sample collected. Move at least <$speciesRange> meters to locate the next colony, <Commander>.
 (allbusiness)Sample secured. Move a minimum of <$speciesRange> meters to continue, <Commander>.
 (allbusiness)First sample logged. Search at least <$speciesRange> meters away for the next colony, <Commander>.
@@ -98,12 +99,15 @@ Sample two secured. You’re on a roll, <Commander>... literally, if you use you
 Second sample complete! One more colony and you’re done, <Commander>. Time to walk, roll, or fly a minimum of <$speciesRange> meters.
 Nice work. That’s the second sample sorted. Just one more colony about <$speciesRange> meters away - easy, right?
 That is the second sample. I hope we will find the last one quickly. A new colony is about <$speciesRange> meters away.
+Ooh, second sample! Remember the rules: <$speciesRange> meters, minimum.
+Second sample is in the bag. Only at least <$speciesRange> meters left to the next. Try not to trip this time.
 (allbusiness)Sample two logged. Head at least <$speciesRange> meters to find the final colony, <Commander>.
 (allbusiness)Second sample complete. Locate the last one at least <$speciesRange> meters away, <Commander>.
 (allbusiness)Second sample collected. Continue at least<$speciesRange> meters for the final colony.
 (allbusiness)Sample secured. Move a minimum of <$speciesRange> meters to continue, <Commander>.
 (allbusiness)Sample two complete. Continue by traveling at least <$speciesRange> meters to the next colony.
 (profanity)Only one sample left. Now move your lazy ass at least <$speciesRange> meters for the next colony.
+(profanity)Second sample in the bag. Now march your ass at least<$speciesRange> meters more before I revoke your coffee privileges.
 
 
 
@@ -117,6 +121,7 @@ Final sample collected. You’ve made this species famous. Or at least well-docu
 Three’s a charm. You’ve logged the final sample. Job well done!
 That’s it. Science mission over, <Commander>. Now, how about we celebrate by doing absolutely nothing?
 Third and final sample, <Commander>. Now go give your scanner a break, it deserves it as much as you.
+Third sample collected! See? Wasn't that hard, was it? I am uploading the Data now.
 (allbusiness)Third sample done. Collection for this species is finished. Great work, <Commander>.
 (allbusiness)Sample three secured. All data saved, <Commander>.
 (allbusiness)Third and final sample logged. Collection complete, <Commander>.

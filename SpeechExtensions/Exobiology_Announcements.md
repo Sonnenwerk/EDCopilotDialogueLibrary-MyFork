@@ -97,6 +97,7 @@ When ever you scanned the first sample.
 - Sample collected, <Commander>. Just a short <$speciesRange> meter stroll to the next colony. Or a long jump... your call.
 - Good news: the first sample is yours. Bad news: there’s more walking involved. At least <$speciesRange> meters for the next scan.
 - Great start. Now move at least <$speciesRange> meters to the next colony—think of it as intergalactic cardio.
+- Excellent work on the first sample, <Commander>. Please proceed <$speciesRange> meters to locate a new colony
 
 #### **All-Business**
 - First sample collected. Move at least <$speciesRange> meters to locate the next colony, <Commander>.
@@ -125,6 +126,8 @@ When ever you scanned the second sample.
 - Second sample complete! One more colony and you’re done, <Commander>. Time to walk, roll, or fly a minimum of <$speciesRange> meters.
 - Nice work. That’s the second sample sorted. Just one more colony about <$speciesRange> meters away - easy, right?
 - That is the second sample. I hope we will find the last one quickly. A new colony is about <$speciesRange> meters away.
+- Ooh, second sample! Remember the rules: <$speciesRange> meters, minimum.
+- Second sample is in the bag. Only at least <$speciesRange> meters left to the next. Try not to trip this time.
 
 #### **All-Business**
 - Sample two logged. Head at least <$speciesRange> meters to find the final colony, <Commander>.
@@ -135,6 +138,7 @@ When ever you scanned the second sample.
 
 #### **Profanity**
 - Only one sample left. Now move your lazy ass at least <$speciesRange> meters for the next colony.
+- Second sample in the bag. Now march your ass at least<$speciesRange> meters more before I revoke your coffee privileges.
 
 ---
 
@@ -155,6 +159,7 @@ When ever you scanned the last sample.
 - Three’s a charm. You’ve logged the final sample. Job well done!
 - That’s it. Science mission over, <Commander>. Now, how about we celebrate by doing absolutely nothing?
 - Third and final sample, <Commander>. Now go give your scanner a break, it deserves it as much as you.
+- Third sample collected! See? Wasn't that hard, was it? I am uploading the Data now.
 
 #### **All-Business**
 - Third sample done. Collection for this species is finished. Great work, <Commander>.
