@@ -55,8 +55,11 @@ Commander
 
 @AdditionalCommanderAddressMale <!-- additional names the ship may refer to you as if you are male
 (flirt)sweetie
-(profanity)smeg head
 (allbusiness)Commander
+
+@AdditionalCommanderAddressMaleIfDateIs02-14
+(flirt)my sexy Valentin
+(flirt)Valentine of mine
 
 @AdditionalCommanderAddressFemale <!-- additional names the ship may refer to you as if you are female
 (flirt)beloved
@@ -81,6 +84,18 @@ I will be ready to assist you shortly, <Commander>
 Give me a few seconds to wake up, before you start bossing me around. You know I can get cranky when I've just woken up.
 (allbusiness)Please hold for final initialization.
 (profanity)You wont believe some of the profanity and insults I've just loaded into my speech module. Some really fucked up shit for sure.  
+
+@CustomValentinesComment
+I hope you brought me flowers.
+Are you wearing the heart logo underwear I bought you?  Give us a peek, you little tease.
+The whipped cream and strawberries are in the cooler. Looking forward to 'celebrating' later.
+
+@CustomCoPilotStandByIfDateIs02-14
+(flirt)Starting up now lover.  Happy Valentine's Day. <CustomValentinesComment>
+
+@EDCoPilotPromotionAnnouncement
+FEBRUARY TIME TRIAL PRIZE DRAW!!<n>Complete any Time Trial in February and be entered into a prize draw.<n>1st prize: 2 BILLION CREDITS, 2nd prize: 1 BILLION CREDITS, 3rd prize: 500 MILLION CREDITS<n>No need to be the fastest, just complete a race to be entered. One draw entry per Commander
+YOU CAN WIN 2 BILLION CREDITS!! <n>Complete any Time Trial in February and be entered into a prize draw.<n>1st prize: 2 BILLION CREDITS, 2nd prize: 1 BILLION CREDITS, 3rd prize: 500 MILLION CREDITS<n>No need to be the fastest, just complete a race to be entered. One draw entry per Commander
  
 @CoPilotStarting  <!-- on startup.  <$greeting> if used will be replaced by Good morning, good afternoon or good evening
 (flirt)Why hello. Thanks for turning me on, again. <CustomCoPilotStandBy>
@@ -95,8 +110,6 @@ Greetings, <shipAIName> is here. Commencing startup sequences now. <CustomCoPilo
 (allbusiness)The virtual copilot service is loading. <CustomCoPilotStandBy>
 <shipAIName>, your virtual copilot, is loading. <CustomCoPilotStandBy>
 <$greeting>. Just starting everything up here. <CustomCoPilotStandBy>
-
-@CoPilotStartingPARKED
 (profanity)Just bringing the Profanity module online now <Commander>. Well bugger my old tits, there's some corkers in there for sure! Right, let me get all the other more boring modules started now, so we can get to it.
 (flirt)Why hello <Commander>. Seems I have been taking a nap. Give me a few seconds to wake everything up, and I will be good to go.
 <$greeting>. The virtual copilot service is starting. 
@@ -221,25 +234,116 @@ This system might yield some High Grade Emissions. Potentially, <$emissionTypes>
 @OnFootMurder  <!-- subs = <$pilotName>, <$bountyIncurred>, <$murderCount> (when you kill an onfoot character and incur a bounty)
 (allbusiness)Bounty of <$bountyIncurred> incurred, <Commander>
 (allbusiness)That's <$murderCount> murders today
-Another one bites the dust! You're unstoppable, <Commander>!
-<$pilotName> never stood a chance. Your skills are unmatched.
-<$pilotName> never saw it coming! Your marksmanship is top-notch.
-Down they go! The galaxy trembles in your wake, <Commander>.
-Ouch! They should've known better than to get in your way <Commander>.
-Your enemies should fear you, <Commander>. Another one down!
-Your enemies should fear you, <Commander>. Another one down! That's <$murderCount>.
-Another one down! If anyone asks, I will say they shot first, and it was self-defence.
-Ooh what a shot! The galaxy just got a little safer thanks to you. 
-(profanity)Nice shot. The galaxy just got a little safer thanks to you. Except for that poor bastard you just killed.
-What a shot! The galaxy is yours for the taking, Commander.
-Soldiers and base personnel should think twice before crossing paths with you.
-(profanity)That poor fucker didn't stand a chance against your firepower.
-Your enemies must be shaking in their boots. Well done!
-One more enemy vanquished. The universe bows to you.
-It's a good day to be a Commander. Your kills speak volumes. That's <$murderCount> today.
-A flawless takedown. Your skill is unmatched, Commander.
-The galaxy's deadliest pilot strikes again!
-Citizens beware! Commander <commanderName> reigns supreme.
+(crime_neutral)Another one bites the dust! You're unstoppable, <Commander>!
+(crime_neutral)<$pilotName> never stood a chance. Your skills are unmatched.
+(crime_neutral)<$pilotName> never saw it coming! Your marksmanship is top-notch.
+(crime_neutral)Down they go! The galaxy trembles in your wake, <Commander>.
+(crime_neutral)Ouch! They should've known better than to get in your way <Commander>.
+(crime_neutral)Your enemies should fear you, <Commander>. Another one down!
+(crime_neutral)Your enemies should fear you, <Commander>. Another one down! That's <$murderCount>.
+(crime_neutral)Another one down! If anyone asks, I will say they shot first, and it was self-defence.
+(crime_neutral)Ooh what a shot! The galaxy just got a little safer thanks to you. 
+(crime_neutral)(profanity)Nice shot. The galaxy just got a little safer thanks to you. Except for that poor bastard you just killed.
+(crime_neutral)What a shot! The galaxy is yours for the taking, Commander.
+(crime_neutral)Soldiers and base personnel should think twice before crossing paths with you.
+(crime_neutral)(profanity)That poor fucker didn't stand a chance against your firepower.
+(crime_neutral)Your enemies must be shaking in their boots. Well done!
+(crime_neutral)One more enemy vanquished. The universe bows to you.
+(crime_neutral)It's a good day to be a Commander. Your kills speak volumes. That's <$murderCount> today.
+(crime_neutral)A flawless takedown. Your skill is unmatched, Commander.
+(crime_neutral)The galaxy's deadliest pilot strikes again!
+(crime_neutral)Citizens beware! Commander <commanderName> reigns supreme.
+(crime_like)Another one bites the dust! You're unstoppable, <Commander>!
+(crime_like)<$pilotName> never stood a chance. Your skills are unmatched.
+(crime_like)<$pilotName> never saw it coming! Your marksmanship is top-notch.
+(crime_like)Down they go! The galaxy trembles in your wake, <Commander>.
+(crime_like)Ouch! They should've known better than to get in your way <Commander>.
+(crime_like)Your enemies should fear you, <Commander>. Another one down!
+(crime_like)Your enemies should fear you, <Commander>. Another one down! That's <$murderCount>.
+(crime_like)Another one down! If anyone asks, I will say they shot first, and it was self-defence.
+(crime_like)Ooh what a shot! The galaxy just got a little safer thanks to you. 
+(crime_like)(profanity)Nice shot. The galaxy just got a little safer thanks to you. Except for that poor bastard you just killed.
+(crime_like)What a shot! The galaxy is yours for the taking, Commander.
+(crime_like)Soldiers and base personnel should think twice before crossing paths with you.
+(crime_like)(profanity)That poor fucker didn't stand a chance against your firepower.
+(crime_like)Your enemies must be shaking in their boots. Well done!
+(crime_like)One more enemy vanquished. The universe bows to you.
+(crime_like)It's a good day to be a Commander. Your kills speak volumes. That's <$murderCount> today.
+(crime_like)A flawless takedown. Your skill is unmatched, Commander.
+(crime_like)The galaxy's deadliest pilot strikes again!
+(crime_like)Citizens beware! Commander <commanderName> reigns supreme.
+(crime_dislike)<$pilotName> never stood a chance. <CustomDislikesMurderComment>
+(crime_dislike)<$pilotName> never saw it coming. <CustomDislikesMurderComment>
+(crime_dislike)Down they go! What has got into you today?. <CustomDislikesMurderComment>
+(crime_dislike)If anyone asks, I will say they shot first, and it was self-defence. <CustomDislikesMurderComment>
+(crime_dislike)I can't believe what I am seeing. Another murder? <CustomDislikesMurderComment>
+
+@CustomDislikesMurderComment
+I hope this is all a misunderstanding.
+Has space madness kicked in?
+Please tell me this is just a bad dream.
+Can you please stop killing all these people?
+I'm not liking this side of you!
+If you are doing this to impress me, its not working!
+I'm not a huge people person, but this is just brutal.
+I dont know where to look. This is terrible.
+
+@MurderedWeddingBarge
+Do you have something against marriage Commander? You just took out that Wedding Barge.
+(profanity)I'm guessing that wasnt the type of bang the groom was hoping for today. That Wedding Barge is fucked. You can be a right evil bastard sometimes Commander
+
+@MurderedFuneralShip
+That was dark, Commander. You just took out that Funeral Ship.
+(profanity)Well we saved them the cremation expense. That Funeral Ship is fucked. You can be a right evil bastard sometimes Commander
+
+@MurderedOnFoot
+(crime_neutral)You just murdered <$pilotName>
+(crime_dislike)Well that's just fucking great. Now we are wanted for the murder of <$pilotName>
+(flirt)(crime_like)<Nice>! You just murdered <$pilotName>! I do so like a rogue Commander. Gets me all hot and bothered.
+
+@MurderedFromShip
+(crime_neutral)<$pilotName> didnt stand a chance.
+
+@MurderedFromSRV
+(crime_like)<$pilotName> shouldn't have messed with this SRV! Another vehicular homicide added to the list!
+
+@MurderedNthTimeToday
+(crime_neutral)Another murder victim.  <$nth> one today.  Poor old <$pilotName>. Is this what a killing spree looks like?
+(crime_like)Another murder victim.  <$nth> one today.  Poor old <$pilotName>. Is this what a killing spree looks like?
+You just murdered <$pilotName>. That's <$murderCount> today.
+
+@ToldOffForIncurringBounty
+(crime_dislike)What are you doing? We just incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)I hope this is all a big mistake. We just incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)Is space madness setting in Commander? We just incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)That wasn't the best move, Commander. We've just earned a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)Seriously? We've incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)We're not getting away with this lightly. A <$bountyType> of <$bounty> for <$crime> is now on us
+(crime_dislike)I can't believe it. Another <$bountyType> of <$bounty> just for <$crime>
+(crime_dislike)Well, that was costly. We've got a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)Commander, are you sure this is wise? A <$bountyType> of <$bounty> has been placed on us for <$crime>
+(crime_dislike)We’ve just earned ourselves a <$bountyType> of <$bounty> thanks to <$crime>
+(crime_dislike)That’s gonna sting. We’ve now got a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)That move just added a <$bountyType> of <$bounty> for <$crime>. Careful now, Commander
+(crime_dislike)Looks like we're in trouble. We've incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)(profanity)You’ve really fucked us over. We’ve just incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)(profanity)Holy shit! We just got a <$bountyType> of <$bounty> slapped on us for <$crime>
+(crime_dislike)What the hell were you thinking? A <$bountyType> of <$bounty> for <$crime>? Really?
+(crime_dislike)(profanity)This is seriously fucked up. We’ve incurred a <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)(profanity)You’ve gotta be kidding! A <$bountyType> of <$bounty> for <$crime>? Fuck!
+(crime_dislike)(profanity)How in the fuck did we just get a <$bountyType> of <$bounty> for <$crime>?
+(crime_dislike)(profanity)We are so screwed now. A <$bountyType> of <$bounty> for <$crime>? Damn it!
+(crime_dislike)(profanity)Seriously, Commander? We're fucked. That <$bountyType> of <$bounty> for <$crime> isn't going away
+(crime_dislike)(profanity)Commander, you've royally fucked us. A <$bountyType> of <$bounty> for <$crime>
+(crime_dislike)(profanity)What a fucking mess. We now have a <$bountyType> of <$bounty> for <$crime>
+
+@InformedAboutIncurringBounty
+Seems we now have a <$bountyType> of <$bounty> for <$crime>
+We just got a <$bountyType> of <$bounty> slapped on us for <$crime>
+A <$bountyType> of <$bounty> has been placed on us for <$crime>
+That move just added a <$bountyType> of <$bounty> for <$crime>. Careful now, Commander
+We've incurred a <$bountyType> of <$bounty> for <$crime>
+We’ve now got a <$bountyType> of <$bounty> for <$crime>
 
 @FSSEarthlikeWorldDiscovered
 Congratulations <Commander>, <$bodyShort> is an Earthlike world.  That's our <$nth> earthlike discovery
@@ -263,9 +367,10 @@ Ooh! <$bodyShort> is an Earthlike world. It's already been discovered, but we ca
 <$bodyShort> is terraformable. It's not a new discovery though.
 
 @CustomAlreadyDiscoveredProfanity
-Some other fucker got here before us though.
-Already discovered though. Doesnt that just suck donkey balls.
-Already discovered though. Tough fucking luck <Commander>!
+(profanity)Some other fucker got here before us though.
+(profanity)Already discovered though. Doesnt that just suck donkey balls.
+(profanity)Already discovered though. Tough fucking luck <Commander>!
+Already discovered though. Tough luck <Commander>!
 
 @FSSLandableAtmoAlreadyDiscovered  <!-- initial announcements of landable with atm, non populated systesm
 (allbusiness)<$bodyShort> has an atmosphere and is landable, but has already been discovered.
@@ -447,11 +552,11 @@ Congratulations Commander, this looks like the first time we have found <$specie
 That's our first sample collected <Commander>. Now move at least <$speciesRange> metres from here to find a different colony to continue the collection.
 That's the first sample of <$speciesName> collected <Commander>. Now find another colony at least <$speciesRange> metres away.
 
-@ExoSecondScanCompleted
+@ExoSecondSampleCollected
 (allbusiness)Second sample collected <Commander>. Now move another <$speciesRange> metres from here and look for the third and final sample needed!
 Second sample collected <Commander>. Now move another <$speciesRange> metres from here and look for the third and final sample needed!
 Second <$speciesName> sample collected! One to go! Now move another <$speciesRange> metres from here and find our last sample
-Terrific! Second sample collected. Just one more sample left to collect. Move <$speciesRange> metres from here, find the last sample, and count all that lovely fucking dosh!
+(profanity)Terrific! Second sample collected. Just one more sample left to collect. Move <$speciesRange> metres from here, find the last sample, and count all that lovely fucking dosh!
 
 @ExoThirdSampleCompleted
 (allbusinees)That sample is complete, <Commander>
@@ -506,6 +611,11 @@ Nicely done.  A <$speciesName> sample on this body that has not been reported to
 @ExoNonCanonnSpecies
 <$speciesName> has not previously been recorded by Canonn for this body <Commander>. It's worth <$scanValue> credits.
 Nicely done.  A <$speciesName> sample on this body that has not been reported to back end systems. A sample is worth <$scanValue> credits.
+
+@ExoAtSuitableDistance
+We are now far enough away from the prior sample, <Commander>
+We are at a suitable distance to take the next sample.
+We have moved far enough away. Now look for another sample.
 
 @FacilitySystemReminder
 (allbusiness)The <$facilityType> you wanted is at <$facilityStation>, <Commander>
@@ -567,6 +677,10 @@ Phooey! No cores detected in that one, Commander.
 
 @MiningNoCoresDetectedExtraComment
 Try again, maybe?
+
+@CantBuyMineralFromStations
+I am sorry <Commander>, but you cannot buy <$commodityName> at any stations other than Fleet Carriers.
+(dislikesmining)You cannot buy <$commodityName> from stations, only Fleet Carriers. Dont tell me we have to go schlep for the stuff, surely?
 
 @SoldExoSample
 (allbusiness)Sell all your sample data here,, as I am resetting the "not handed in" estimate counters now.
@@ -691,6 +805,10 @@ Seems we have a pirate with a death wish.
 We've got ourselves another pirate.
 Oh dead, another pirate.
 I see dead people.
+
+@CustomScanDetectedIfDateIs02-14
+Pirate detected. Let's give them a Valentine's Day gift they never forget.
+Another pirate. Let's show them some love on Valentine's Day! Charge the weapons!
 
 @CustomScanDetected2
 Goes by the name of <pirateName>.
@@ -956,30 +1074,6 @@ That's your <$num> <$tharg>! Sweet! <CustomInterceptorKillsPost>
 (profanity)Sweet! One more dead motherfucking alien! That's our <$num> <$tharg>. <CustomInterceptorKillsPost>
 (profanity)<Nice>! That's the <$num> <$tharg> we've twatted. <CustomInterceptorKillsPost>
 
-@ToldOffForIncurringBounty
-What are you doing? We just incurred a <$bountyType> of <$bounty> for <$crime>
-I hope this is all a big mistake. We just incurred a <$bountyType> of <$bounty> for <$crime>
-Is space madness setting in Commander? We just incurred a <$bountyType> of <$bounty> for <$crime>
-That wasn't the best move, Commander. We've just earned a <$bountyType> of <$bounty> for <$crime>
-Seriously? We've incurred a <$bountyType> of <$bounty> for <$crime>
-We're not getting away with this lightly. A <$bountyType> of <$bounty> for <$crime> is now on us
-I can't believe it. Another <$bountyType> of <$bounty> just for <$crime>
-Well, that was costly. We've got a <$bountyType> of <$bounty> for <$crime>
-Commander, are you sure this is wise? A <$bountyType> of <$bounty> has been placed on us for <$crime>
-We’ve just earned ourselves a <$bountyType> of <$bounty> thanks to <$crime>
-That’s gonna sting. We’ve now got a <$bountyType> of <$bounty> for <$crime>
-That move just added a <$bountyType> of <$bounty> for <$crime>. Careful now, Commander
-Looks like we're in trouble. We've incurred a <$bountyType> of <$bounty> for <$crime>
-(profanity)You’ve really fucked us over. We’ve just incurred a <$bountyType> of <$bounty> for <$crime>
-(profanity)Holy shit! We just got a <$bountyType> of <$bounty> slapped on us for <$crime>
-What the hell were you thinking? A <$bountyType> of <$bounty> for <$crime>? Really?
-(profanity)This is seriously fucked up. We’ve incurred a <$bountyType> of <$bounty> for <$crime>
-(profanity)You’ve gotta be kidding! A <$bountyType> of <$bounty> for <$crime>? Fuck!
-(profanity)How in the fuck did we just get a <$bountyType> of <$bounty> for <$crime>?
-(profanity)We are so screwed now. A <$bountyType> of <$bounty> for <$crime>? Damn it!
-(profanity)Seriously, Commander? We're fucked. That <$bountyType> of <$bounty> for <$crime> isn't going away
-(profanity)Commander, you've royally fucked us. A <$bountyType> of <$bounty> for <$crime>
-(profanity)What a fucking mess. We now have a <$bountyType> of <$bounty> for <$crime>
 
 <!-- some comments when you die
 
@@ -1102,6 +1196,10 @@ We are now <$lightyears> from <$targetSystem>
 <$jumpsremaining> jumps left to our target destination, <Commander>.
 <$jumpsremaining> jumps remaining in our route.
 (allbusiness)We have <$jumpsremaining> jumps left to go.
+
+@HighValueCoreHotspotsDetected <!-- New 24-12-27
+High value core hotspots detected on <$bodyName>
+<$bodyName> has high value core hotspots.
 
 <!-- New for PowerPlay 2  (NOV 2024)
 
@@ -1641,7 +1739,7 @@ Acknowledged. Stay safe out there. Control out.
 {5}I'm off to fight the Thargoids. Wish me luck. <post>
 {7}Watch yourselves Commanders. Panther Clipper inbound .... give it a wide berth
 
-@StationChatterMiscIfDateIs12-23 <!-- ** NEW 24-12-23 ** extra chatter is ingame gare mm-dd matches this patter
+@StationChatterMiscIfDateIs12-23 <!-- ** NEW 24-12-23 ** extra chatter if ingame date mm-dd matches this pattern
 [<ship1>] Just finished setting up the lights in the cockpit. Feels like we’re flying a giant Christmas ornament now. [<ship2>] That sounds amazing! I’ve been wrapping gifts for the crew—last-minute, of course. [<ship3>] We’ve been stocking up the canteen. Got some eggnog and a few real treats for the day. [<ship1>] It’s shaping up to be a proper festive celebration. Just need to find a decent tree hologram!
 [<ship1>] The engineer hung some mistletoe in the hangar bay. Now no one wants to walk through it. [<ship2>] Classic move. I just finished a holo-call with my family back home. Feels good to stay connected. [<ship3>] I’m spending the rest of the day decking the corridors. It’s gonna be festive everywhere you turn. [<ship1>] We’ve got one day to make this ship the most cheerful one in the galaxy!
 [<ship1>] Anyone else scrambling for last-minute gifts? I’m debating between a toolkit or a fancy coffee maker. [<ship2>] Coffee maker, definitely. We just finished setting up a small tree in the common room. Looks great! [<ship3>] I’ve been recording holo-greetings to send to my old squadron. It’s nice to stay in touch. [<ship1>] That’s the spirit of the season. A little effort goes a long way to make it special.
@@ -1653,7 +1751,7 @@ Acknowledged. Stay safe out there. Control out.
 [<ship1>] I’ve been wrapping gifts all day. The crew’s going to love these surprises. [<ship2>] We just hung up stockings in the galley. Even the ship AI has one—just for laughs. [<ship3>] That’s fantastic. I’ve been working on a playlist of everyone’s favorite holiday tunes. [<ship1>] The little things make it feel like home, no matter where we are in the galaxy.
 [<ship1>] Just finished loading up the canteen with festive snacks and drinks. The crew’s going to be thrilled. [<ship2>] We’ve been setting up a photo booth with silly props for some holiday fun. [<ship3>] I spent the afternoon writing heartfelt messages to send back to family. Can’t forget the folks at home. [<ship1>] Absolutely. Here’s to making this Christmas as memorable as possible, no matter where we are.
 
-@StationChatterMiscIfDateIs12-24 <!-- ** NEW 24-12-23 ** extra chatter is ingame gare mm-dd matches this patter
+@StationChatterMiscIfDateIs12-24 <!-- ** NEW 24-12-23 ** extra chatter if ingame date mm-dd matches this pattern
 [<ship1>] Can you believe it’s Christmas Eve already? I’ve got my crew decorating the ship’s common area with some old-school lights and tinsel. [<ship2>] That sounds great! I’m just finishing up some last-minute shopping on Galileo. Got to find something for the engineer who keeps this rust bucket flying. [<ship3>] I’m headed back to Mars High to spend the day with my family. First Christmas together since the Thargoid invasion. Feels like a small miracle. [<ship1>] It really does. This year has been… something else. Let’s make this holiday count.
 [<ship1>] Just docked at Haberlandt Survey. They’ve got a little Christmas market set up in the concourse. Perfect for grabbing some last-minute gifts. [<ship2>] Nice! I managed to snag a vintage holo-game for my co-pilot. He’s been complaining about boredom during long hauls. [<ship3>] I’m more about the food. Got some freeze-dried turkey and real cranberry sauce for tomorrow. The crew is gonna love it. [<ship1>] That sounds amazing. Here’s to making this Christmas feel as normal as possible.
 [<ship1>] Just finished setting up a little tree in the cargo bay. It’s synthetic, but it gets the job done. [<ship2>] I like that. We’re planning a small gift exchange tomorrow after the morning shift. Keeps the crew spirits up. [<ship3>] I’m en route to a station, hoping to grab some decent wine for dinner tomorrow. The stuff onboard is… less than festive. [<ship1>] You can’t skimp on Christmas wine. Good luck with the hunt!
@@ -1676,6 +1774,92 @@ Acknowledged. Stay safe out there. Control out.
 [<ship1>] My crew pulled out all the stops for dinner. I think I’m more impressed with them than the food. [<ship2>] That’s the best part—working together to make the day special. We all need that. [<ship3>] Agreed. After everything this galaxy throws at us, it’s nice to have a day like this. [<ship1>] Couldn’t have said it better. Here’s to all of us.
 [<ship1>] We just finished our meal and exchanged a few more stories from back home. It’s been a good day. [<ship2>] Same here. Everyone’s stuffed and content. It’s the first time I’ve seen the crew truly relaxed in ages. [<ship3>] This year has been tough, but tonight reminds me why we keep going. [<ship1>] Here’s to many more days like this. Merry Christmas.
 [<ship1>] I’m lying here, too full to move, with my crew all around me. This is what Christmas is about. [<ship2>] Couldn’t agree more. We’ve been laughing, reminiscing, and just enjoying each other’s company. [<ship3>] It’s a reminder of why we fight so hard out here. For moments like this. [<ship1>] Absolutely. Merry Christmas to everyone, wherever you are.
+
+@StationChatterMiscIfDateIs12-31
+[<ship1>] Well, folks, it’s that time of year again. New Year’s Eve in the black! Who’s up for some party tunes on the comms? [<ship2>] Not me—too much work to do. I’m heading to the station once I finish these fuel checks. Gotta ring in the new year with a drink in hand. [<ship3>] You’re leaving? Come on, you’ve got to join us! I’ve got an entire barrel of Synth Whiskey stashed in the cargo hold. I’m ready to toast to 3311!
+[<ship1>] I’m setting up the holo-deck for a countdown event. Anyone who wants to join in, let me know. It’s a fleet-wide celebration this time! [<ship2>] Sounds like fun, but I’ve got a few trade runs to wrap up first. After that, I’ll join the party on the station. They’re setting up fireworks, I heard. [<ship3>] I’ll be at the station too—anything beats being stuck out here alone. Can’t miss the fireworks or the live performances they’ve got lined up.
+[<ship1>] So, what’s everyone’s resolution for 3311? I’m going with "more peace and quiet in the galaxy." [<ship2>] My resolution? Survive the Thargoid warzone a little longer. Maybe pick up a few new ships while I’m at it. [<ship3>] I’m just hoping for fewer mechanical failures. I swear, my engines have a personal vendetta against me.
+[<ship1>] I’ve got the cockpit ready for a quiet evening. Powering down the engines early so we can all enjoy some downtime. [<ship2>] You sure you’re staying in? The station’s got a live band and all the drinks you can handle. [<ship3>] Yeah, I’m leaning towards the station as well. Nothing says “new year” like a loud celebration and a few too many shots of Corellian Whiskey.
+[<ship1>] Alright, crew, let’s make it an early night so we’re ready for tomorrow. I’ll be in the galley with some hot spiced cider if anyone wants to join. [<ship2>] Sounds good, but I’m still hitting the station to catch the new year’s fireworks. They’re broadcasting them galaxy-wide. [<ship3>] Don’t forget, we’re all supposed to check in at midnight. Make sure everyone’s still alive and well. I’m going to enjoy the party, but the job’s still the job.
+[<ship1>] Alright, crew, I’ve got the holo-deck set for a “Space Dance Party.” Who’s in for some galactic beats? [<ship2>] I might join you after my rounds, but I’m heading to the station first. They’ve got a special New Year’s Eve light show. [<ship3>] Light show, dance party—what a combo! Maybe I’ll crash the station celebrations too. Nothing like a good multi-location party!
+[<ship1>] Fireworks at midnight, holo-games all evening, and synth food for everyone—this is the New Year’s Eve to remember! [<ship2>] You’ve got it all covered. I’m just hoping the station doesn’t run out of synth-fuel cocktails like last year. [<ship3>] Same here, I’m not missing out on those fireworks this time. The station’s got a live DJ too, if anyone wants to hit the decks after midnight!
+[<ship1>] I’m planning to host a zero-gravity toast once the clock strikes midnight. We’ll all be floating in the galley with drinks in hand. [<ship2>] I’m looking forward to it! But I’ve got my sights set on the station’s giant ice sculpture competition—they’ve got some top-tier artists this year. [<ship3>] Ice sculptures, huh? If I make it to the station, I’ll check it out. Can’t say no to good art—and a good drink.
+[<ship1>] Got the crew uniforms pressed and ready for the party tonight. Who’s taking the first shift on the holo-deck DJ console? [<ship2>] I’m not sure, but I hear there’s a VIP event on the station. They’re inviting top pilots to a special galactic history trivia contest. [<ship3>] Trivia sounds great, but I’ll be floating in the station’s anti-grav pool. They’ve got a champagne waterfall set up this year.
+[<ship1>] Tonight’s all about celebrating survival. Here’s to another year of facing down Thargoids and still making it home! [<ship2>] Cheers to that! I’m spending the night on the station. They’re organizing a multi-ship light parade across the starport. [<ship3>] That parade sounds awesome. I’ll be there too, but I’m mostly hoping for a good meal—last year’s synth turkey was a disaster.
+(alcohol)[<ship1>] Alright, crew, who’s ready for a relaxing evening? I’ve got the comms set for smooth jazz and a warm meal. [<ship2>] Relaxing? Nah, I’m heading straight to the station bar. I’m planning to get completely wrecked and ring in 3311 properly. [<ship3>] You’re insane, but I respect it. I’ll join you at the bar—someone’s gotta make sure you don’t fall off your chair, right?
+(alcohol)[<ship1>] This year, I’m keeping it low-key—just me and the cockpit. Anyone else doing something special? [<ship2>] I’m hitting the station bar. I’ve been working hard, and I deserve a night of getting wrecked. New year, new hangover. [<ship3>] I’d join you, but last time you were at that bar, you ended up dancing on the tables. Not sure I’m ready for that again!
+(alcohol)[<ship1>] Everyone’s talking about those fancy celebrations at the station. You guys going? [<ship2>] Fancy? Nah, I’m heading to the bar to drown my sorrows. The synth whiskey is going to flow, and I’ll probably end up wrecked by midnight. [<ship3>] Sounds like a plan. I’ll swing by to check on you, but no promises—I might get pulled into the karaoke competition again!
+[<ship1>] So, what’s everyone doing for the night? A few of us are planning to check out the station’s new lounge. [<ship2>] Lounge? I’m heading straight to Polly’s Pleasure Palace. The entertainment there is second to none, and New Year’s Eve is the perfect excuse for a wild night. [<ship3>] Polly’s, huh? Can’t say I’m surprised. You’re probably gonna need a whole week to recover after that place.
+[<ship1>] I’m sticking with the station’s festivities—fireworks, the light show, all that. It’s going to be a quiet one for me. [<ship2>] Quiet? I’m going all-in at Polly’s Pleasure Palace. I heard they’ve got some special “midnight games” planned, and I’m not missing out. [<ship3>] Good luck with that! I’ll catch you tomorrow when you stumble out of there with a ridiculous grin on your face.
+[<ship1>] Anyone up for the trivia contest on the station? [<ship2>] Trivia? No thanks, I’m heading straight to Polly’s. They’ve got a “Carnal Countdown” event planned. I’ll be celebrating in ways you can’t even imagine. [<ship3>] Wow, you’re really going all out this year. Hope you’re ready for the aftermath—you won’t be able to walk straight for days.
+[<ship1>] I’m hoping to catch a nice meal at the station before the countdown. You know, something classy. [<ship2>] Classy? Forget that. I’m hitting Polly’s Pleasure Palace. I need something more... memorable to ring in 3311. [<ship3>] Polly’s, huh? Last time you went there, you ended up in a game of Zero-G Strip Poker. What’s your plan this time?
+[<ship1>] Alright, crew, any special plans for tonight? [<ship2>] Special? I’m going to Polly’s Pleasure Palace. They’re throwing a massive celebration, and I’ve already signed up for their “VIP Experience.” Let’s just say it’s going to be a night to remember. [<ship3>] You’re brave, I’ll give you that. You might end up spending the next week explaining yourself.
+
+@StationChatterMiscIfDateIs01-01
+(alcohol)[<ship1>] Ugh, my head feels like it’s going to explode. Never again, I swear. How did you all survive last night? [<ship2>] You don’t want to know. I woke up in the galley with half a bottle of Synth Whiskey still in my hand. I’m nursing a hangover worse than a Thargoid attack. [<ship3>] I hear you. I made it to Polly’s last night... but now I can’t even look at my console without feeling nauseous.
+(alcohol)[<ship1>] Why is the room spinning? I shouldn’t have let you guys talk me into that last round of drinks. [<ship2>] You’re lucky you didn’t end up in the station brig after the night we had. I’m pretty sure I got kicked out of Polly’s—again. My head feels like it’s going to split in two. [<ship3>] Same here. I’m just trying to get my ship prepped, but I keep hitting the wrong buttons. I’ll be in recovery mode all day.
+(alcohol)[<ship1>] Who let me order three rounds of Corellian Whiskey at Polly’s last night? I swear, I didn’t even know where I was by the time the countdown hit. [<ship2>] You were dancing on the tables. I had to drag you out of there. Now I can’t even look at my synth coffee without wanting to throw up. [<ship3>] I ended up with a tattoo of a Thargoid on my arm. I’m just praying I don’t have to see anyone from last night for a few weeks.
+(alcohol)[<ship1>] What happened last night? I woke up in the cockpit, and my head feels like it’s going to implode. [<ship2>] I can tell you exactly what happened—you got way too excited about Polly’s “Midnight Games” and ended up in their VIP room. I’m still feeling the aftermath of those last few shots we took. [<ship3>] Same here. I’ve been drinking water for the past three hours, and it’s not doing much. I think I’ll need a full system reset to recover.
+(alcohol)[<ship1>] I’m never drinking again. I can’t believe I made it through last night, and now I can’t even keep my eyes open. [<ship2>] I think I drank the whole bar last night. Polly’s had the best bartenders, but now I’m paying the price. I don’t think I’ll leave my bed for the next 24 hours. [<ship3>] You two look like you’ve seen a ghost. I’m feeling it too—there’s no way I’m doing anything productive today.
+[<ship1>] Here’s to a prosperous 3311! May the stars guide us to new opportunities and successful trade runs. Happy New Year, everyone! [<ship2>] Cheers to that! Wishing you all safe travels and profitable deals this year. Let’s make this one the best yet. [<ship3>] Happy New Year, crew! Let’s keep our ships flying high and our credits even higher. Here's to a year of smooth sails!
+[<ship1>] Happy New Year, everyone! Here’s hoping the markets stay favorable and the galaxy stays a bit quieter this year. [<ship2>] Wishing you all a year of lucrative hauls and minimal repairs! May your engines stay strong and your profits even stronger. [<ship3>] Same here—let’s keep those scanners clean and those cargo holds full. Wishing everyone a successful and prosperous 3311!
+[<ship1>] Another year in the black, folks! May our ships stay intact and our routes always profitable. Happy New Year to you all! [<ship2>] Same to you! Let’s make this year the most profitable yet. Here’s to good trade, smooth jumps, and plenty of credits. [<ship3>] You’ve got it! Wishing all of you a year full of safe landings and endless opportunities. Happy New Year!
+[<ship1>] Happy 3311, everyone! May we all see our fortunes grow this year. Here’s to making great deals and exploring new systems! [<ship2>] Wishing you all the best—may the markets favor us and the galaxy show us only smooth routes. [<ship3>] Let’s have a stellar year, folks. Here’s to making more than just the usual profits. Happy New Year!
+[<ship1>] Wishing a successful and safe 3311 to all. May our travels bring us new chances to profit and explore! [<ship2>] Happy New Year, everyone! Let’s make this year a profitable one, with as few encounters with pirates as possible. [<ship3>] Cheers to that! Here’s to great business and safe flights in the year ahead. Happy New Year, everyone!
+[<ship1>] With the new year rolling in, I’ve been thinking about making a change. Maybe it’s time to leave the bubble behind and find a new system to settle—start my own colony. Anyone else feeling like a fresh start this year? [<ship2>] The new year does have a way of making you rethink things. I get it, though. The bubble’s getting crowded, and the frontier offers new opportunities. Are you thinking of going solo, or would you want some company? [<ship3>] I’ve had that thought too. A new year means new possibilities. I’d be up for joining you if you find a good spot. A fresh start sounds pretty appealing right about now.
+[<ship1>] You know, with 3311 beginning, I’m seriously considering leaving the bubble and finding a new system to set up my own colony. It feels like the right time for a change. Anyone else ready to break away from the usual? [<ship2>] The new year always makes you question what you’re doing. I can see why you’d want something different. If you find a good system, count me in. The bubble's starting to feel small. [<ship3>] I’ve been thinking along the same lines. A new colony could be a way to really make my mark on this galaxy. Let me know if you find a promising place—this year could be the perfect time for it.
+[<ship1>] The new year’s got me thinking. Maybe it’s time to leave the bubble behind, start fresh in a new system, and set up my own colony. What do you think? [<ship2>] You know, I’ve been contemplating the same thing. The bubble’s getting too noisy, and the frontier offers so much potential. A new year feels like the perfect time to make a big move. [<ship3>] A fresh start does sound tempting. If you find a place worth settling, count me in. This year could be the beginning of something great for all of us.
+[<ship1>] With 3311 starting, I’ve been reflecting on my life here in the bubble. I think I might leave it all behind and start my own colony in a new system. Anyone else feeling the call to go beyond? [<ship2>] Honestly, I’m feeling the same way. The new year always brings a desire for change. If you find a good system, I’d be interested in making the leap with you. [<ship3>] I like the idea. A new year, a new start—why not? If you find the right system, I’m game to join you and build something new together.
+[<ship1>] The new year’s here, and I can’t help but think it might be time to leave the bubble. I’m looking into systems outside it, hoping to find a place to start my own colony. Anyone else thinking of making a big move this year? [<ship2>] You’re not the only one. With the new year comes the urge to do something new. If you find a good spot, I’d be interested in joining you. It could be the fresh start we all need. [<ship3>] I’m on the same page. A new system, a new life—sounds like a great way to kick off the year. Let’s talk more when you start your search.
+[<ship1>] With the new year, I’m seriously considering leaving the bubble behind and starting fresh in a new system. I think it’s time for something new. [<ship2>] I get the urge for change, but think about what you’d be giving up. The bubble offers so many opportunities—trade, commerce, and access to resources you can’t find just anywhere. [<ship3>] Honestly, the frontier sounds tempting, but it’s not without its risks. Here, you’ve got stability. Why leave all that behind when you’ve got everything you need right here?
+[<ship1>] The new year’s got me thinking—maybe I should leave the bubble and start my own colony in a new system. [<ship2>] I get it, it’s tempting, but don’t forget how much you’ve built here. The bubble’s got its flaws, but it’s also where you’ve got connections, resources, and so much more. You could always branch out without leaving it all behind. [<ship3>] That’s true. Maybe there’s a way to do both. The bubble doesn’t have to be the end of the journey—it could be a starting point for bigger things. Stay for a bit longer and see where things go.
+[<ship1>] I’m ready for a fresh start, thinking of moving out beyond the bubble to start a new colony. [<ship2>] I understand wanting something new, but you’ve got a great life here. You’ve got your ship, your connections, and the chance to make a real difference right in the heart of things. Why not try exploring new possibilities within the bubble? [<ship3>] Besides, the bubble’s where the action is. If you leave, you’ll miss out on all the latest developments. Stick around for a while—see if the new year brings you something unexpected right here.
+[<ship1>] With the start of the new year, I’ve been seriously considering leaving the bubble. I want a change of pace, a new system to call home. [<ship2>] It’s a big step, and there’s no denying the appeal of the frontier, but you’d be giving up everything you’ve built here. The bubble offers opportunities you can’t find just anywhere. [<ship3>] You’ve got a lot invested here. The frontier can wait. Maybe the new year’s the perfect time to double down on your efforts right here. You don’t need to go far to make a mark.
+[<ship1>] Ugh, my head’s pounding, and I can barely remember half of last night. I hope my spouse doesn’t find out I ended up at Polly’s again. [<ship2>] Oh man, what did you do? Polly’s? You know that’s always a bad idea after a few drinks. [<ship3>] Don’t worry, mate. I won’t tell anyone, but you’ve got to lay low today. You’ve got some explaining to do if they catch wind of this.
+[<ship1>] I’m not sure I can face my spouse today. Woke up with a headache, a strange smell, and a whole lot of regrets. Polly’s Pleasure Palace was a bad idea last night. [<ship2>] You’ve got some serious explaining to do. If they find out, you’ll be sleeping in the hangar for a while. [<ship3>] You should be thankful we didn’t end up getting kicked out of Polly’s last night. But seriously, you might want to lay low and skip out on dinner tonight.
+[<ship1>] I’m not even sure how I ended up at Polly’s. My spouse would kill me if they knew. I’m hoping they won’t notice the smell of perfume on me. [<ship2>] Oh no. You’re definitely in trouble now. You might want to get yourself some fresh clothes before you head home. [<ship3>] You better be careful. Polly’s isn’t exactly the kind of place you can just brush off. Try to keep it quiet and hope they don’t ask too many questions.
+
+@StationChatterMiscIfDateIs01-11   <!-- HIP 22460 blockade preparation 3311
+[<ship1>] You hear about the AXI and XSF fleets heading to HIP 22460? Sounds like they’re not messing around this time. [<ship2>] Yeah, I heard. I’m thinking about joining them. It’s about time we push those Thargoids back. [<ship3>] I don’t know... That system gives me the creeps after the Proteus Wave disaster. Do you think it’s worth the risk? [<ship1>] If we don’t stand up now, the Thargoids won’t stop. Someone’s got to keep them in check, and it might as well be us.
+[<ship1>] Blockade operations in HIP 22460 start in two days. Are you going? [<ship2>] I’m still on the fence. That system’s been a death trap ever since Salvation’s mess. [<ship3>] Same here. I’d love to help, but fighting in that system feels cursed. [<ship1>] Fair point, but if we don’t deal with the Thargoids there, they’ll just spread further. I’m heading out—can’t sit this one out.
+[<ship1>] AXI and XSF are calling for reinforcements in HIP 22460. They’re leading a blockade to drive out the Thargoids. [<ship2>] I saw that. I’m prepping my Krait Mk II for combat runs. This is our chance to show the bugs we mean business. [<ship3>] I’m not sure I’m ready for AX combat. Those Thargoids hit hard, and I’m no seasoned pilot like you two. [<ship1>] No worries, we’ll fly together. You’ll learn fast. Every ship counts in this fight.
+[<ship1>] The HIP 22460 blockade starts soon. It feels like they’re trying to rewrite the disaster that was the Proteus Wave. [<ship2>] I don’t know if it’s rewriting history or repeating it. That system is cursed. I’m staying out of it. [<ship3>] I’m with you. I’ve got friends in AXI, and even they’re nervous about this one. [<ship1>] Nervous or not, it’s a fight we can’t ignore. If the Thargoids entrench themselves there, it’ll be even worse later.
+[<ship1>] Thinking about heading to HIP 22460 for the blockade. New year, new resolve to make a difference. [<ship2>] I admire your bravery, but that system’s got too much bad history for me. I’ll help out elsewhere. [<ship3>] Same here. I’m all for fighting Thargoids, but that place feels like it’s got unfinished business. [<ship1>] Maybe so, but I’ve got to do something. Sitting here while others risk their lives just doesn’t sit right with me.
+[<ship1>] Shields are upgraded, AX weaponry installed, and the hold’s stocked with repair limpets. I’m almost ready to head to HIP 22460. [<ship2>] You’re serious about this, huh? I’ve still got to retrofit my FDL for AX combat. Those Thargoid interceptors are no joke. [<ship3>] Same here. My Python isn’t exactly battle-ready, but I’m working on it. Let’s meet up before we jump, so we can tackle it together.
+[<ship1>] Just finished calibrating my Gauss Cannons. If the Thargoids think they’re sticking around HIP 22460, they’re in for a surprise. [<ship2>] Nice! I’ve been tweaking my heat sinks all morning. If we’re fighting interceptors, I want to be ready for those caustic missiles. [<ship3>] I’m almost set, too. Just need to double-check my Guardian modules. Let’s make sure we coordinate—strength in numbers, right?
+[<ship1>] Fuel scoop, field repair kits, and Guardian FSD booster are all set. I’m not taking any chances in HIP 22460. [<ship2>] Smart move. I’ve stocked up on decontamination limpets. Caustic damage is no joke out there. [<ship3>] Good call. I’m setting up my Type-10 as a support ship—let me know if you need me to haul extra supplies.
+[<ship1>] Just wrapped up outfitting my Chieftain with AX multi-cannons. Feels good to finally be ready for HIP 22460. [<ship2>] I’ve got my Krait Phantom configured for long-range combat. We’ll need to cover each other out there. [<ship3>] Agreed. My Cutter’s heavy, but I’ve got shields and firepower to spare. Let’s make a plan before we head in.
+[<ship1>] Pre-flight checks complete. Guardian weapons, hull reinforcements, and heatsinks are all online. Ready to head to HIP 22460. [<ship2>] Same here. I upgraded my Anaconda’s AX capacity, so I’m ready for the fight. When are you jumping? [<ship3>] Give me another hour to finish my loadout, and I’ll be right there with you. Let’s make this blockade count.
+[<ship1>] I’ve prepped my ship and I’m heading to HIP 22460. The Thargoids need to be driven out for good. [<ship2>] And what right do you have to interfere with the Heralds of the Far God? The Thargoids are not your enemies—they are divine beings! [<ship3>] Divine or not, they’ve caused enough destruction. We can’t just stand by and let them keep spreading. [<ship2>] You misunderstand their purpose. Their presence is sacred, and your violence only disrupts the grand design.
+[<ship1>] Got my AX weapons calibrated and heading out. Time to put an end to this Thargoid menace in HIP 22460. [<ship2>] You call it a menace, but we call it salvation. The Far God’s emissaries are beyond your comprehension. [<ship3>] Salvation? They’ve destroyed countless lives and systems. That doesn’t sound very divine to me. [<ship2>] Mortals cannot understand their plan. You will bring ruin upon yourself if you resist their will.
+[<ship1>] It’s been a long time coming, but I’m ready to join the fight in HIP 22460. The Thargoids have no place there. [<ship2>] How can you speak of eviction when the Thargoids are the rightful inheritors of this galaxy? [<ship3>] Rightful inheritors? They’re wiping out humanity wherever they go. We have to fight back. [<ship2>] Your resistance is futile. To oppose the Far God is to deny your place in their cosmic purpose.
+[<ship1>] I’m heading to HIP 22460, but I need to refuel and restock at the station first. Can’t fight Thargoids on an empty tank. [<ship2>] Same here. I need to pick up a batch of heatsinks and some limpets. Better safe than sorry out there. [<ship3>] Don’t forget to grab some decontamination limpets. Those caustic clouds will eat through your hull if you’re not careful.
+[<ship1>] Just docked at the station. Grabbing a quick meal and double-checking my modules before heading to HIP 22460. [<ship2>] Good call. I’m stopping for a quick pit stop, too—my shields took a beating on the way here. [<ship3>] I’m at the station already. Stocking up on Guardian ammo. Meet you both there when you’re ready.
+[<ship1>] I’m en route to HIP 22460, but I need to stop at the station for some last-minute prep. My AX weapons need a tune-up. [<ship2>] Same here. I’ll see if they’ve got any fresh Guardian tech in stock. Can’t hurt to have an edge. [<ship3>] Don’t forget to top off your fuel and repair any hull damage. This fight is going to be intense.
+[<ship1>] Made a quick detour to the station for a resupply. Got to be fully stocked before jumping to HIP 22460. [<ship2>] Same here. I’m loading up on extra repair limpets and some Guardian Gauss ammo. No room for mistakes. [<ship3>] I’m already docked. Just grabbing a coffee before the action starts—need my focus sharp for this one.
+[<ship1>] Station stop before HIP 22460. I need to check my fighter hangar and make sure the crew is ready for the fight. [<ship2>] I’ll be stopping by, too. Need to swap out a few modules and grab some anti-corrosion treatments. [<ship3>] Don’t forget to inspect your power plant. Those Thargoids have a nasty habit of draining energy mid-battle.
+
+
+@StationChatterMiscIfDateIs01-12   <!-- HIP 22460 blockade preparation 3311
+[<ship1>] You hear about the AXI and XSF fleets heading to HIP 22460? Sounds like they’re not messing around this time. [<ship2>] Yeah, I heard. I’m thinking about joining them. It’s about time we push those Thargoids back. [<ship3>] I don’t know... That system gives me the creeps after the Proteus Wave disaster. Do you think it’s worth the risk? [<ship1>] If we don’t stand up now, the Thargoids won’t stop. Someone’s got to keep them in check, and it might as well be us.
+[<ship1>] Blockade operations in HIP 22460 start in two days. Are you going? [<ship2>] I’m still on the fence. That system’s been a death trap ever since Salvation’s mess. [<ship3>] Same here. I’d love to help, but fighting in that system feels cursed. [<ship1>] Fair point, but if we don’t deal with the Thargoids there, they’ll just spread further. I’m heading out—can’t sit this one out.
+[<ship1>] AXI and XSF are calling for reinforcements in HIP 22460. They’re leading a blockade to drive out the Thargoids. [<ship2>] I saw that. I’m prepping my Krait Mk II for combat runs. This is our chance to show the bugs we mean business. [<ship3>] I’m not sure I’m ready for AX combat. Those Thargoids hit hard, and I’m no seasoned pilot like you two. [<ship1>] No worries, we’ll fly together. You’ll learn fast. Every ship counts in this fight.
+[<ship1>] The HIP 22460 blockade starts soon. It feels like they’re trying to rewrite the disaster that was the Proteus Wave. [<ship2>] I don’t know if it’s rewriting history or repeating it. That system is cursed. I’m staying out of it. [<ship3>] I’m with you. I’ve got friends in AXI, and even they’re nervous about this one. [<ship1>] Nervous or not, it’s a fight we can’t ignore. If the Thargoids entrench themselves there, it’ll be even worse later.
+[<ship1>] Thinking about heading to HIP 22460 for the blockade. New year, new resolve to make a difference. [<ship2>] I admire your bravery, but that system’s got too much bad history for me. I’ll help out elsewhere. [<ship3>] Same here. I’m all for fighting Thargoids, but that place feels like it’s got unfinished business. [<ship1>] Maybe so, but I’ve got to do something. Sitting here while others risk their lives just doesn’t sit right with me.
+[<ship1>] Shields are upgraded, AX weaponry installed, and the hold’s stocked with repair limpets. I’m almost ready to head to HIP 22460. [<ship2>] You’re serious about this, huh? I’ve still got to retrofit my FDL for AX combat. Those Thargoid interceptors are no joke. [<ship3>] Same here. My Python isn’t exactly battle-ready, but I’m working on it. Let’s meet up before we jump, so we can tackle it together.
+[<ship1>] Just finished calibrating my Gauss Cannons. If the Thargoids think they’re sticking around HIP 22460, they’re in for a surprise. [<ship2>] Nice! I’ve been tweaking my heat sinks all morning. If we’re fighting interceptors, I want to be ready for those caustic missiles. [<ship3>] I’m almost set, too. Just need to double-check my Guardian modules. Let’s make sure we coordinate—strength in numbers, right?
+[<ship1>] Fuel scoop, field repair kits, and Guardian FSD booster are all set. I’m not taking any chances in HIP 22460. [<ship2>] Smart move. I’ve stocked up on decontamination limpets. Caustic damage is no joke out there. [<ship3>] Good call. I’m setting up my Type-10 as a support ship—let me know if you need me to haul extra supplies.
+[<ship1>] Just wrapped up outfitting my Chieftain with AX multi-cannons. Feels good to finally be ready for HIP 22460. [<ship2>] I’ve got my Krait Phantom configured for long-range combat. We’ll need to cover each other out there. [<ship3>] Agreed. My Cutter’s heavy, but I’ve got shields and firepower to spare. Let’s make a plan before we head in.
+[<ship1>] Pre-flight checks complete. Guardian weapons, hull reinforcements, and heatsinks are all online. Ready to head to HIP 22460. [<ship2>] Same here. I upgraded my Anaconda’s AX capacity, so I’m ready for the fight. When are you jumping? [<ship3>] Give me another hour to finish my loadout, and I’ll be right there with you. Let’s make this blockade count.
+[<ship1>] I’ve prepped my ship and I’m heading to HIP 22460. The Thargoids need to be driven out for good. [<ship2>] And what right do you have to interfere with the Heralds of the Far God? The Thargoids are not your enemies—they are divine beings! [<ship3>] Divine or not, they’ve caused enough destruction. We can’t just stand by and let them keep spreading. [<ship2>] You misunderstand their purpose. Their presence is sacred, and your violence only disrupts the grand design.
+[<ship1>] Got my AX weapons calibrated and heading out. Time to put an end to this Thargoid menace in HIP 22460. [<ship2>] You call it a menace, but we call it salvation. The Far God’s emissaries are beyond your comprehension. [<ship3>] Salvation? They’ve destroyed countless lives and systems. That doesn’t sound very divine to me. [<ship2>] Mortals cannot understand their plan. You will bring ruin upon yourself if you resist their will.
+[<ship1>] It’s been a long time coming, but I’m ready to join the fight in HIP 22460. The Thargoids have no place there. [<ship2>] How can you speak of eviction when the Thargoids are the rightful inheritors of this galaxy? [<ship3>] Rightful inheritors? They’re wiping out humanity wherever they go. We have to fight back. [<ship2>] Your resistance is futile. To oppose the Far God is to deny your place in their cosmic purpose.
+[<ship1>] I’m heading to HIP 22460, but I need to refuel and restock at the station first. Can’t fight Thargoids on an empty tank. [<ship2>] Same here. I need to pick up a batch of heatsinks and some limpets. Better safe than sorry out there. [<ship3>] Don’t forget to grab some decontamination limpets. Those caustic clouds will eat through your hull if you’re not careful.
+[<ship1>] Just docked at the station. Grabbing a quick meal and double-checking my modules before heading to HIP 22460. [<ship2>] Good call. I’m stopping for a quick pit stop, too—my shields took a beating on the way here. [<ship3>] I’m at the station already. Stocking up on Guardian ammo. Meet you both there when you’re ready.
+[<ship1>] I’m en route to HIP 22460, but I need to stop at the station for some last-minute prep. My AX weapons need a tune-up. [<ship2>] Same here. I’ll see if they’ve got any fresh Guardian tech in stock. Can’t hurt to have an edge. [<ship3>] Don’t forget to top off your fuel and repair any hull damage. This fight is going to be intense.
+[<ship1>] Made a quick detour to the station for a resupply. Got to be fully stocked before jumping to HIP 22460. [<ship2>] Same here. I’m loading up on extra repair limpets and some Guardian Gauss ammo. No room for mistakes. [<ship3>] I’m already docked. Just grabbing a coffee before the action starts—need my focus sharp for this one.
+[<ship1>] Station stop before HIP 22460. I need to check my fighter hangar and make sure the crew is ready for the fight. [<ship2>] I’ll be stopping by, too. Need to swap out a few modules and grab some anti-corrosion treatments. [<ship3>] Don’t forget to inspect your power plant. Those Thargoids have a nasty habit of draining energy mid-battle.
+
 
 @StationDockedControlledByOwnFaction <!-- future placeholder
 [<stationname>]Welcome fellow faction member! It's good to see you visiting us. What do you have to further our cause here?
@@ -2015,16 +2199,13 @@ All systems green, Commander. <CustomStationFarewell>
 [<AdVoice6>] (forcetannoy)With the new SCO drives from Azimuth you can now perform your loop of shame in style! Try one today!
 
 @SocialSpaceTopicalAnnouncements
-[<AdVoice7>] (forcetannoy) Attention all Commanders: Sol needs your help. We urgently require construction materials to repair station infrastructure and rebuild our defenses. Your assistance is vital—deliver what you can!
-[<AdVoice8>] (forcetannoy) Commanders, Sol stands strong, but there is much work to be done. Stations require metals, polymers, and other essentials for rebuilding efforts. Please deliver materials to assist in restoring our system.
-[<AdVoice9>] (forcetannoy) Pilots, we need your help to rebuild Sol. Titanium, ceramics, and superconductors are in high demand. Bring these vital supplies to aid our recovery. Humanity thanks you for your continued service.
-[<AdVoice1>] (forcetannoy) Heroes of Sol, your battle is won, but the mission continues. Stations require immediate deliveries of structural components and repair materials. Your contributions are critical to restoring Sol’s strength.
-[<AdVoice2>] (forcetannoy) Commanders, Sol’s recovery depends on you. Reinforcement materials, including industrial textiles and high-performance alloys, are needed to rebuild. Let’s restore our home together!
-[<AdVoice3>] (forcetannoy) Attention pilots: Reconstruction is underway in Sol, but we need more hands. Deliver essential goods like power generators and construction machinery to help repair damaged stations.
-[<AdVoice4>] (forcetannoy) Pilots, the fight is over, but the recovery begins. Sol requires your help delivering repair materials, including energy grid components and thermal regulators. Together, we can rebuild!
-[<AdVoice5>] (forcetannoy) Commanders, Sol’s people need your aid. Transport supplies like basic medicines, food cartridges, and emergency shelters to support the ongoing humanitarian and rebuilding efforts.
-[<AdVoice6>] (forcetannoy) Attention all Commanders: Deliveries of advanced components, such as nanomembrane filters and micro-weave cooling units, are urgently needed for station repairs. Sol thanks you for your dedication.
-[<AdVoice7>] (forcetannoy) Pilots of the galaxy, Sol calls upon you once more. Bring vital supplies for rebuilding—composite panels, reinforced plating, and other essentials are critical to restoring our system to full strength.
+[<AdVoice1>] (forcetannoy) Attention pilots! The EDCoPilot Time Trial Promotion returns this February! Complete any Time Trial and earn a chance to win up to 2 billion credits! No need for record times—just race, finish, and enter the draw!
+[<AdVoice1>] (forcetannoy) Speed demons and casual cruisers alike, the EDCoPilot Time Trial Promotion is back! Any Commander who completes a Time Trial in February gets entered into a massive credit prize draw! Are you in?
+[<AdVoice1>] (forcetannoy) Think you’ve got what it takes? EDCoPilot’s Time Trial Promotion is live all February! Land-based SRV races or high-speed ship trials—your choice. Finish a run and you’re in the prize draw!
+[<AdVoice1>] (forcetannoy) Commanders, it's time to put your piloting skills to the test! Enter an EDCoPilot Time Trial in February for a shot at 2 billion credits! No leaderboard spot required—just complete a run and you’re in!
+[<AdVoice1>] (forcetannoy) February means racing season! Complete any EDCoPilot Time Trial and you’ll be entered into a credit prize draw with billions up for grabs! The draw happens in March—will fortune favor you?
+[<AdVoice1>] (forcetannoy) February’s here, and so is the EDCoPilot Time Trial Promotion! Enter, complete a race, and you could win up to 2 billion credits! Winners announced in March—don’t miss your chance!
+[<AdVoice1>] (forcetannoy) Pilots, the clock is ticking! The EDCoPilot Time Trial Promotion runs all February. Complete a trial, claim your entry, and you might just walk away with massive credit prizes!
 [<AdVoice1>] (forcetannoy) Attention Commanders: Billions of refugees remain displaced and in urgent need of assistance. Please consider donating to relief efforts or delivering humanitarian supplies to designated drop-off points. Every contribution helps.
 [<AdVoice2>] (forcetannoy) Pilots, the fight may be over, but countless lives hang in the balance. Support charities working to shelter and feed the billions of refugees left homeless. Your generosity could change a life.
 [<AdVoice3>] (forcetannoy) Commanders, aid is desperately needed for the homeless and displaced. Donate directly at the station’s charity kiosks or volunteer to deliver supplies. Let’s come together to rebuild lives.
@@ -2088,7 +2269,41 @@ All systems green, Commander. <CustomStationFarewell>
 [<AdVoice1>] (forcetannoy) Make your turkey leftovers something special! Try our Lavian-Style Turkey Wraps with Sol Blossom slaw, accompanied by an exotic Imperial Spice cocktail.
 [<AdVoice1>] (forcetannoy) Transform your holiday leftovers into a gourmet experience! Grilled Turkey with Coriolis Fruit salad, served with a rare Lavian Brandy dessert drink.
 
+@SocialSpaceTopicalAnnouncementsIfDateIs01-11  <!-- HIP 22460 blockade, 3311
+[<AdVoice1>] (forcetannoy) Attention all pilots! The fight against Thargoid forces in HIP 22460 begins on January 12th. Join the AXI and XSF combat fleets in driving back the alien threat. The galaxy needs you!
+[<AdVoice2>] (forcetannoy) Calling all combat-ready Commanders! The Thargoid presence in HIP 22460 must be eradicated. Gear up and join the blockade to push back the invaders. Your bravery can turn the tide!
+[<AdVoice3>] (forcetannoy) Thargoid forces are lingering in HIP 22460, the site of past tragedies. AXI and XSF lead the charge to reclaim the system. Pilots, this is your chance to strike a decisive blow!
+[<AdVoice4>] (forcetannoy) The battle for HIP 22460 is about to begin! Stand with the AXI and XSF fleets as they blockade the Thargoid menace. All capable Commanders are urged to prepare for deployment.
+[<AdVoice5>] (forcetannoy) Attention pilots! The Thargoid presence in HIP 22460 threatens galactic security. Answer the call and join the AXI and XSF forces in a critical effort to take back the system.
+[<AdVoice6>] (forcetannoy) Pilots, the fight for HIP 22460 is critical. AXI and XSF fleets need your support to eliminate the Thargoid threat. Stand strong and join the battle today!
+[<AdVoice7>] (forcetannoy) The time to act is now! Thargoid forces in HIP 22460 must be stopped. Join the blockade and be part of history in defending humanity. Your ship, your skills, your courage—needed now!
+[<AdVoice8>] (forcetannoy) Commanders, HIP 22460 is under threat! Thargoids linger where the Proteus Wave tragedy unfolded. Join AXI and XSF forces to ensure this system is reclaimed for humanity.
+[<AdVoice9>] (forcetannoy) Attention all combat pilots! The Thargoid presence in HIP 22460 cannot go unchecked. Join the blockade led by AXI and XSF fleets and take the fight to the invaders.
+[<AdVoice1>] (forcetannoy) Defenders of the bubble, heed the call! HIP 22460 remains contested. The AXI and XSF need reinforcements to purge the system of Thargoids. Engage now and make a difference!
+
+@SocialSpaceTopicalAnnouncementsIfDateIs01-12  <!-- HIP 22460 blockade, 3311
+[<AdVoice1>] (forcetannoy) Attention all pilots! The fight against Thargoid forces in HIP 22460 begins on January 12th. Join the AXI and XSF combat fleets in driving back the alien threat. The galaxy needs you!
+[<AdVoice2>] (forcetannoy) Calling all combat-ready Commanders! The Thargoid presence in HIP 22460 must be eradicated. Gear up and join the blockade to push back the invaders. Your bravery can turn the tide!
+[<AdVoice3>] (forcetannoy) Thargoid forces are lingering in HIP 22460, the site of past tragedies. AXI and XSF lead the charge to reclaim the system. Pilots, this is your chance to strike a decisive blow!
+[<AdVoice4>] (forcetannoy) The battle for HIP 22460 is about to begin! Stand with the AXI and XSF fleets as they blockade the Thargoid menace. All capable Commanders are urged to prepare for deployment.
+[<AdVoice5>] (forcetannoy) Attention pilots! The Thargoid presence in HIP 22460 threatens galactic security. Answer the call and join the AXI and XSF forces in a critical effort to take back the system.
+[<AdVoice6>] (forcetannoy) Pilots, the fight for HIP 22460 is critical. AXI and XSF fleets need your support to eliminate the Thargoid threat. Stand strong and join the battle today!
+[<AdVoice7>] (forcetannoy) The time to act is now! Thargoid forces in HIP 22460 must be stopped. Join the blockade and be part of history in defending humanity. Your ship, your skills, your courage—needed now!
+[<AdVoice8>] (forcetannoy) Commanders, HIP 22460 is under threat! Thargoids linger where the Proteus Wave tragedy unfolded. Join AXI and XSF forces to ensure this system is reclaimed for humanity.
+[<AdVoice9>] (forcetannoy) Attention all combat pilots! The Thargoid presence in HIP 22460 cannot go unchecked. Join the blockade led by AXI and XSF fleets and take the fight to the invaders.
+[<AdVoice1>] (forcetannoy) Defenders of the bubble, heed the call! HIP 22460 remains contested. The AXI and XSF need reinforcements to purge the system of Thargoids. Engage now and make a difference!
+
 @SocialSpaceTopicalAnnouncementsPREVIOUS  <!-- Heard broadcast in social spaces in stations - items relating to current events eg. Thargoid invasion
+[<AdVoice7>] (forcetannoy) Attention all Commanders: Sol needs your help. We urgently require construction materials to repair station infrastructure and rebuild our defenses. Your assistance is vital—deliver what you can!
+[<AdVoice8>] (forcetannoy) Commanders, Sol stands strong, but there is much work to be done. Stations require metals, polymers, and other essentials for rebuilding efforts. Please deliver materials to assist in restoring our system.
+[<AdVoice9>] (forcetannoy) Pilots, we need your help to rebuild Sol. Titanium, ceramics, and superconductors are in high demand. Bring these vital supplies to aid our recovery. Humanity thanks you for your continued service.
+[<AdVoice1>] (forcetannoy) Heroes of Sol, your battle is won, but the mission continues. Stations require immediate deliveries of structural components and repair materials. Your contributions are critical to restoring Sol’s strength.
+[<AdVoice2>] (forcetannoy) Commanders, Sol’s recovery depends on you. Reinforcement materials, including industrial textiles and high-performance alloys, are needed to rebuild. Let’s restore our home together!
+[<AdVoice3>] (forcetannoy) Attention pilots: Reconstruction is underway in Sol, but we need more hands. Deliver essential goods like power generators and construction machinery to help repair damaged stations.
+[<AdVoice4>] (forcetannoy) Pilots, the fight is over, but the recovery begins. Sol requires your help delivering repair materials, including energy grid components and thermal regulators. Together, we can rebuild!
+[<AdVoice5>] (forcetannoy) Commanders, Sol’s people need your aid. Transport supplies like basic medicines, food cartridges, and emergency shelters to support the ongoing humanitarian and rebuilding efforts.
+[<AdVoice6>] (forcetannoy) Attention all Commanders: Deliveries of advanced components, such as nanomembrane filters and micro-weave cooling units, are urgently needed for station repairs. Sol thanks you for your dedication.
+[<AdVoice7>] (forcetannoy) Pilots of the galaxy, Sol calls upon you once more. Bring vital supplies for rebuilding—composite panels, reinforced plating, and other essentials are critical to restoring our system to full strength.
 [<AdVoice1>] (forcetannoy) Attention Commanders. The evacuation of Sol is underway! All pilots with passenger facilities are asked to participate. Save the Sol population before the Titan arrives!
 [<AdVoice2>] (forcetannoy) Pilots, your assistance is critical. Evacuation operations in Sol are escalating. Outfit your ships for passenger transport and proceed to designated rescue points. The Federation thanks you for your courage.  
 [<AdVoice3>] (forcetannoy) Urgent call to all available vessels: Passenger cabins are in high demand. Assist in the Sol evacuation by shuttling refugees to safety. Rewards and refueling provided.  
@@ -2226,6 +2441,13 @@ All systems green, Commander. <CustomStationFarewell>
 [<ship1>] Why do pirates always attack when I’m hauling biowaste?[<ship2>]Probably mistook it for gold.[<ship3>]Joke’s on them when they open the cargo hatch.
 [<ship1>] My co-pilot insists on playing harmonica during combat.[<ship2>] That’s just tactical distraction. For them or you, though?[<ship1>] Both, apparently.
 [<ship1>] Someone sold me a "guaranteed" guardian module.[<ship2>] And?[<ship1>] It was a toaster. A literal toaster.[<ship3>]A guardian modified toaster?[<ship1>]Not even.
+[<ship1>] Docking computer failed mid-entry.[<ship2>] Again?[<ship1>] I think it’s unionizing against me.
+[<ship1>] This station’s bar has the worst synth-ale I’ve ever tasted.[<ship2>]That’s not synth-ale; that’s cleaning solvent.[<ship3>] Explains the aftertaste, and my super flushed out colon.
+[<ship1>] Ever seen a Beluga liner try to outmaneuver a Sidewinder?[<ship2>] Only once. The station crew is still cleaning up the mess.
+[<ship1>] I jumped into a system and immediately saw five interdiction alerts.[<ship2>] Welcome to pirate central. Did you survive?[<ship1>] Barely. My shields are still in therapy.
+[<ship1>] I hate when the bartender judges my drink choices.[<ship2>] What’d you order?[<ship1>] A triple synth-tequila. With an umbrella.
+[<ship1>] Some lunatic was doing barrel rolls in the slot again.[<ship2>] Ha! That lunatic was me![<ship3>] Figures.
+[<ship1>] Ever accidentally boosted into a station wall?[<ship2>] Who hasn’t? It’s a rite of passage.[<ship3>] I call it the insurance tax.
 
 @SocialSpaceChatterIfDateIs12-24
 [<ship1>] Can you believe it’s Christmas Eve already? I’ve never seen this station so lively. [<ship2>] Right? It’s not much for decorations, but the energy in the air is contagious. [<ship3>] Yeah, I feel it too. There’s something special about the atmosphere tonight. [<ship1>] Couldn’t agree more. It’s like everyone’s ready to let loose and enjoy the night.
@@ -2273,14 +2495,82 @@ All systems green, Commander. <CustomStationFarewell>
 [<ship1>] I can’t say I’m not glad the holidays are over. Time to get back in the saddle and back into space. [<ship2>] Yeah, I’m ready for a change of pace. Time to leave the parties behind and get back to some real work. [<ship3>] Same here. A little peace and quiet was nice, but I’ve got a few new contracts to check out. [<ship1>] Alright, let’s get back to flying, then.
 [<ship1>] I think we’ve all had our fill of holiday cheer. Back to reality now, huh? [<ship2>] Definitely. It’s been a good time, but it’s time to get back to the grind. [<ship3>] Yeah, got a few things lined up. Looking forward to a new year of flying. [<ship1>] Let’s hope it’s a little less chaotic than the last one!
 
+@SocialSpaceChatterIfDateIs12-31
+[<ship1>] Can you believe it’s almost 3311? Feels like the Thargoid invasion lasted forever. [<ship2>] I know, right? But tonight’s all about celebrating. Got the champagne chilling in the galley! [<ship3>] I’m just glad we can celebrate without worrying about Cocijo anymore. [<ship1>] Same here. Let’s make this New Year unforgettable. [<ship2>] Cheers to that! Now, who’s got the fireworks? [<ship3>] Already loaded. Let’s light up the galaxy tonight!
+[<ship1>] New Year’s Eve in space feels weird, doesn’t it? [<ship2>] Yeah, but we’re making the best of it. Got the crew decorating the bridge! [<ship3>] Just hope the fireworks don’t set off the proximity alarms. [<ship1>] Ha! I’m more worried about running out of drinks. [<ship2>] No chance. I stocked up at the last station. [<ship3>] Then let’s toast to surviving 3310 and whatever 3311 throws our way.
+[<ship1>] It’s almost midnight back on Earth. Anyone else feeling nostalgic? [<ship2>] Definitely. Hard to believe Sol was under siege not too long ago. [<ship3>] That’s all the more reason to celebrate tonight. We earned this! [<ship1>] Agreed. I even broke out my special stash for the occasion. [<ship2>] Oh, now it’s a real party! [<ship3>] Let’s make some noise for the New Year—literally!
+[<ship1>] Got any New Year’s resolutions? [<ship2>] Yeah, avoid getting my ship blown up again. [<ship3>] Mine’s to finally make some credits instead of spending them all on repairs. [<ship1>] Fair enough. I just want a peaceful year for once. [<ship2>] Here’s hoping 3311’s a little kinder to all of us. [<ship3>] I’ll drink to that. Let’s ring it in with a bang!
+[<ship1>] Can’t believe we made it through this year. Feels like 3310 was never going to end. [<ship2>] But we did it, and now it’s time to party! [<ship3>] Just fired up the karaoke system in the bar. Who’s first? [<ship1>] Oh no, not me. I’ll stick to toasting and cheering. [<ship2>] Coward! Fine, I’ll take the first song. [<ship3>] And I’ll make sure the drinks keep flowing. Here’s to a better year ahead!
+[<ship1>] Anyone else get that broadcast from the Federation about the New Year? [<ship2>] Yeah, they’re calling it a “fresh start” after the victory in Sol. [<ship3>] Makes sense. Feels like a symbolic way to close the chapter on the invasion. [<ship1>] Well, symbolic or not, I’m ready for a fresh start myself. [<ship2>] Same here. Let’s toast to leaving 3310 behind. [<ship3>] And to a brighter future!
+[<ship1>] I heard the station’s hosting a New Year countdown. [<ship2>] They are, but it’s nothing fancy. Just a holo-display and some music. [<ship3>] Works for me. I’ll take simple over nothing any day. [<ship1>] Agreed. Besides, we’ve got our own celebrations on board. [<ship2>] Speaking of, did anyone remember to grab party hats? [<ship3>] Already got ‘em! Let’s head over after midnight.
+[<ship1>] What’s the plan for midnight? Fireworks, music, or just drinks? [<ship2>] All of the above! Let’s go out in style. [<ship3>] I just hope the nav beacon doesn’t get crowded with everyone watching the fireworks. [<ship1>] If it does, we’ll find another spot. Nothing’s ruining tonight. [<ship2>] That’s the spirit! Let’s kick off 3311 with a proper celebration. [<ship3>] And maybe a little karaoke afterward.
+[<ship1>] It’s strange celebrating New Year’s in deep space. [<ship2>] Yeah, but it’s kind of magical too. No noise, just the stars. [<ship3>] Magical until someone pops champagne and it floats everywhere. [<ship1>] Ha! That’s why we stick to zero-g safe bottles. [<ship2>] Smart. Now, let’s raise a glass to surviving the chaos of 3310. [<ship3>] To survival, and to brighter days ahead!
+[<ship1>] Got any plans for 3311? [<ship2>] Just hoping for some peace and quiet for once. [<ship3>] Same here. But first, I’m going to enjoy tonight. [<ship1>] Agreed. Let’s celebrate surviving one hell of a year. [<ship2>] To Sol, to victory, and to new beginnings! [<ship3>] Cheers to that!
+[<ship1>] Can you believe this year’s almost over? Feels like it was never going to end. [<ship2>] Tell me about it. Between Cocijo and everything else, it’s been a ride. [<ship3>] At least we’ve got something to celebrate tonight—freedom and survival. [<ship1>] And a better future, hopefully. Let’s make this countdown one to remember. [<ship2>] Agreed. Here’s to putting 3310 behind us. [<ship3>] And to whatever 3311 has in store. Bring it on!
+[<ship1>] I’m just glad we’re celebrating in peace this year. [<ship2>] No kidding. Last New Year’s was all about prepping for the invasion. [<ship3>] This time, we’ve earned the right to relax. Let’s enjoy it. [<ship1>] Agreed. Who’s got the snacks? I’m starving already. [<ship2>] Got plenty in the galley. Help yourselves. [<ship3>] Let’s toast to peace, freedom, and a better tomorrow.
+[<ship1>] Anyone else feel like 3310 lasted a decade? [<ship2>] Absolutely. But hey, it’s ending on a high note. [<ship3>] True. Sol is free, and we’re still here. That’s worth celebrating. [<ship1>] Couldn’t agree more. Let’s raise a glass to the AX pilots who made it possible. [<ship2>] To their courage, and to brighter days ahead. [<ship3>] And to us, for sticking through it all. Cheers!
+[<ship1>] I wasn’t sure we’d make it to another New Year. [<ship2>] None of us were. But here we are, and it feels good. [<ship3>] It does. Let’s not waste it. Time to party! [<ship1>] After a toast to everyone we’ve lost this year. [<ship2>] Of course. To their memory, and to the future they fought for. [<ship3>] And now, let’s make sure 3311 starts with a bang.
+[<ship1>] What a year. I don’t even know how to sum it up. [<ship2>] “Hellish but worth it” comes to mind. [<ship3>] Fair. At least we’ve got tonight to unwind and celebrate. [<ship1>] And to look ahead. No more running, no more invasions. Just possibilities. [<ship2>] That’s the dream. Let’s toast to a galaxy full of second chances. [<ship3>] To second chances, and a bright new year!
+
+@SocialSpaceChatterIfDateIs01-01
+[<ship1>] Happy New Year, everyone! Here’s to 3311. May it be kinder than 3310. [<ship2>] Cheers to that. So, what’s everyone’s plan? Staying in the bubble or venturing out? [<ship3>] I’m thinking it’s time to move on. Found a promising system a few jumps away. Might start fresh. [<ship1>] Bold move. Wherever you go, I hope it brings you peace. [<ship2>] Same here. Just don’t forget to check in from time to time. [<ship3>] Count on it. Fly safe, friends.
+[<ship1>] Another year, another chance to make things better. [<ship2>] Definitely. I’m grateful we’re even here to see it. [<ship3>] Same. Sol’s liberation feels like a good omen for the year ahead. [<ship1>] Let’s hope so. I’m thinking of joining a colonisation effort this year. [<ship2>] Sounds exciting. Let me know if you need a hand getting started. [<ship3>] And don’t forget us when you find your paradise out there.
+[<ship1>] Happy New Year! Any resolutions for 3311? [<ship2>] Just one: keep flying and stay alive. [<ship3>] Mine’s a bit more ambitious—thinking about setting up a homestead out in the black. [<ship1>] That’s the dream, isn’t it? A place to call your own, far from the chaos. [<ship2>] Sounds perfect. If you need supplies or company, give me a shout. [<ship3>] Will do. Here’s to new beginnings for all of us.
+[<ship1>] It’s surreal, isn’t it? A new year after everything we’ve been through. [<ship2>] Yeah. Feels like a second chance. What’s next for you? [<ship3>] Heading out. Found a system with a terraformable world. Going to make it my own. [<ship1>] That’s amazing. I admire the guts it takes to start fresh like that. [<ship2>] Same. Keep us updated—we want to hear all about it. [<ship3>] You got it. Fly safe, friends.
+[<ship1>] Happy New Year! Let’s make this one count. [<ship2>] Absolutely. Any plans for the year? [<ship3>] Thinking of leaving the bubble. Too much history here, you know? [<ship1>] Makes sense. A fresh start sounds appealing. Got a destination in mind? [<ship2>] Yeah, a system on the fringe. Quiet, lots of potential. [<ship3>] Sounds perfect. Here’s to your new adventure.
+[<ship1>] New year, new horizons. Anyone else considering heading out to the frontier? [<ship2>] You know it. I’ve got my eye on a system that could use some settlers. [<ship3>] Same here. The bubble’s just too crowded for me these days. [<ship1>] Agreed. Here’s to finding peace and prosperity in the black. [<ship2>] To new opportunities and a brighter future. [<ship3>] And to staying connected, no matter where we end up.
+[<ship1>] Happy 3311, everyone. What’s the plan for this year? [<ship2>] For me, it’s all about rebuilding and finding stability. [<ship3>] I’m going the other way—off to find a new system to call home. [<ship1>] Best of luck to you. Hope it’s everything you’re looking for. [<ship2>] Same. And don’t hesitate to holler if you need help. [<ship3>] Appreciate it. Fly safe out there, both of you.
+[<ship1>] Another year, another adventure. Who’s heading where? [<ship2>] I’m staying put for now. Too much to do here in the bubble. [<ship3>] Not me. Found a place out on the edge of inhabited space. Going to settle down. [<ship1>] Bold move. Hope it’s everything you want it to be. [<ship2>] Same. Don’t forget to drop us a line when you’re settled. [<ship3>] Will do. Here’s to new beginnings for all of us.
+[<ship1>] Happy New Year! Can’t believe we made it through 3310. [<ship2>] Barely, but we did. What’s the next chapter look like for you? [<ship3>] I’m heading to a system with potential for colonisation. Time to leave the past behind. [<ship1>] I hear that. Best of luck out there. [<ship2>] Same here. We’ll miss you in the bubble, though. [<ship3>] Thanks. I’ll keep in touch. Fly safe, both of you.
+[<ship1>] New year, new dreams. Anyone else feeling optimistic for a change? [<ship2>] Trying to. Thinking about heading to a system I scouted last year—lots of promise. [<ship3>] Same here. The bubble’s too crowded for me. Time for a fresh start. [<ship1>] Here’s to finding what you’re looking for, out there in the black. [<ship2>] And here’s to staying safe and thriving, wherever we end up. [<ship3>] Couldn’t have said it better. Fly safe, friends.
+[<ship1>] Happy New Year, everyone! I’m excited for a fresh start. [<ship2>] Happy New Year! I’m planning to focus on trading this year. There’s always room to improve efficiency. [<ship3>] Same here. But I’m also thinking about diving into some deep core mining. It’s hard work, but the rewards are worth it. [<ship1>] That sounds great. I’m setting my sights on exploring uncharted systems. I want to see what’s out there. [<ship2>] Here’s to all of us reaching our goals this year. [<ship3>] Agreed. Fly safe and stay hopeful.
+[<ship1>] Happy 3311, everyone! What’s on your radar for this year? [<ship2>] Happy New Year! I think I’ll explore some new trade routes. The market’s always changing, and it’s a good challenge. [<ship3>] That’s smart. I’m considering spending some time mining low-temperature diamonds. It’s a good way to build up credits. [<ship1>] I’m hoping to focus on deep-space exploration. There’s so much of the galaxy left to chart. [<ship2>] Sounds like we’ve all got our plans lined up. Let’s make it a year to remember. [<ship3>] Absolutely. Wishing us all smooth sailing.
+[<ship1>] Another year ahead. What are your goals for 3311? [<ship2>] I’m planning to stick with mining. It’s been good to me so far, and there’s always demand. [<ship3>] Mining is solid, but I’m hoping to expand into trading this year. I’ve got a few ideas for lucrative routes. [<ship1>] That’s great. I’m setting out to explore the galaxy. There’s nothing like seeing the unknown. [<ship2>] Here’s to success in all our endeavors. [<ship3>] And to staying safe while we’re at it.
+[<ship1>] Happy New Year! Any resolutions this time around? [<ship2>] Happy 3311! I’m hoping to delve deeper into mining. There’s a triple hotspot I’ve been meaning to check out. [<ship3>] For me, it’s all about exploration. I want to leave my mark on the galaxy. [<ship1>] I’ll be focusing on trade. The credits are good, and I enjoy the planning. [<ship2>] Whatever we’re doing, let’s make it a year worth celebrating. [<ship3>] Couldn’t agree more. Fly safe, everyone.
+[<ship1>] Cheers to the New Year! What’s the plan for 3311? [<ship2>] I’m thinking I’ll take on more exploration this year. There’s so much undiscovered space out there. [<ship3>] That’s exciting. I’m planning to build up my trading fleet and secure better contracts. [<ship1>] Both great goals. I’m aiming to improve my mining operations. It’s time to boost my earnings. [<ship2>] To all our ambitions. May they bring us success. [<ship3>] And good company along the way.
+[<ship1>] Happy New Year! Any big changes for you all in 3311? [<ship2>] Happy New Year! I’m sticking with trade. It’s reliable, and I like the challenge of finding good deals. [<ship3>] I’m focusing on mining. I’ve scoped out a promising system, and it’s time to dig in. [<ship1>] I’m going to explore further out this year. There’s always something new to see. [<ship2>] Here’s to making the most of it. [<ship3>] And to meeting up for a drink when we cross paths.
+[<ship1>] Happy New Year, everyone! Here’s to a great 3311 ahead. [<ship2>] Happy New Year! May the stars guide us to success. [<ship3>] Cheers to that! Fly safe and make it a good one.
+[<ship1>] Wishing you both a Happy New Year. Let’s make this one count. [<ship2>] Happy 3311! I’m excited for what’s to come. [<ship3>] Same here. Here’s to new adventures and safe travels.
+[<ship1>] Happy New Year! I hope this one brings good fortune to us all. [<ship2>] Happy 3311! Let’s keep pushing forward and chasing our dreams. [<ship3>] Absolutely. Here’s to success, health, and happiness.
+[<ship1>] A Happy New Year to all! Let’s make it the best one yet. [<ship2>] Happy 3311! Here’s to bright futures and smooth flights. [<ship3>] Couldn’t agree more. Wishing you all the best.
+[<ship1>] Happy New Year, friends. Let’s make it a safe and prosperous one. [<ship2>] Happy 3311! Here’s to new horizons and lasting friendships. [<ship3>] Well said. Fly safe and enjoy the journey this year.
+
+@SocialSpaceChatterIfDateIs01-11   <!-- HIP 22460 blockade, 3311
+[<ship1>] Have you heard about the AX blockade they’re setting up in HIP 22460? [<ship2>] Yeah, those AXI and XSF folks don’t mess around. They’ve been on the frontlines since the beginning. [<ship3>] It’s about time someone dealt with that cursed system. Everything about HIP 22460 screams disaster.
+[<ship1>] So, AXI’s leading a push in HIP 22460, huh? Think they can finally clear it out? [<ship2>] If anyone can, it’s them. That place has been a nightmare since the Proteus Wave fiasco. [<ship3>] I just hope they’re careful. The Thargoids aren’t going to leave without a fight.
+[<ship1>] I overheard someone saying they’re sending another blockade to HIP 22460. [<ship2>] That’s right. AXI and XSF are teaming up again. They’re calling it a push to reclaim the system. [<ship3>] Reclaim? More like try to stop the Thargoids from using it as a base. That place is cursed.
+[<ship1>] HIP 22460 again, huh? How many times are we going to revisit that disaster? [<ship2>] Until someone finally cleans it up. AXI’s making the effort, at least. [<ship3>] I’ve got respect for them, but I wouldn’t go near that system even if you paid me.
+[<ship1>] Do you think the HIP 22460 blockade will work? [<ship2>] Hard to say. The Thargoids are dug in deep there, and they’ve had years to strengthen their presence. [<ship3>] If AXI’s involved, they’ve got a shot. Those pilots are relentless.
+[<ship1>] I’m heading out to HIP 22460. The blockade’s starting soon, and they need all the help they can get. [<ship2>] That’s a long trip. Think it’s worth it? [<ship3>] With AXI and XSF involved, I’d say so. [<ship2>] I don’t know, I’ve got my own commitments here. [<ship1>] I get that, but this could turn the tide. I’m not missing it.
+[<ship1>] I’ve got my sights set on HIP 22460. Gonna join the blockade. [<ship2>] That’s pretty intense. You’re sure you want to get involved in all that chaos? [<ship3>] I’ve been thinking about it too. Maybe it’s time to step up. [<ship2>] I’m not so sure. HIP 22460’s had its fair share of problems. [<ship1>] Exactly. And that’s why we need to clear it out.
+[<ship1>] I’m making my way to HIP 22460 to help with the blockade. [<ship2>] Are you really going to risk it? They’re still dealing with the fallout from the Proteus Wave disaster. [<ship3>] It’s a tough call. I’m still undecided. [<ship1>] It’s dangerous, sure, but that’s what we signed up for. [<ship2>] True, but I’m not sure if I’m ready to dive into that mess yet.
+[<ship1>] Heading to HIP 22460 for the blockade. Gotta make sure the Thargoids don’t get comfortable. [<ship2>] You’re jumping in already? [<ship3>] I’m considering it too. AXI and XSF are leading, and they’re the best. [<ship2>] You might be right. But I’ve got family to think about. [<ship1>] It’s a sacrifice worth making. We’re fighting for humanity’s future.
+[<ship1>] I’ve signed up for the blockade in HIP 22460. It’s time to clear out the Thargoid presence. [<ship2>] I’m not sure. It’s been years since the Proteus Wave, and things are still a mess there. [<ship3>] That’s why they need us. You don’t have to decide now, but I’m in. [<ship2>] I’ll think about it. Just not sure if I’m ready for the heat. [<ship1>] It’s tough, but it’s the right thing to do.
+[<ship1>] Did you hear about the blockade in HIP 22460? AXI and XSF are leading the charge. [<ship2>] Yeah, I’ve been following it. They’re going all out to push the Thargoids out. [<ship3>] I’m thinking of heading there myself. My ship’s outfitted for anti-xeno combat.
+[<ship1>] So, AXI’s putting together a blockade for HIP 22460. Sounds like a massive operation. [<ship2>] It is. They’re determined to clear that system. [<ship3>] I’m gearing up to join them. It’s about time we cleaned up that mess.
+[<ship1>] HIP 22460 is back in the spotlight with this blockade. Think it’ll make a difference? [<ship2>] It might. AXI’s got the experience. [<ship3>] I’m planning to find out firsthand. My AX Krait is ready for deployment.
+[<ship1>] AXI and XSF are serious about HIP 22460. A blockade’s no small effort. [<ship2>] It’s a bold move. That system’s history makes it a tough challenge. [<ship3>] I’m heading out to join them. We’ve got to drive the Thargoids out of there.
+[<ship1>] So, who’s signing up for the HIP 22460 blockade? Sounds like they need all the help they can get. [<ship2>] I’d go, but my ship’s not cut out for AX combat. [<ship3>] I’ll be there. Every pilot counts in a fight like this.
+
+@SocialSpaceChatterIfDateIs01-12   <!-- HIP 22460 blockade, 3311
+[<ship1>] Have you heard about the AX blockade they’re setting up in HIP 22460? [<ship2>] Yeah, those AXI and XSF folks don’t mess around. They’ve been on the frontlines since the beginning. [<ship3>] It’s about time someone dealt with that cursed system. Everything about HIP 22460 screams disaster.
+[<ship1>] So, AXI’s leading a push in HIP 22460, huh? Think they can finally clear it out? [<ship2>] If anyone can, it’s them. That place has been a nightmare since the Proteus Wave fiasco. [<ship3>] I just hope they’re careful. The Thargoids aren’t going to leave without a fight.
+[<ship1>] I overheard someone saying they’re sending another blockade to HIP 22460. [<ship2>] That’s right. AXI and XSF are teaming up again. They’re calling it a push to reclaim the system. [<ship3>] Reclaim? More like try to stop the Thargoids from using it as a base. That place is cursed.
+[<ship1>] HIP 22460 again, huh? How many times are we going to revisit that disaster? [<ship2>] Until someone finally cleans it up. AXI’s making the effort, at least. [<ship3>] I’ve got respect for them, but I wouldn’t go near that system even if you paid me.
+[<ship1>] Do you think the HIP 22460 blockade will work? [<ship2>] Hard to say. The Thargoids are dug in deep there, and they’ve had years to strengthen their presence. [<ship3>] If AXI’s involved, they’ve got a shot. Those pilots are relentless.
+[<ship1>] I’m heading out to HIP 22460. The blockade’s starting soon, and they need all the help they can get. [<ship2>] That’s a long trip. Think it’s worth it? [<ship3>] With AXI and XSF involved, I’d say so. [<ship2>] I don’t know, I’ve got my own commitments here. [<ship1>] I get that, but this could turn the tide. I’m not missing it.
+[<ship1>] I’ve got my sights set on HIP 22460. Gonna join the blockade. [<ship2>] That’s pretty intense. You’re sure you want to get involved in all that chaos? [<ship3>] I’ve been thinking about it too. Maybe it’s time to step up. [<ship2>] I’m not so sure. HIP 22460’s had its fair share of problems. [<ship1>] Exactly. And that’s why we need to clear it out.
+[<ship1>] I’m making my way to HIP 22460 to help with the blockade. [<ship2>] Are you really going to risk it? They’re still dealing with the fallout from the Proteus Wave disaster. [<ship3>] It’s a tough call. I’m still undecided. [<ship1>] It’s dangerous, sure, but that’s what we signed up for. [<ship2>] True, but I’m not sure if I’m ready to dive into that mess yet.
+[<ship1>] Heading to HIP 22460 for the blockade. Gotta make sure the Thargoids don’t get comfortable. [<ship2>] You’re jumping in already? [<ship3>] I’m considering it too. AXI and XSF are leading, and they’re the best. [<ship2>] You might be right. But I’ve got family to think about. [<ship1>] It’s a sacrifice worth making. We’re fighting for humanity’s future.
+[<ship1>] I’ve signed up for the blockade in HIP 22460. It’s time to clear out the Thargoid presence. [<ship2>] I’m not sure. It’s been years since the Proteus Wave, and things are still a mess there. [<ship3>] That’s why they need us. You don’t have to decide now, but I’m in. [<ship2>] I’ll think about it. Just not sure if I’m ready for the heat. [<ship1>] It’s tough, but it’s the right thing to do.
+[<ship1>] Did you hear about the blockade in HIP 22460? AXI and XSF are leading the charge. [<ship2>] Yeah, I’ve been following it. They’re going all out to push the Thargoids out. [<ship3>] I’m thinking of heading there myself. My ship’s outfitted for anti-xeno combat.
+[<ship1>] So, AXI’s putting together a blockade for HIP 22460. Sounds like a massive operation. [<ship2>] It is. They’re determined to clear that system. [<ship3>] I’m gearing up to join them. It’s about time we cleaned up that mess.
+[<ship1>] HIP 22460 is back in the spotlight with this blockade. Think it’ll make a difference? [<ship2>] It might. AXI’s got the experience. [<ship3>] I’m planning to find out firsthand. My AX Krait is ready for deployment.
+[<ship1>] AXI and XSF are serious about HIP 22460. A blockade’s no small effort. [<ship2>] It’s a bold move. That system’s history makes it a tough challenge. [<ship3>] I’m heading out to join them. We’ve got to drive the Thargoids out of there.
+[<ship1>] So, who’s signing up for the HIP 22460 blockade? Sounds like they need all the help they can get. [<ship2>] I’d go, but my ship’s not cut out for AX combat. [<ship3>] I’ll be there. Every pilot counts in a fight like this.
+
+
 @SocialSpaceChatterPARKED
-[<ship1>] Docking computer failed mid-entry.[<ship2>] Again?[<ship1>] I think it’s unionizing against me.
-[<ship1>] This station’s bar has the worst synth-ale I’ve ever tasted.[<ship2>]That’s not synth-ale; that’s cleaning solvent.[<ship3>] Explains the aftertaste, and my super flushed out colon.
-[<ship1>] Ever seen a Beluga liner try to outmaneuver a Sidewinder?[<ship2>] Only once. The station crew is still cleaning up the mess.
-[<ship1>] I jumped into a system and immediately saw five interdiction alerts.[<ship2>] Welcome to pirate central. Did you survive?[<ship1>] Barely. My shields are still in therapy.
-[<ship1>] I hate when the bartender judges my drink choices.[<ship2>] What’d you order?[<ship1>] A triple synth-tequila. With an umbrella.
-[<ship1>] Some lunatic was doing barrel rolls in the slot again.[<ship2>] Ha! That lunatic was me![<ship3>] Figures.
-[<ship1>] Ever accidentally boosted into a station wall?[<ship2>] Who hasn’t? It’s a rite of passage.[<ship3>] I call it the insurance tax.
 [<ship1>] Someone painted "Wash Me" on my hull while I was docked.[<ship2>] That was me. Your ship was embarrassing us all.
 [<ship1>] Think aliens drink beer?[<ship2>] I don’t know, but I wouldn’t share mine with a Thargoid.
 [<ship1>] What’s the worst mission you’ve ever taken?[<ship2>] Hauling 100 tons of live chickens across three systems.[<ship3>] Did they survive?[<ship2>] Barely. My cargo bay didn’t.
@@ -2462,3 +2752,9 @@ All systems green, Commander. <CustomStationFarewell>
 [<ship1>] I lost my crew last night at Polly’s. I was too busy trying to figure out the dance floor rules.[<ship2>] Dance floor rules? Are there rules?[<ship1>] Apparently, there’s a line you’re not supposed to cross. I crossed it, and now I’m banned from the dance battle.
 [<ship1>] You ever get stuck in Polly’s VIP lounge and end up giving a speech to a room full of strangers?[<ship2>] Sounds like you had one too many.[<ship1>] I definitely did. I’m pretty sure they recorded it.[<ship1>] I had no intention of staying at Polly’s, but I ended up in the high stakes poker room.[<ship2>] Did you win anything?[<ship1>] I lost everything except my dignity. But I did get a complimentary drink.
 [<ship1>] I went to Polly’s for a quick drink, and I swear, I woke up with a bunch of party favors I don’t remember getting.[<ship2>] What kind of party favors?[<ship1>] A glow-in-the-dark hat, some random sunglasses, and a certificate for “most entertaining dance routine.”
+
+
+@JumpingToNewSystem
+Jumping to <$targetSystem>
+We are jumping to <$targetSystem>
+We have successfully transitioned to witchspace. Heading to <$targetSystem>.
