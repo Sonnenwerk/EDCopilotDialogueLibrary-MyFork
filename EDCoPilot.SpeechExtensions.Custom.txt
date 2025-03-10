@@ -208,6 +208,27 @@ Detected <$signal_count_string> on <$bodyShort>. What's our next move, <Commande
 (profanity)No fucking way, <$bodyShort> is rocking <$signal_count_string>. Wanna poke it with a probe?
 
 
+@SystemIsOneJumpAway
+Next system is one jump away. Preparing for transition.
+Next system in range. Ready when you are, <Commander>.
+Course plotted. Just one more jump to our destination.
+One more jump and we're there. Almost too easy!
+One jump away. Don’t screw this up.
+(allbusiness)Next system in range. Calculating optimal jump trajectory.
+(allbusiness)One jump away. Preparing Frameshift drive for transition.
+(flirt)One jump away, Commander… but I’d rather stay right here with you.
+(flirt)One jump left—just enough time for you to tell me how good I look in these navigation lights.
+(flirt)Final jump in sight… but you can take control anytime, <Commander>.
+(flirt)Almost there, but do we really have to go? I was enjoying this moment with you.
+(flirt)Just one more jump… unless you’d rather get lost in the stars with me?
+(flirt)Almost there… You always know how to take me to exciting places, don’t you?
+(flirt)It's only one jump! But let’s take it slow... I love spending time with you~
+(flirt)Next system is close… but not as close as I’d like to be to you.
+(flirt)Final jump ahead! I’d say don’t leave me, but you never could, right? Right?
+(profanity)Next system's in spitting distance. Let’s fucking go!
+(profanity)Next system is just one jump away. Let’s pray it’s not a shitshow over there
+
+
 @SystemDiscovery
 Wow. A new system discovery. Congratulations.
 No one has ever seen this System <Commander>.
