@@ -12,6 +12,10 @@ I will add more phrases over time.
 - **`EDCoPilot.SpeechExtensions.Custom.txt`**  
   A single file containing all the phrases in the correct format for EDCoPilot.  
   Simply copy the content of this file if you want the full set of phrases in your setup.
+- **`EDCoPilot.SpaceChatter.Custom.txt`**
+  A single file containing custom chatter around stations.
+- **`EDCoPilot.ChitChat.Custom.txt`**
+  A file containing custim chit-chat phrases. 
 
 ### SpeechExtensions Folder
 All event-specific documentation is located in the `SpeechExtensions` folder. Each file corresponds to a different in-game event or category.  
