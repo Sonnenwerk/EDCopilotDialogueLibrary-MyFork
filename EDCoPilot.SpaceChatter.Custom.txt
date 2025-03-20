@@ -61,3 +61,16 @@
 [<ship4>] um...speaking of a clear channel...
 [<ship1>] Funny...NOT!
 [\example]
+
+[example]
+[<stationname>] <callsign>. You are cleared for Pad four if you have cargo, If you're light, pad six.
+[<ship1>] I'll make it pad six then control. All I have on board is my wife and she's heavy but not that heavy.
+[<stationname>] Not sure you should be sharing that information but you are cleared for pad six.
+[<ship1>] Roger Control. Can you have medical assistance on standby? By the look on my wife's face, I'm going to need it.
+[\example]
+
+[example]
+[<ship1>] <stationname> Control. What number am I in the landing pattern? 
+[<stationname>] This is <stationname> control. By the time you land, you will be number one.
+[<ship1>] Copy that.
+[\example]
