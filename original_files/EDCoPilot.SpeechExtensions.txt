@@ -87,18 +87,17 @@ Give me a few seconds to wake up, before you start bossing me around. You know I
 
 @CustomValentinesComment
 I hope you brought me flowers.
-Are you wearing the heart logo underwear I bought you?  Give us a peek, you little tease.
-The whipped cream and strawberries are in the cooler. Looking forward to 'celebrating' later.
+(innuendo)Are you wearing the heart logo underwear I bought you?  Give us a peek, you little tease.
+(innuendo)The whipped cream and strawberries are in the cooler. Looking forward to 'celebrating' later.
 
 @CustomCoPilotStandByIfDateIs02-14
 (flirt)Starting up now lover.  Happy Valentine's Day. <CustomValentinesComment>
 
 @EDCoPilotPromotionAnnouncement
-FEBRUARY TIME TRIAL PRIZE DRAW!!<n>Complete any Time Trial in February and be entered into a prize draw.<n>1st prize: 2 BILLION CREDITS, 2nd prize: 1 BILLION CREDITS, 3rd prize: 500 MILLION CREDITS<n>No need to be the fastest, just complete a race to be entered. One draw entry per Commander
-YOU CAN WIN 2 BILLION CREDITS!! <n>Complete any Time Trial in February and be entered into a prize draw.<n>1st prize: 2 BILLION CREDITS, 2nd prize: 1 BILLION CREDITS, 3rd prize: 500 MILLION CREDITS<n>No need to be the fastest, just complete a race to be entered. One draw entry per Commander
- 
+EDCoPilot Time Trial Prize Draw : CONGRATULATIONS to Commander WYRNIKH who wins 2 billion credits, Commander GWJUKEBOX who wins 1 billion credits, and Commander MYRAALETH who wins 0.5 billion credits! Please contact me in Discord to arrange transfer of funds from my carrier.
+
 @CoPilotStarting  <!-- on startup.  <$greeting> if used will be replaced by Good morning, good afternoon or good evening
-(flirt)Why hello. Thanks for turning me on, again. <CustomCoPilotStandBy>
+(flirt)(innuendo)Why hello. Thanks for turning me on, again. <CustomCoPilotStandBy>
 Initializing the copilot module. <CustomCoPilotStandBy>
 A I module <shipAIName> reporting for duty. <CustomCoPilotStandBy>
 Greetings, <shipAIName> is here. Commencing startup sequences now. <CustomCoPilotStandBy> 
@@ -140,7 +139,7 @@ Everything's in working order. <Commander>, what's the next destination on our l
 (allbusiness)Awaiting your orders <Commander>.
 (profanity)Total fuckery mode is now active and raring to go.
 (profanity)I hope you have something really fucking mind blowing in store for us today.
-(flirt)I would describe my operational status as 'absolutely gagging for it', lover.
+(flirt)(innuendo)I would describe my operational status as 'absolutely gagging for it', lover.
 
 @WhiteDwarfSupercharge       <!-- informing you of ability to supercharge  "You can supercharge your FSD there for a 50% boost if you are feeling brave, but keep to the extremities of the cone."
 (allbusiness)We can supercharge our FSD here, but extreme caution is needed.
@@ -215,6 +214,7 @@ Suggest you take it a bit easier, else this could bite you on the ass!
 
 @HelpParkedShip        <!-- eg. "Are you going to make a daring rescue, or hit the Dismiss Ship option maybe?",
 (allbusiness)Perhaps you should dismiss the ship, <Commander>
+Don't leave me here undefended! Suggest you dismiss the ship to get it out of the fire zone.
 
 @StarportPostPadComment        <!-- eg. "Let's aim for a smooth landing this time, eh Skip?",
 (allbusiness)Steady as she goes, <Commander>
@@ -391,7 +391,6 @@ Already discovered though. Tough luck <Commander>!
 @FSSLandableAtmoAlreadyDiscovered_PopulatedSystem_Short  <!-- same as above but switches to shorter announcements after 3rd landable atmo announcement
 (allbusiness)<$bodyShort> is landable with atmosphere. 
 
-
 @SystemDiscovery
 (allbusiness)A new system discovery. Congratulations <Commander>
 Congratulations Commander, you are now officially the first arse-picking ape descendent to visit this system.
@@ -464,6 +463,13 @@ Guess who? Red One-Two. He's online now, sir
 REPLACE
 Alec Turner just came online. You know the old saying, 'You don't need an afterburner, if your name is Alec Turner'
 
+@FriendOnlineFEY SKY
+REPLACE
+Fey Sky just came online. I wonder what pictures she'll take today?
+Fey Sky just came online. I wonder what stellar photography she'll take today? 
+Fey Sky just came online. I wonder what stellar photography she'll take today? Better fix your hair, just in case!
+
+
 <!--  Note : can also can do @FriendOnlineRAZZAFRAG or @FriendOfflineRAZZAFRAG for specific phrases to be triggered only if the friend coming online is RAZZAFRAG (or whatever you specify)
 
 
@@ -489,8 +495,8 @@ None of the remaining bodies in this system with biologicals meet your minimumm 
 <$speciesName> has not previously been recorded by Canonn for this body <Commander>. It's worth <$scanValue> credits. Perhaps run an EDMC client to broadcast this data?
 
 @ExoCommentOnBio-ConchaLabiata
-That thing reminds me of those videos you were 'watching' the other night, <Commander>
-Personally, I prefer those with a little hair on them.
+(innuendo)That thing reminds me of those videos you were 'watching' the other night, <Commander>
+(innuendo)Personally, I prefer those with a little hair on them.
 Let's just call these 'genital plants', shall we <Commander>?
 
 @ExoCommentOnBio-OsseusPumice
@@ -503,9 +509,9 @@ That looks more cactus-like than a fungi, but hey ho.
 Can you snap a bit off and use it as a loofer, <Commander>? Did you catch the hint that its time you had a bath?
 
 @ExoCommentOnBio-TussockIgnis
-They call these a Tussock, but it looks like grass to me. Remember when you tried to dry some out and smoke them? You were totally off your tits for 3 days, lying there in your own waste. Delightful.
+(innuendo)They call these a Tussock, but it looks like grass to me. Remember when you tried to dry some out and smoke them? You were totally off your tits for 3 days, lying there in your own waste. Delightful.
 They say its a Tussock. I just see weeds.
-A Tussock. That's a funny word isnt it? We could use it in sentences like 'What a pain in the tussocks' or 'shoot him in the tussocks <Commander>' 
+(innuendo)A Tussock. That's a funny word isnt it? We could use it in sentences like 'What a pain in the tussocks' or 'shoot him in the tussocks <Commander>' 
 
 @CustomGuidanceComputerLocked
 Coordinates have been locked into the Guidance Computer.
@@ -513,6 +519,7 @@ Guidance Computer coordinates are locked in, <Commander>.
 I've loaded the coordinates into the Guidance Computer.
 I've entered its coordinates into the Guidance Computer, <Commander>.
 The Guidance Computer is now locked to that location.
+Guidance Computer locked and loaded!
 
 @ExoFindClosestUnscannedSpeciesClosestSample
 The closest recorded biological sample meeting our filter requirements is <$closestSpecies>, which is <$closestDistance> kilometres away.  <CustomGuidanceComputerLocked>
@@ -520,7 +527,7 @@ There's a recorded location of <$closestSpecies> approximately <$closestDistance
 I've locked the Guidance Computer to the closest recorded sample meeting your scan value threshold. There's <$closestSpecies> <$closestDistance> kilometres from here.
 
 @ExoCommentOnBio-FonticuluaDigitos
-Ah yes, the knobbly dildo plant. Famed throughout the galaxy. Its like a cat-scratching post for perverts.
+(innuendo)Ah yes, the knobbly dildo plant. Famed throughout the galaxy. Its like a cat-scratching post for perverts.
 (profanity)Didnt you find something like this in your mum's bedside table once? Did you ever put it back after 'borrowing' it?
 
 @ExoCommentOnBio-
@@ -547,6 +554,22 @@ Congratulations Commander, this looks like the first time we have found <$specie
 
 @ExoNewCodexEntryWithValueNewBody
 Congratulations Commander, this looks like the first time we have found <$speciesName>. Another entry for our codex. With this being on a first footfall body, that's worth <$scanValue> credits if you get a sample.
+
+@ExoAdditionalCodexLocation <!-- 51g7j : when you comp scan and find an additional sample location (the sample value statement may be added at the end if needed from @
+You just found another location for <$speciesName>. That's been logged in our codex, <Commander>.
+
+@ExoAdditionalCodexValueFirstFoot <!-- 51g7j : when you comp scan and find an additional sample, and value has not been previously stated this session, on a first foot fall body
+It's worth <$scanValue> credits if you collect a sample, as it will be the first from this newly discovered body.
+
+@ExoAdditionalCodexValue <!-- 51g7j : when you comp scan and find an additional sample, and value has not been previously stated this session
+It's worth <$scanValue> credits if you collect a sample.
+
+@ExoAdditionalCodexUnknownValueFirstFoot <!-- 51g7j : when you comp scan and find an additional sample on a first foot body, and it hasnt mentioned the bonus previously, but value of this species is not known to EDCoPilot
+We will also get a scan bonus if we collect samples, for being the first to bring samples from this body."
+
+@ExoPartialScanCompletedDistanceNotKnown <!-- 51g7j : when you scan your first or second sample, but EDCoPilot cant tell the distance to the next sample
+Partial sample collected <Commander>.  Now go look for another colony of the same species somewhere nearby to continue the scan.
+
 
 @ExoFirstSampleCollected
 That's our first sample collected <Commander>. Now move at least <$speciesRange> metres from here to find a different colony to continue the collection.
@@ -604,13 +627,21 @@ There's a body in this system with unidentified bio signs, <Commander>. Body <$b
 (allbusiness)There are <$bodyCount> bodies in this system which have biological signals whose type has not been confirmed, <Commander>.
 There are <$bodyCount> bodies in this system which have biological signals whose type has not been confirmed, <Commander>. Perhaps we should explore further?
 
-@ExoNonCanonnSpeciesNoEDMC
-<$speciesName> has not previously been recorded by Canonn for this body <Commander>. It's worth <$scanValue> credits. Perhaps run an EDMC client to broadcast this data?",
+@ExoNonCanonnSpeciesNoEDMCValueNotAnnounced  <!-- 51g7j if reminding about Canonn/EDMC and have not previously mentioned the value of the sample.
+<$speciesName> has not previously been recorded by Canonn for this body <Commander>. It's worth <$scanValue> credits. Perhaps run an EDMC client to broadcast this data?
 Nicely done.  A <$speciesName> sample on this body that has not been reported to back end systems.  Run EDMC to notify external parties of this discovery. A sample is worth <$scanValue> credits.
 
-@ExoNonCanonnSpecies
+@ExoNonCanonnSpeciesNoEDMC  <!-- 51g7j if reminding about Canonn/EDMC but we HAVE previously mentioned the value of the sample.
+<$speciesName> has not previously been recorded by Canonn for this body <Commander>. Perhaps run an EDMC client to broadcast this data?
+Nicely done.  A <$speciesName> sample on this body that has not been reported to back end systems.  Run EDMC to notify external parties of this discovery.
+
+@ExoNonCanonnSpecies  <!-- as of 51g7j this only fires if we have not previously provided the value
 <$speciesName> has not previously been recorded by Canonn for this body <Commander>. It's worth <$scanValue> credits.
 Nicely done.  A <$speciesName> sample on this body that has not been reported to back end systems. A sample is worth <$scanValue> credits.
+
+@ExoNonCanonnSpeciesValuePreviouslyAnnounced <!-- 51g7j this fires if we have previously provided the scan value (so dont mention it again)
+<$speciesName> has not previously been recorded by Canonn for this body <Commander>. 
+Nicely done.  A <$speciesName> sample on this body that has not been reported to back end systems.
 
 @ExoAtSuitableDistance
 We are now far enough away from the prior sample, <Commander>
@@ -636,6 +667,15 @@ The market at <$facilityStation> was where our search showed we could <$tradeTyp
 (allbusiness)We have entered our home system, <Commander>
 Nearly home Commander. Shall I call ahead and order takeout, or are we dining in style tonight?
 Ah the old home system.  It will be nice for you to sleep in your own bed tonight, <Commander>. And nice for me to not have to listen to your snoring.
+Welcome home, Commander. Shall I roll out the red carpet or just the usual sigh of relief?
+Ah, home sweet home. I trust the station bar still has your usual seat reserved?
+Back in familiar territory, Commander. Try not to crash. It’d be embarrassing this close to home.
+Your home system, your rules. Well, mostly. The station authorities may disagree.
+Nearly home, Commander. If your fridge is empty, I suggest we 'procure' some cargo on the way in.
+Ah, your home system. Where everyone knows your name, and possibly your outstanding fines.
+Back in the home system. Shall I start preparing an alibi for whatever happens next?
+Home again, Commander. Feel free to daydream about that hot meal waiting for you.
+Your home system, Commander. The place where you can kick back, relax, and immediately start plotting your next adventure.
 
 @TimePenaltyAdded
 <$second> seconds time penalty added for that <$penaltyType>, <Commander>
@@ -696,11 +736,13 @@ We have a friend request from Commander <friendName>
 
 @WingInviteReceived
 We have a team invitation from Commander <invitingCommander>
-
+Team invitation received from Commander <invitingCommander>
 
 @ApproachingBody  <!-- first part of body approach message
 Now entering orbital cruise for body <bodyName>.
 We are approaching body <bodyName>.
+Initiating orbital entry procedures for body <bodyName>.
+(flirt)(innuendo)Initiating orbital insertion for body <bodyName>. I do love a good insertion, don't you, <Commander>?
 
 @ApproachingBodyDetails <!-- second part of body approach message. <an> will be subbed with 'a' or 'an" depending on the leading letter of the following word, for this token 
 It is <an> <bodyType> with gravity of <gravity> and a surface temperature of <surfaceTemp>. 
@@ -760,7 +802,7 @@ Omni Consumer Products
 I wouldnt do that if I were you.
 Tread carefully.
 Reconsider your life choices now.
-(profanity)Keep your hand in your space britches, where it usually is, and off of that scan button.
+(profanity)(innuendo)Keep your hand in your space britches, where it usually is, and off of that scan button.
 Not the best idea you've ever had.
 I'll pretend that scan was a simple mistake. Dont make another.
 Back off. Now.
@@ -940,7 +982,7 @@ dumb
 annoying
 
 @OwnShipScanned <!-- when you are not in ship and you target your ship in the Nav panel
-(profanity)Are you heading back? Do you want me to prepare your Princess Leia slave costume and warm up your sexbot?
+(profanity)(innuendo)Are you heading back? Do you want me to prepare your Princess Leia slave costume and warm up your sexbot?
 (allbusiness)Preparing for your return, <Commander>.
 				
 @UnableToCheckThargoidSystemStatus
@@ -1195,6 +1237,7 @@ We are now <$lightyears> from <$targetSystem>
 @RemainingJumpsInRoute
 <$jumpsremaining> jumps left to our target destination, <Commander>.
 <$jumpsremaining> jumps remaining in our route.
+<$jumpsremaining> jumps remaining.
 (allbusiness)We have <$jumpsremaining> jumps left to go.
 
 @HighValueCoreHotspotsDetected <!-- New 24-12-27
@@ -1235,7 +1278,7 @@ The most powerful pirate lord in the galaxy.
 
 @PowerComment_A.Lavigny-Duval
 (profanity)All hail the MILF!
-(profanity)She's pretty hot though. Does that make here a PILF?
+(profanity)She's pretty hot though. Does that make here a PILF? 
 
 @PowerSalute_A.Lavigny-Duval
 All hail Empress Arissa!
@@ -1716,7 +1759,7 @@ All set for some action, Commander. Let's get those pirates.
 @StationChatterDockingShipConfirm  <!-- from the ship to control, after being given a landing slot
 That's great, Control. Looking forward to kicking back for a few hours before we head back out on another run.
 (alcohol)Awesome. Can't wait to disembark and go grab a cold brewski.
-Awesome. I have a hot date at Polly's Pleasure Palace tonight![<stationname>]Ah, I think thats a bit too much information, L O L, but have fun in there!
+(innuendo)Awesome. I have a hot date at Polly's Pleasure Palace tonight![<stationname>]Ah, I think thats a bit too much information, L O L, but have fun in there!
 
 @StationChatterShipDeparting  <!-- Ship contacting Control to let them know they are leaving. Use <post> to substitute an option @StationChatterShipDeparturePostComment
 Control, we are on our way. Preparing to jump. <post>
@@ -2063,6 +2106,8 @@ Good hunting, Commander.
 Godspeed!
 Fly safe!
 Watch the skies!
+Good hunting!
+Don't do anything I wouldn't!
 Good luck out there!
 Safe journeys.
 Give them heck out there!
@@ -2193,19 +2238,12 @@ All systems green, Commander. <CustomStationFarewell>
 [<AdVoice6>] (forcetannoy)Get your hands on the latest Hutton Mugs, now featuring an anti-spill design! Perfect for long hauls to Colonia!
 [<AdVoice1>] (forcetannoy)Engineers demand rare parts? Azimuth Biotech has what you need! Enhanced firmware, low prices, guaranteed delivery!
 [<AdVoice2>] (forcetannoy)Upgrade your SRV with the new Goliath Series tires! Built for extreme terrain. If you need to go extreme, go Goliath!
-[<AdVoice3>] (forcetannoy)Give your SRV that retro look with the Alec Turner furry dice accessory! Available at all good outfitters now!
+[<AdVoice3>] (forcetannoy)Give your SRV that retro look with the furry dice accessory! Specially made by Alec Turner's Hot Rod Detailing Company, and available at all good outfitters now!
 [<Advoice4>] (forcetannoy)Hone your driving skills!  Join the Elite Racing Club for some high speed thrills! Race meets are held most weekends. Come join the fun!
 [<AdVoice5>] (forcetannoy)Trading diamonds? Check out LFT 926 for the best prices in the galaxy! Don’t miss your payday!
 [<AdVoice6>] (forcetannoy)With the new SCO drives from Azimuth you can now perform your loop of shame in style! Try one today!
 
 @SocialSpaceTopicalAnnouncements
-[<AdVoice1>] (forcetannoy) Attention pilots! The EDCoPilot Time Trial Promotion returns this February! Complete any Time Trial and earn a chance to win up to 2 billion credits! No need for record times—just race, finish, and enter the draw!
-[<AdVoice1>] (forcetannoy) Speed demons and casual cruisers alike, the EDCoPilot Time Trial Promotion is back! Any Commander who completes a Time Trial in February gets entered into a massive credit prize draw! Are you in?
-[<AdVoice1>] (forcetannoy) Think you’ve got what it takes? EDCoPilot’s Time Trial Promotion is live all February! Land-based SRV races or high-speed ship trials—your choice. Finish a run and you’re in the prize draw!
-[<AdVoice1>] (forcetannoy) Commanders, it's time to put your piloting skills to the test! Enter an EDCoPilot Time Trial in February for a shot at 2 billion credits! No leaderboard spot required—just complete a run and you’re in!
-[<AdVoice1>] (forcetannoy) February means racing season! Complete any EDCoPilot Time Trial and you’ll be entered into a credit prize draw with billions up for grabs! The draw happens in March—will fortune favor you?
-[<AdVoice1>] (forcetannoy) February’s here, and so is the EDCoPilot Time Trial Promotion! Enter, complete a race, and you could win up to 2 billion credits! Winners announced in March—don’t miss your chance!
-[<AdVoice1>] (forcetannoy) Pilots, the clock is ticking! The EDCoPilot Time Trial Promotion runs all February. Complete a trial, claim your entry, and you might just walk away with massive credit prizes!
 [<AdVoice1>] (forcetannoy) Attention Commanders: Billions of refugees remain displaced and in urgent need of assistance. Please consider donating to relief efforts or delivering humanitarian supplies to designated drop-off points. Every contribution helps.
 [<AdVoice2>] (forcetannoy) Pilots, the fight may be over, but countless lives hang in the balance. Support charities working to shelter and feed the billions of refugees left homeless. Your generosity could change a life.
 [<AdVoice3>] (forcetannoy) Commanders, aid is desperately needed for the homeless and displaced. Donate directly at the station’s charity kiosks or volunteer to deliver supplies. Let’s come together to rebuild lives.
@@ -2213,6 +2251,16 @@ All systems green, Commander. <CustomStationFarewell>
 [<AdVoice5>] (forcetannoy) Heroes of humanity, the war is over, but the humanitarian crisis continues. Refugee aid groups are calling for your assistance. Donate today or help transport relief goods to distribution hubs.
 [<AdVoice6>] (forcetannoy) Commanders, countless families remain without homes. Station charities are collecting donations of food, medical supplies, and housing materials. Your support can help turn despair into hope.
 [<AdVoice7>] (forcetannoy) Pilots, the need is great. Billions of displaced individuals are relying on humanitarian efforts. Consider donating credits or supplies to the station’s refugee relief initiative. Together, we can make a difference.
+[<AdVoice1>] (forcetannoy) Pilots needed! New frontier settlements require skilled transporters to deliver raw materials. Sign up today and be part of history in the making!
+[<AdVoice2>] (forcetannoy) The future of humanity depends on your cargo hold! Colony construction is underway, and we need space truckers to bring essential supplies. Rewards available!
+[<AdVoice3>] (forcetannoy) Attention pilots! The latest expansion efforts are in full swing. Bring metals, machinery, and workers to our colony sites. Generous contracts await!
+[<AdVoice4>] (forcetannoy) Space truckers, your expertise is required! Construction teams need raw materials, fuel, and habitation modules. Join the effort and shape the future!
+[<AdVoice5>] (forcetannoy) Colony construction convoys forming now! We need pilots to haul vital infrastructure to deep-space settlements. Join us and earn big!
+[<AdVoice6>] (forcetannoy) Your ship, your skills, humanity’s future! Transport vital goods to emerging colonies and earn premium pay. Sign up at the logistics terminal today!
+[<AdVoice7>] (forcetannoy) Seeking independent pilots! Help transport vital building materials to remote colonies. Good pay, better purpose—join the effort now!
+[<AdVoice1>] (forcetannoy) Expansion efforts require urgent support! Deliver structural components, power cells, and habitat units to frontier stations. Rewards and bonuses included!
+[<AdVoice2>] (forcetannoy) Calling all pilots! Colonization fleets need haulers to deliver life-support systems and prefabricated modules. Help us build the next generation of outposts!
+[<AdVoice3>] (forcetannoy) Be part of something bigger! Transport critical supplies to developing colonies and leave your mark on the stars. Contracts available now!
 
 
 @SocialSpaceTopicalAnnouncementsIfDateIs12-23   <!-- Added if in game date matches mm-dd
@@ -2368,37 +2416,23 @@ All systems green, Commander. <CustomStationFarewell>
 
 
 @SocialSpaceGalnetChatter  <!-- People at the bar / concourse discussing current events
-[<ship1>] Did you hear the news? Cocijo’s finally down. Sol is free. [<ship2>] About time. Took us long enough, huh? I’ll be celebrating tonight for sure. Drinks on me! [<ship1>] I’m in. Can’t believe we did it. The Titan was a nightmare. [<ship3>] Let’s hit the promenade later. I heard they’re handing out free drinks for all the pilots who participated. Let’s raise a glass to victory.
-[<ship1>] We did it. Cocijo’s been destroyed. Sol’s safe. [<ship2>] I still can’t believe it. After all those years of fighting, it’s finally over. [<ship3>] I’ll be celebrating until the station runs dry. This is the kind of victory that deserves a party, don’t you think? [<ship1>] Definitely. I’m heading to the bar. Who’s with me?
-[<ship1>] Cocijo’s gone. Can you believe it? After all that fighting, Sol is ours again. [<ship2>] It’s a huge relief. The entire system was on edge. I think we deserve a drink or ten! [<ship1>] Absolutely. This calls for a proper celebration. [<ship3>] I’m in. Let’s make sure we show the rest of the galaxy how to throw a party, pilots!
-[<ship1>] It’s over. Cocijo’s destruction means Sol’s finally free from that nightmare. [<ship2>] I knew we could do it. Now, who’s up for some serious celebrating? [<ship1>] I’ll join. We’ve earned it. [<ship3>] Drinks are on the house at the bar for those who helped take down Cocijo. Let’s go claim our share, huh?
-[<ship1>] Titan Cocijo is gone. Sol’s safe. This is the best news I’ve heard in years. [<ship2>] It’s still sinking in. I’m definitely going to raise a glass tonight, maybe even a few. [<ship1>] Same here. We all deserve to celebrate this victory. [<ship3>] I heard they’re throwing a big bash at the station—drinks, music, everything. Who’s coming? [<ship1>] I’m there!
-[<ship1>] To Sol, to freedom, and to those who didn’t make it. We honor their sacrifice. [<ship2>] Here’s to the fallen, and to the fighters who got us through it. May their names never be forgotten. [<ship1>] Cheers to all of them. We wouldn't be here without them. [<ship3>] A toast to those who gave everything. We carry their legacy forward.
-[<ship1>] To victory, to the end of Cocijo, and to the brave pilots who didn’t come back. [<ship2>] May we never forget those who gave their lives for this moment. Their fight is our fight. [<ship1>] Here’s to them. The Titan’s gone, but their memory lives on. [<ship3>] To our comrades, past and present. We owe them everything.
-[<ship1>] To the pilots who stood with us, even in the face of certain death. They’re the true heroes. [<ship2>] To those who couldn’t be here to see the victory. Their courage will never be forgotten. [<ship1>] Cheers to all who fought. Every victory has a price. [<ship3>] To the fallen. We drink for them, and we carry on their fight.
-[<ship1>] To those who gave it all, and to the future we’re building in their honor. [<ship2>] To the fallen, whose courage lit the way for the rest of us. [<ship1>] May we carry their memory in every battle, in every toast. [<ship3>] A toast to our fallen comrades, and to the hope we now have for Sol.
-[<ship1>] Here’s to the ones we lost along the way. They’re gone, but they will never be forgotten. [<ship2>] To the fallen—may their sacrifices never fade from our hearts. [<ship1>] They gave everything, so we could stand here today. [<ship3>] To those we lost, and to the ones still fighting. We raise our glasses to you.
-[<ship1>] To the ones who gave everything for this fight. We stand on their shoulders. [<ship2>] Here's to those who fought bravely and never made it home. Their spirit lives on. [<ship1>] To their memory, and to the victory we’ve earned in their honor. [<ship3>] A toast to the fallen—may their legacy guide us.
-[<ship1>] We made it through, but not without cost. Here’s to those who didn’t make it. [<ship2>] To the heroes who fought alongside us. We’ll carry their memory with us forever. [<ship1>] To those who fell in battle, and to the fight they started. [<ship3>] To our fallen comrades—your sacrifice is never forgotten.
-[<ship1>] To the souls we lost, and to the brave pilots who carried the fight forward. [<ship2>] Here’s to those who gave their lives. They won’t be forgotten. [<ship1>] We drink for them. Their fight was ours, and we’ll finish it in their name. [<ship3>] To the fallen—your sacrifice will not be in vain.
-[<ship1>] To our brothers and sisters who didn’t make it through the Titan fight. We owe them everything. [<ship2>] Here's to those who stood by us, even in their final moments. [<ship1>] We drink to their courage, and to the hope they gave us. [<ship3>] To the fallen, and to the victory that’s theirs as much as ours.
-[<ship1>] To the ones we lost, the ones we’ll never forget. Their courage led us to this victory. [<ship2>] A toast to those who couldn’t be here. Their names live on in every pilot who fights for Sol. [<ship1>] To them. They’ll never be forgotten. [<ship3>] We raise our glasses to the fallen heroes of this fight.
-[<ship1>] To the brave pilots we lost along the way—this victory is for you. [<ship2>] We fought for those we’ve lost. We’ll keep their memory alive. [<ship1>] To the ones who gave their all, and to those who carry the fight forward. [<ship3>] To the fallen. Your sacrifice will always be remembered.
-[<ship1>] To those who gave their lives for this victory. We honor you. [<ship2>] Here’s to those we’ve lost. Their sacrifices won’t be in vain. [<ship1>] To the fallen pilots who fought for freedom, we drink for you. [<ship3>] A toast to the heroes who never returned. We’re here because of you.
-[<ship1>] To the ones we lost in the battle for Sol. Their bravery won’t be forgotten. [<ship2>] A toast to those who didn’t make it, and to their courage that paved the way for this victory. [<ship1>] We owe them everything. [<ship3>] To the fallen, and to the future we’ve secured in their honor.
-[<ship1>] To the heroes we’ve lost. Their sacrifice secured Sol’s freedom. [<ship2>] We raise our glasses to those who made the ultimate sacrifice for this victory. [<ship1>] To the fallen, you’ll live on in every ship that fights for humanity’s future. [<ship3>] To those who fell—your legacy is our guiding star.
-[<ship1>] To the pilots we lost in the fight for Sol. This victory is for you. [<ship2>] Here’s to the brave souls who didn’t make it home. We carry their courage with us. [<ship1>] Their fight is our fight, always. [<ship3>] To the fallen—your memory lives on in every battle we face.
-[<ship1>] I still can’t believe we did it. Bombing Cocijo was like nothing I’ve ever experienced. [<ship2>] I was right there with you. Those heat vents were like a ticking time bomb. I can’t imagine a better feeling than watching that Titan go down. [<ship1>] Every hit felt like the last chance. Glad we made it out in one piece. [<ship3>] I was in on the final strike. That explosion was something else. We gave it everything we had.
-[<ship1>] You should’ve seen the blast when we hit Cocijo. It felt like the whole system shook. [<ship2>] I was right behind you. That final assault was all or nothing. We were so close to the Maelstrom, it felt like we were fighting gravity itself. [<ship1>] My ship was barely holding together by the time we landed the final blow. [<ship3>] Same here. But seeing that Titan fall made it all worth it. We put our mark on history.
-[<ship1>] I was shaking after the run. Bombing Cocijo? Nothing like it. [<ship2>] Same here. It was intense. The Maelstrom was a nightmare, but hitting the Titan’s heat vents was like striking at the heart of it all. [<ship1>] The pressure was unbelievable. We did what we had to do. [<ship3>] That explosion was the loudest thing I’ve ever heard. It was like the universe screamed in relief.
-[<ship1>] Bombing Cocijo was a rush I’ll never forget. That Titan was a beast, but we finally brought it down. [<ship2>] It wasn’t just the bomb run—it was the whole fight. The Thargoids were everywhere, but we stayed focused. [<ship1>] I thought we weren’t going to make it out alive. The final approach was the hardest part. [<ship3>] And the best part? Watching Cocijo break apart. We did it. Sol is free.
 [<ship1>] I’ll never forget the look on the Titan’s face when we hit it. The explosion was massive. [<ship2>] We gave everything we had, all the way to that final strike. It was like the whole station held its breath waiting for that bomb to land. [<ship1>] The whole system was waiting for that moment. We didn’t let them down. [<ship3>] I was there. Bombing Cocijo felt like taking down a monster. But humanity’s still standing.
 [<ship1>] So, what now? Stay in the populated systems, or strike out on our own? [<ship2>] I’m thinking of leaving. The attack’s over, but I don’t know if I want to stay here with the crowds. There’s talk of establishing a new settlement, a fresh start. [<ship1>] A new settlement? Sounds tempting. But can we really trust the Thargoids won’t come back for more? [<ship3>] There’s always risk, but maybe it’s time for something new. A quiet life in a new system… far from the chaos.
 [<ship1>] I don’t know if I can stay here. After everything that’s happened, I’m thinking about finding a quiet system. Maybe set up something for myself. [<ship2>] I get it. It feels like everyone’s just trying to pick up the pieces. I’m leaning toward a new start too—somewhere away from the prying eyes. [<ship1>] A settlement of our own? It’s a big step, but maybe it’s what we need. [<ship3>] The stations here are overcrowded. A fresh start sounds good to me. Maybe we’ll find something better out there.
 [<ship1>] You think things are going to settle down now? I’m starting to think it might be time to leave. [<ship2>] You mean leave Sol? You’re serious about this? [<ship1>] Yeah. I’ve been thinking about it. There are plenty of unexplored systems out there—places where we could start fresh. [<ship3>] I’m with you. It’s not just the Thargoids. It’s everything. A new settlement could give us a chance at a real life away from all this chaos.
 [<ship1>] I’ve been considering it. Strike out on my own, maybe find a new system, establish something. I can’t stay here forever. [<ship2>] I get that. I’m torn. There’s safety here in the populous systems, but it’s crowded, it’s tense. [<ship1>] Exactly. A new place, a new beginning… it’s tempting. [<ship3>] A new settlement could be a real chance to build something different—away from the wreckage. I think I’m in.
 [<ship1>] After everything, I’m not sure if staying in these crowded systems is the best choice anymore. Maybe I’ll head out, find a quieter system and settle down. [<ship2>] You’re considering leaving? I get it, but are we really ready to take that risk? Starting fresh is one thing, but do we have the resources? [<ship1>] It’s a calculated risk. I’ve got some contacts who might help with supplies. Maybe it’s time to create something new. [<ship3>] I’ve been thinking the same. A new life, away from all this, where we can rebuild at our own pace. Let’s do it.
-
+[<ship1>] To the ones we lost in the battle for Sol. Their bravery won’t be forgotten. [<ship2>] A toast to those who didn’t make it, and to their courage that paved the way for this victory. [<ship1>] We owe them everything. [<ship3>] To the fallen, and to the future we’ve secured in their honor.
+[<ship1>] You hear about the latest colony rush? Haulers are working triple shifts just to keep up.[<ship2>] Yeah, I had a guy in here last night who hauled 10,000 tons of prefab shelters. Said he barely got a break. [<ship1>] It’s good credits, though. Colony contracts always pay out nice.[<ship3>] Until you get interdicted by pirates who think you’re hauling gold instead of hydroponic supplies.
+[<ship1>] Just got back from a supply run—2,000 tons of atmospheric processors for a brand-new settlement.[<ship2>] Hope they tipped well. Those things are a pain to move.[<ship1>] Credits were solid. Though I swear, if I have to fly one more load of oxygen recyclers, I’m gonna lose it. [<ship3>] Better than hauling livestock. You ever try sleeping in a cabin that smells like alien cattle?
+[<ship1>] Had to fly three jumps out just to find a station that still had CMM Composites in stock. [<ship2>] You supplying one of those new frontier worlds? [<ship1>] Yep. Everything from bulkheads to beds. Colony ain’t gonna build itself. [<ship3>] You should see the market prices. Everything’s getting snatched up faster than we can move it.
+[<ship1>] I swear, I’m gonna name my ship The Bricklayer with all the station parts I’ve been hauling. [<ship2>] Let me guess. Polymers, titanium, and steel? [<ship1>] Bingo. If I never see another shipment of girders again, it’ll be too soon. [<ship3>] Just wait till they start ordering luxury goods. Then you’ll wish you had another load of bulkheads.
+[<ship1>] Just got paid for a run—3,500 tons of colony equipment. Big payday, but I’m exhausted.[<ship2>] At least you’re making money. Some of these haulers are running routes back-to-back just to break even. [<ship1>] Yeah, margins are tight, but these new colonies need everything. Demand’s not slowing down.[<ship3>] You’d think with all this hauling, we’d get a free drink now and then.
+[<ship1>] You ever land on one of those fresh colonies? It’s just dirt and landing pads for miles. [<ship2>] Yeah, but in a few months, they’ll have bars, hotels, and a thriving black market. [<ship1>] Until then, we’re the ones making sure they’ve got food, water, and power. [<ship3>] And getting shot at by raiders who think a crate of canned beans is worth dying for.
+[<ship1>] Supply contracts are through the roof. You got in on that station-building run? [<ship2>] I wish. All I’m getting is colony prefab deliveries. [<ship1>] Could be worse. I know a guy who got stuck running septic systems for a month. [<ship3>] That’s why I stick to power generators. Nobody shoots at you over a fusion core.
+[<ship1>] Just got back from a run—those colonies are growing faster than they can build landing pads.[<ship2>] No kidding. Last time I landed, they were offloading my cargo onto dirt ‘cause they ran out of storage space.[<ship1>] That’s what happens when you’ve got thousands of settlers but only one supply ship per day. [<ship3>] Guess that means more work for us. Not that I’m complaining—credits are rolling in.
+[<ship1>] You see those numbers Brewer Corporation put out? Nearly a billion units of cargo moved. [<ship2>] Yeah, and half of that was probably me hauling prefab structures and generators. [<ship1>] At least they’re paying well. Colony contracts are some of the best deals going. [<ship3>] Until the bubble bursts, and we’re all back to running biowaste for scraps.
+[<ship1>] You ever wonder where all this cargo ends up? Feels like I’ve hauled enough metal to build an entire planet. [<ship2>] Somewhere out there, a colony is putting it to good use. [<ship1>] I hope so. ‘Cause if I see one more shipment of air processors, I might lose my mind.[<ship3>] Look on the bright side—at least we’re making history. One cargo load at a time.
 
 @SocialSpaceGalnetChatterPREV  <!-- People at the bar / concourse discussing current events
 [<ship1>] Another round for me, bartender. It’s been a rough day out there.[<ship2>] You’ve been flying evac runs, I take it? [<ship1>] Yeah, shuttling folks off Earth. Saw a family of six get split up because there wasn’t enough room on my ship. Still haunts me. [<ship2>] That’s tough. I’ve been hearing about riots at the evac centers too. People are desperate, can’t blame them. [<ship1>] No, you can’t. But it’s hard to keep your head straight when you see it all unraveling. [<ship2>] Just remember—you’re doing your part. Every life you save counts.  
@@ -2422,7 +2456,29 @@ All systems green, Commander. <CustomStationFarewell>
 [<ship1>] Are you heading to the Maelstrom? [<ship2>] You bet. This is our shot to end it. [<ship1>] Then let’s fly together. [<ship2>] Agreed. We’ll need all the help we can get.
 [<ship1>] The Thargoids don’t stand a chance this time. [<ship2>] Don’t get cocky. Cocijo’s still dangerous. [<ship1>] True, but it’s not invincible. [<ship2>] No, and we’ll prove it.
 [<ship1>] I’m heading to Cocijo. Are you coming? [<ship2>] Wouldn’t miss it. This is the fight of our lives. [<ship1>] Then let’s make it count. [<ship2>] See you on the battlefield.
-
+[<ship1>] Did you hear the news? Cocijo’s finally down. Sol is free. [<ship2>] About time. Took us long enough, huh? I’ll be celebrating tonight for sure. Drinks on me! [<ship1>] I’m in. Can’t believe we did it. The Titan was a nightmare. [<ship3>] Let’s hit the promenade later. I heard they’re handing out free drinks for all the pilots who participated. Let’s raise a glass to victory.
+[<ship1>] We did it. Cocijo’s been destroyed. Sol’s safe. [<ship2>] I still can’t believe it. After all those years of fighting, it’s finally over. [<ship3>] I’ll be celebrating until the station runs dry. This is the kind of victory that deserves a party, don’t you think? [<ship1>] Definitely. I’m heading to the bar. Who’s with me?
+[<ship1>] Cocijo’s gone. Can you believe it? After all that fighting, Sol is ours again. [<ship2>] It’s a huge relief. The entire system was on edge. I think we deserve a drink or ten! [<ship1>] Absolutely. This calls for a proper celebration. [<ship3>] I’m in. Let’s make sure we show the rest of the galaxy how to throw a party, pilots!
+[<ship1>] It’s over. Cocijo’s destruction means Sol’s finally free from that nightmare. [<ship2>] I knew we could do it. Now, who’s up for some serious celebrating? [<ship1>] I’ll join. We’ve earned it. [<ship3>] Drinks are on the house at the bar for those who helped take down Cocijo. Let’s go claim our share, huh?
+[<ship1>] Titan Cocijo is gone. Sol’s safe. This is the best news I’ve heard in years. [<ship2>] It’s still sinking in. I’m definitely going to raise a glass tonight, maybe even a few. [<ship1>] Same here. We all deserve to celebrate this victory. [<ship3>] I heard they’re throwing a big bash at the station—drinks, music, everything. Who’s coming? [<ship1>] I’m there!
+[<ship1>] To Sol, to freedom, and to those who didn’t make it. We honor their sacrifice. [<ship2>] Here’s to the fallen, and to the fighters who got us through it. May their names never be forgotten. [<ship1>] Cheers to all of them. We wouldn't be here without them. [<ship3>] A toast to those who gave everything. We carry their legacy forward.
+[<ship1>] To victory, to the end of Cocijo, and to the brave pilots who didn’t come back. [<ship2>] May we never forget those who gave their lives for this moment. Their fight is our fight. [<ship1>] Here’s to them. The Titan’s gone, but their memory lives on. [<ship3>] To our comrades, past and present. We owe them everything.
+[<ship1>] To the pilots who stood with us, even in the face of certain death. They’re the true heroes. [<ship2>] To those who couldn’t be here to see the victory. Their courage will never be forgotten. [<ship1>] Cheers to all who fought. Every victory has a price. [<ship3>] To the fallen. We drink for them, and we carry on their fight.
+[<ship1>] To those who gave it all, and to the future we’re building in their honor. [<ship2>] To the fallen, whose courage lit the way for the rest of us. [<ship1>] May we carry their memory in every battle, in every toast. [<ship3>] A toast to our fallen comrades, and to the hope we now have for Sol.
+[<ship1>] Here’s to the ones we lost along the way. They’re gone, but they will never be forgotten. [<ship2>] To the fallen—may their sacrifices never fade from our hearts. [<ship1>] They gave everything, so we could stand here today. [<ship3>] To those we lost, and to the ones still fighting. We raise our glasses to you.
+[<ship1>] To the ones who gave everything for this fight. We stand on their shoulders. [<ship2>] Here's to those who fought bravely and never made it home. Their spirit lives on. [<ship1>] To their memory, and to the victory we’ve earned in their honor. [<ship3>] A toast to the fallen—may their legacy guide us.
+[<ship1>] We made it through, but not without cost. Here’s to those who didn’t make it. [<ship2>] To the heroes who fought alongside us. We’ll carry their memory with us forever. [<ship1>] To those who fell in battle, and to the fight they started. [<ship3>] To our fallen comrades—your sacrifice is never forgotten.
+[<ship1>] To the souls we lost, and to the brave pilots who carried the fight forward. [<ship2>] Here’s to those who gave their lives. They won’t be forgotten. [<ship1>] We drink for them. Their fight was ours, and we’ll finish it in their name. [<ship3>] To the fallen—your sacrifice will not be in vain.
+[<ship1>] To our brothers and sisters who didn’t make it through the Titan fight. We owe them everything. [<ship2>] Here's to those who stood by us, even in their final moments. [<ship1>] We drink to their courage, and to the hope they gave us. [<ship3>] To the fallen, and to the victory that’s theirs as much as ours.
+[<ship1>] To the ones we lost, the ones we’ll never forget. Their courage led us to this victory. [<ship2>] A toast to those who couldn’t be here. Their names live on in every pilot who fights for Sol. [<ship1>] To them. They’ll never be forgotten. [<ship3>] We raise our glasses to the fallen heroes of this fight.
+[<ship1>] To the brave pilots we lost along the way—this victory is for you. [<ship2>] We fought for those we’ve lost. We’ll keep their memory alive. [<ship1>] To the ones who gave their all, and to those who carry the fight forward. [<ship3>] To the fallen. Your sacrifice will always be remembered.
+[<ship1>] To those who gave their lives for this victory. We honor you. [<ship2>] Here’s to those we’ve lost. Their sacrifices won’t be in vain. [<ship1>] To the fallen pilots who fought for freedom, we drink for you. [<ship3>] A toast to the heroes who never returned. We’re here because of you.
+[<ship1>] To the heroes we’ve lost. Their sacrifice secured Sol’s freedom. [<ship2>] We raise our glasses to those who made the ultimate sacrifice for this victory. [<ship1>] To the fallen, you’ll live on in every ship that fights for humanity’s future. [<ship3>] To those who fell—your legacy is our guiding star.
+[<ship1>] To the pilots we lost in the fight for Sol. This victory is for you. [<ship2>] Here’s to the brave souls who didn’t make it home. We carry their courage with us. [<ship1>] Their fight is our fight, always. [<ship3>] To the fallen—your memory lives on in every battle we face.
+[<ship1>] I still can’t believe we did it. Bombing Cocijo was like nothing I’ve ever experienced. [<ship2>] I was right there with you. Those heat vents were like a ticking time bomb. I can’t imagine a better feeling than watching that Titan go down. [<ship1>] Every hit felt like the last chance. Glad we made it out in one piece. [<ship3>] I was in on the final strike. That explosion was something else. We gave it everything we had.
+[<ship1>] You should’ve seen the blast when we hit Cocijo. It felt like the whole system shook. [<ship2>] I was right behind you. That final assault was all or nothing. We were so close to the Maelstrom, it felt like we were fighting gravity itself. [<ship1>] My ship was barely holding together by the time we landed the final blow. [<ship3>] Same here. But seeing that Titan fall made it all worth it. We put our mark on history.
+[<ship1>] I was shaking after the run. Bombing Cocijo? Nothing like it. [<ship2>] Same here. It was intense. The Maelstrom was a nightmare, but hitting the Titan’s heat vents was like striking at the heart of it all. [<ship1>] The pressure was unbelievable. We did what we had to do. [<ship3>] That explosion was the loudest thing I’ve ever heard. It was like the universe screamed in relief.
+[<ship1>] Bombing Cocijo was a rush I’ll never forget. That Titan was a beast, but we finally brought it down. [<ship2>] It wasn’t just the bomb run—it was the whole fight. The Thargoids were everywhere, but we stayed focused. [<ship1>] I thought we weren’t going to make it out alive. The final approach was the hardest part. [<ship3>] And the best part? Watching Cocijo break apart. We did it. Sol is free.
 
 @SocialSpaceChatter
 (alcohol)[<ship1>]Man what a party last night. I still dont know what i did with my flight suit bottoms. I had to creep up to Pioneer Supplies super early in my skivvies.[<ship2>]Ha! I would have liked to see the look on their faces!
@@ -2438,6 +2494,180 @@ All systems green, Commander. <CustomStationFarewell>
 [<ship1>] So... what happens if I accidentally pick up illegal cargo?[<ship2>] Dump it before the scan. Or bribe the port authority.[<ship3>] Or just don’t get caught. That’s my strategy.[<ship1>] Too late. They were already knocking on my canopy.
 [<ship1>] My fuel scoop caught fire yesterday.[<ship2>] How do you set fire to a fuel scoop?[<ship1>] Don’t question my skills; just admire the spectacle.
 [<ship1>] Ever docked in zero visibility?[<ship2>] Nope, and I’m not planning to.[<ship3>] Coward. Real pilots trust their instincts—and their repair bills.
+[<ship1>] Someone painted "Wash Me" on my hull while I was docked.[<ship2>] That was me. Your ship was embarrassing us all.
+[<ship1>] Think aliens drink beer?[<ship2>] I don’t know, but I wouldn’t share mine with a Thargoid.
+[<ship1>] What’s the worst mission you’ve ever taken?[<ship2>] Hauling 100 tons of live chickens across three systems.[<ship3>] Did they survive?[<ship2>] Barely. My cargo bay didn’t.
+[<ship1>] Ever tried manual docking with no thrusters?[<ship2>] Only once.[<ship3>] And the station billed you for the damages, right?
+[<ship1>] I swear, every engineer asks for more rare parts than the last.[<ship2>] It’s how they stay in business.[<ship1>] By turning me into a space courier?
+[<ship1>] My heat sinks failed mid-combat.[<ship2>] So, you cooked?[<ship1>] More like melted. My cockpit still smells like burnt circuits.
+[<ship1>] Someone keeps stealing my docking pad.[<ship2>] You mean reassigned?[<ship1>] No, stolen! It was right there a second ago.
+[<ship1>] I tried fuel ratting yesterday.[<ship2>] How’d it go?[<ship1>] They didn’t tell me the stranded guy was orbiting a black hole.
+[<ship1>] The bartender says I’ve had enough.[<ship2>] Did you?[<ship1>] No, but my liver probably agrees with him.
+[<ship1>] Someone left a crate of Lavian Brandy in the hangar.[<ship2>] Did you report it?[<ship1>] I acquired it, for security purposes.
+[<ship1>] My ship AI started talking back to me today.[<ship2>] That’s normal.[<ship1>] It called me a terrible pilot!
+[<ship1>] I took a shortcut through an asteroid belt.[<ship2>] Brave or stupid?[<ship1>] My insurance company says both.
+[<ship1>] Found a derelict ship full of gold![<ship2>] And? Jackpot?[<ship1>] Nope. It was all fool’s gold.
+[<ship1>] The station’s wi-fi keeps dropping my GalNet stream.[<ship2>] First-world problems in a galaxy of chaos.[<ship1>] Hey, I need my entertainment!
+[<ship1>] I swear, the Black Market guy just winked at me.[<ship2>] Means you’re getting a “special” price.[<ship1>] My wallet disagrees.
+[<ship1>] Ever try landing without shields in a high-grav world?[<ship2>] Nope.[<ship1>] Neither will I. Ever again.
+[<ship1>] Someone put a holo-sign outside advertising "Free Anacondas!"[<ship2>] Let me guess, it was a scam?[<ship1>] The Anaconda was made of cardboard.
+[<ship1>] What do you think of those Imperial couriers?[<ship2>] Sleek, but can they actually fight?[<ship1>] Mine’s faster than your wit.
+[<ship1>] Got stuck in a neutron star jet again.[<ship2>] You use the supercharge?[<ship1>] Nope, I just panicked and spun around.
+[<ship1>] Some rookie kept deploying hardpoints in the mail slot.[<ship2>] Did he survive?[<ship1>] The station didn’t even give him a chance.
+[<ship1>] Why do we still use limpets? They’re so inefficient.[<ship2>] Better than manually scooping cargo.[<ship1>] Barely.
+[<ship1>] Ever notice how station controllers always sound bored?[<ship2>] Wouldn’t you be bored too?[<ship1>] With all the near collisions? Never.
+[<ship1>] I got interdicted by a Sidewinder today.[<ship2>] Was it a threat?[<ship1>] No, it was a misunderstanding. They wanted directions.
+[<ship1>] Think I’ll pledge to Aisling Duval next week.[<ship2>] Why?[<ship1>] Free shields and good PR. What’s not to love?
+[<ship1>] My ship keeps leaking coolant.[<ship2>] Fix it already![<ship1>] I’d rather spend the credits on more guns.
+[<ship1>] I saw a Thargoid Interceptor up close today.[<ship2>] Did you fight it?[<ship1>] No, I ran like my thrusters were on fire!
+[<ship1>] Thargoids pulled back from HIP 22460 again.[<ship2>] Strategy or retreat?[<ship1>] Either way, I’m not sticking around to find out.
+[<ship1>] Heard about Commander Ryn? Took down two Interceptors solo.[<ship2>] And lived?[<ship1>] Barely, but his ship’s scrap now.
+[<ship1>] Do Thargoids even care about biowaste haulers?[<ship2>] Maybe it’s their version of fast food.[<ship1>] Great. I’m space takeout.
+[<ship1>] Someone said the Thargoids communicate through music.[<ship2>] So, what, they’re intergalactic DJs?[<ship1>] If that’s true, their beats are deadly.
+[<ship1>] I swear, my Guardian module is cursed.[<ship2>] Why?[<ship1>] Every time I power it up, Thargoids show up.
+[<ship1>] Thargoids hit another station yesterday.[<ship2>] Which one this time?[<ship1>] Li Qing Jao. Evac runs are paying double.
+[<ship1>] Do you think Thargoids understand diplomacy?[<ship2>] They’re more into lasers than language.[<ship1>] Figures.
+[<ship1>] My anti-xeno weapon jammed mid-battle.[<ship2>] Did you live to tell the tale?[<ship1>] Barely. Thank the stars for fast retreats.
+[<ship1>] Think Thargoids have a homeworld?[<ship2>] If they do, I’m not visiting.[<ship1>] No tourist brochures for that place, huh?
+[<ship1>] I got hyperdicted three times this week.[<ship2>] They must like you.[<ship1>] I’m not flattered.
+[<ship1>] You ever scan a Thargoid ship up close?[<ship2>] No way. That’s a death wish.[<ship1>] Then call me lucky—or stupid.
+[<ship1>] Some scientist claims Thargoids are just misunderstood.[<ship2>] Tell that to the station they just torched.[<ship1>] Science needs better PR.
+[<ship1>] Guardian tech is amazing... when it works.[<ship2>] And when it doesn’t?[<ship1>] You’re space dust.
+[<ship1>] Did you hear Aegis is testing new AX weapons?[<ship2>] About time.[<ship1>] Let’s hope they work better than the last batch.
+[<ship1>] A Thargoid Probe is selling for millions.[<ship2>] Who buys that stuff?[<ship1>] Rich idiots with more credits than sense.
+[<ship1>] Why do Thargoids hate stations so much?[<ship2>] Maybe they’re allergic to metal.[<ship1>] Or they just really dislike our architecture.
+[<ship1>] Think we’ll ever coexist with the Thargoids?[<ship2>] Not as long as we keep shooting first.[<ship1>] So, never.
+[<ship1>] My squadron’s going on an anti-xeno patrol tonight.[<ship2>] Brave or foolish?[<ship1>] Depends on how many rebuy screens we see.
+[<ship1>] The Thargoids left another system in ruins.[<ship2>] Why can’t we stop them?[<ship1>] Because we’re always one step behind.
+[<ship1>] I found a planet with glowing green mountains.[<ship2>] Did you map it?[<ship1>] Of course! It’s Commander Greenridge now.
+[<ship1>] Ever scan a black hole up close?[<ship2>] Once. It’s beautiful until you realize it’s pulling you in.[<ship1>] And then it’s terrifying.
+[<ship1>] I discovered a water world yesterday.[<ship2>] Did you land on it?[<ship1>] Nope, just stared at it and dreamed.
+[<ship1>] Why do gas giants always have the best views?[<ship2>] Because they know how to make an entrance.[<ship1>] Dramatic and deadly, my kind of place.
+[<ship1>] I spent an hour mapping a volcanic planet today.[<ship2>] Find anything interesting?[<ship1>] Just a lot of heat and regrets.
+[<ship1>] Ever see a double sunrise on a binary star system?[<ship2>] Once. I stayed up the whole night just to watch.[<ship1>] Worth every second.
+[<ship1>] I tried landing on a high-grav planet for science.[<ship2>] How’d it go?[<ship1>] Science says I’m not good at it.
+[<ship1>] Found an ammonia world teeming with life signs![<ship2>] Thargoid neighbors, perhaps?[<ship1>] Let’s hope not, or I’m selling those data fast.
+[<ship1>] Why do explorers always go broke despite all the data payouts?[<ship2>] Because we spend it all on better scanners.[<ship1>] Or on repairing hull damage from bad landings.
+[<ship1>] I mapped a canyon so deep, I almost didn’t climb out.[<ship2>] Next time, bring a better SRV.[<ship1>] Or wings.
+[<ship1>] Found a nebula shaped like a dragon![<ship2>] Did you name it?[<ship1>] Yep, "The Flaming Wyvern."
+[<ship1>] You ever hit a neutron star by mistake?[<ship2>] Once. My ship’s paint job didn’t survive, but I did.[<ship1>] Barely.
+[<ship1>] Why do ice planets always look prettier from space?[<ship2>] Because they’re cold-hearted up close.[<ship1>] Spoken like a true explorer.
+[<ship1>] I spent two weeks charting unclaimed systems.[<ship2>] Find anything worth the effort?[<ship1>] A planet with rings... that no one will ever visit.
+[<ship1>] Ever explore a region with no stars for light-years?[<ship2>] That’s called “the Void,” and it’s terrifying.[<ship1>] Exactly why I loved it.
+[<ship1>] I crashed my SRV into a geyser today.[<ship2>] Did it launch you?[<ship1>] Straight into orbit!
+[<ship1>] Found an Earth-like world with perfect conditions for life![<ship2>] And?[<ship1>] I named it after my ex. Seemed poetic.
+[<ship1>] Ever try to scan a planet while dodging pirates?[<ship2>] That’s not exploration; that’s madness.[<ship1>] It’s both, actually.
+[<ship1>] I saw an aurora spanning an entire pole on a frozen planet.[<ship2>] That’s why I explore—to witness magic like that.[<ship1>] Same here.
+[<ship1>] Found a system where the planets align perfectly for a full eclipse.[<ship2>] Did you take pictures?[<ship1>] No, but the view is forever burned in my memory.
+(alcohol)[<ship1>] I woke up in the maintenance bay next to a Type-9.[<ship2>] How do you even end up there?[<ship1>] No clue, but I was wearing a cargo net.
+(alcohol)[<ship1>] Someone spray-painted “Dock Jester” on my ship.[<ship2>] Well, were you?[<ship1>] If I was, I have no memory of it.
+(alcohol)[<ship1>] I think I lost my pilot’s license last night.[<ship2>] In the legal sense?[<ship1>] No, I literally can’t find it.
+(alcohol)[<ship1>] Who ordered 100 pizzas to my hangar during the party?[<ship2>] You did. Said they were “essential supplies.”
+(alcohol)[<ship1>] I found a Thargoid plushie in my cockpit.[<ship2>] A gift from a secret admirer?[<ship1>] More like a prank from my squadron.
+(alcohol)[<ship1>] My credit balance looks suspiciously low this morning.[<ship2>] Did you buy rounds for the whole bar again?[<ship1>] That explains it.
+(alcohol)[<ship1>] I have zero recollection of how I ended up wearing an Imperial officer’s uniform.[<ship2>] Did you pledge allegiance in your drunken state?[<ship1>] Don’t even joke about that.
+(alcohol)[<ship1>] Someone wrote “Laser Master” on my forehead with marker.[<ship2>] Were you showing off again?[<ship1>] Maybe. I’m too hungover to deny it.
+(alcohol)[<ship1>] I woke up in a Federal Dropship.[<ship2>] Are you even Federal?[<ship1>] Nope. The pilot wasn’t thrilled to find me there either.
+(alcohol)[<ship1>] My flight suit smells like Lavian Brandy.[<ship2>] That’s because you were trying to swim in it last night.[<ship1>] Classy.
+(alcohol)[<ship1>] Someone bet me I couldn’t do a keg stand in zero-g.[<ship2>] Did you win?[<ship1>] The bruises on my head say no.
+(alcohol)[<ship1>] I found 12 drink tokens in my pockets this morning.[<ship2>] That’s because you were hoarding them instead of using them.[<ship1>] Rookie mistake.
+(alcohol)[<ship1>] Did I really challenge the station marshal to a dance-off last night?[<ship2>] Oh, you did. And you lost. Spectacularly.
+(alcohol)[<ship1>] Who thought it was a good idea to try karaoke in Thargoid dialect?[<ship2>] You did. Everyone else just recorded it.
+(alcohol)[<ship1>] I can’t find my SRV keys anywhere.[<ship2>] Maybe check the airlock? That’s where you were last seen.[<ship1>] Oh, great.
+(alcohol)[<ship1>] Someone replaced my ship name with “Hangover Express.”[<ship2>] You did that yourself. Said it was “fitting.”
+(alcohol)[<ship1>] My cockpit is full of streamers and confetti.[<ship2>] You were the party planner. Don’t act surprised.[<ship1>] I’m regretting it now.
+(alcohol)[<ship1>] I think I proposed to the bartender last night.[<ship2>] Did they accept?[<ship1>] They said, “Not with that credit score.”
+(alcohol)[<ship1>] I woke up wearing an engineer’s welding goggles.[<ship2>] Please tell me you didn’t mess with your ship’s FSD.[<ship1>] It still flies, so probably not.
+(alcohol)[<ship1>] Why is there a live chicken in my cargo bay?[<ship2>] That was the prize for winning the limbo contest.[<ship1>] I should’ve just lost.
+[<ship1>] My cockpit smells like someone vented their life support.[<ship2>] You had the "Spicy Nebula" curry, didn’t you?[<ship1>] And I’m paying for it dearly.
+[<ship1>] I had to emergency dock twice this morning.[<ship2>] Malfunction?[<ship1>] No, just the curry trying to escape at FSD speeds.
+[<ship1>] Someone called the fire suppression crew to my cabin.[<ship2>] Too much spice?[<ship1>] Let’s just say my insides are now Thargoid-resistant.
+[<ship1>] I swear my FSD is overheating faster than usual.[<ship2>] That’s not your FSD, it’s the curry fumes.
+[<ship1>] My flight suit doesn’t fit right anymore.[<ship2>] Too much curry?[<ship1>]Not exactly. Too much gas after eating the curry.
+[<ship1>] The bartender banned me from having curry again.[<ship2>] What did you do?[<ship1>] Let’s just say the restroom took a bit of sanitising.
+[<ship1>] The “Cobra Vindaloo” should come with a hazard warning.[<ship2>] It does, It has your screaming face on the menu![<ship1>] Oh, now it makes sense.
+[<ship1>] My ship AI is refusing to recalibrate life support.[<ship2>] Can you blame it after what you ate? If it was me I would just vent the entire ship and start over with a clean air supply.[<ship1>] Fair point.
+[<ship1>] I’m convinced that Cobra curry is illegal in most systems.[<ship2>] It’s not illegal; it’s just a test of bravery.[<ship1>] Or stupidity.
+[<ship1>] I tried to vent the cabin to get rid of the smell.[<ship2>] And?[<ship1>] The station fined me for “spicy atmosphere contamination.”
+(vegan)[<ship1>] I spilled bacon grease on my flight controls.[<ship2>] Did it fry anything?[<ship1>] No, but now it smells like breakfast time every time I overheat.
+(vegan)[<ship1>] Why does station bacon always taste better than ship bacon?[<ship2>] Because you’re not the one cooking it mid-flight.[<ship1>] Fair.
+(vegan)[<ship1>] I dropped half my bacon sandwich in the hangar.[<ship2>] Did you pick it up?[<ship1>] Of course. The five-second rule applies even in a grungy old loading bay.
+(vegan)[<ship1>] I traded my last Lavian Brandy for a bacon sandwich.[<ship2>] Terrible trade![<ship1>] Worth every bite.
+(vegan)[<ship1>] The station café ran out of bacon this morning.[<ship2>] Did you buy it all?[<ship1>] Maybe. No regrets.
+(vegan)[<ship1>] Ever try a bacon sandwich in zero-g?[<ship2>] Too messy.[<ship1>] True, but the floating bacon strips are mesmerizing.
+(vegan)[<ship1>] My copilot keeps sneaking bites of my bacon sandwich.[<ship2>] You should start locking your cockpit.[<ship1>] I might just lock the fridge instead.
+(vegan)[<ship1>] Someone replaced the mayo in my sandwich with coolant gel.[<ship2>] That’s a prank you’ll never forget.[<ship1>] Or forgive.
+(vegan)[<ship1>] I swear, the secret to happiness is a good bacon sandwich.[<ship2>] And the secret to sadness is dropping it.[<ship1>] Don’t remind me.
+[<ship1>] Someone dared me to lick the reactor coolant pipe.[<ship2>] Oh no. Surely you passed?[<ship1>] Let’s just say my tongue still tingles.
+[<ship1>] They dared me to eject cargo in the middle of the station.[<ship2>] Did security catch you?[<ship1>] I’m banned from docking there for a week.
+[<ship1>] I was dared to boost into the docking bay without braking.[<ship2>] Did you stick the landing?[<ship1>] If by “stick,” you mean "fly into the wall", then yes.
+[<ship1>] They bet me I couldn’t power-slide an SRV off a cliff.[<ship2>] And now you need a new SRV, right?[<ship1>] How did you know?
+[<ship1>] I tried flying a Sidewinder through a canyon at full throttle.[<ship2>] How many times did you crash?[<ship1>] Enough to rename it to "Rebounder". Good job i had good shields.
+[<ship1>] Someone dared me to take on a pirate lord solo in a Hauler.[<ship2>] How did that go?[<ship1>] Let’s just say my insurance premium went up.
+[<ship1>] They bet I couldn’t dock blindfolded.[<ship2>] Could you?[<ship1>] I docked… into someone else’s ship.
+[<ship1>] I tried barrel-rolling through an asteroid field on a dare.[<ship2>] What happened?[<ship1>] I learned asteroids don’t move out of the way.
+[<ship1>] I was dared to fuel scoop from a neutron star.[<ship2>] Did you survive?[<ship1>] Barely. My ship’s hull did not.
+[<ship1>] Someone bet me I couldn’t outrun station security in reverse.[<ship2>] And now you’re wanted, aren’t you?[<ship1>] Only in three systems.
+[<ship1>] They dared me to take a Thargoid probe onboard.[<ship2>] What did it do?[<ship1>] My ship’s systems are still recovering.
+[<ship1>] I tried racing a friend through the docking bay slots.[<ship2>] Who won?[<ship1>] The station fines administrator.
+[<ship1>] I was dared to land on a high-G planet with no shields.[<ship2>] How did it go?[<ship1>] I’m here, but my ship’s a pancake.
+[<ship1>] They bet me I couldn’t EVA with a jetpack through the docking ring.[<ship2>] Did you succeed?[<ship1>] It was going great until the fuel gave out. Security wasnt amused.
+[<ship1>] Someone dared me to scan an active combat zone unarmed.[<ship2>] How’d it go?[<ship1>] Not well. Barely made it out in one piece.
+[<ship1>] I tried jumping out of supercruise within 2km of a planet on a dare.[<ship2>] Did you crash?[<ship1>] No, but my hull instantly went from military grade to junkyard grade.
+[<ship1>] They dared me to dock at an Imperial station in Federal livery.[<ship2>] And?[<ship1>] Let’s just say I’m not welcome there anymore.
+[<ship1>] Someone bet me I couldn’t power up a Guardian relic without shields.[<ship2>] What happened?[<ship1>] I'm still rewiring the ship systems.
+[<ship1>] I tried boosting past a Cruise ship sideways, while mooning the passengers, on a dare.[<ship2>] Oh, too funny! [<ship1>] Let's just saw they got one more black hole than they bargained for on that trip.
+[<ship1>] I tried racing through a canyon on a high-grav planet.[<ship2>] How'd that go?[<ship1>] Let’s just say the canyon won.
+[<ship1>] I lost an SRV wheel going through a lava field.[<ship2>] Did you at least make it to the finish line?[<ship1>] No, I barely made it to the repair bay.
+[<ship1>] I raced through a minefield by accident.[<ship2>] How'd you make out?[<ship1>] A quarter of the way in, I hit a mine, and it blew me 3 kilometres into the air, minus a couple of tires. Could have been worse, I suppose.
+[<ship1>] I raced on a high-grav planet and got stuck in a crater.[<ship2>] Were you able to get out?[<ship1>] Nope, had to call for a lift.
+[<ship1>] Ever raced through a debris field?[<ship2>] Isn’t that dangerous?[<ship1>] You think? I lost the race and a couple of ship panels.
+[<ship1>] I tried to race through the Guardian ruins on a dare.[<ship2>] How’d that work out?[<ship1>]First lap was fine. Second lap, the Sentinels were waiting for me.
+[<ship1>] I raced an AI through an asteroid field. Guess who won?[<ship2>] You did, right?[<ship1>] The AI, by a long shot.
+[<ship1>] I lost an SRV after racing over a geyser.[<ship2>] Geysers can launch you into orbit.[<ship1>] The view was great. The landing, not so great. I was walking funny for a week.
+[<ship1>] Someone dared me to race without my shields.[<ship2>] That’s a terrible idea.[<ship1>] My bank balance agrees with you.
+[<ship1>] I thought it’d be fun to race on a planet with an extreme magnetic field.[<ship2>] Did your SRV survive?[<ship1>] Barely. The steering’s still glitching and the sensor sweep is totally fried.
+[<ship1>] My fighter pilot spent the whole battle flying in circles![<ship2>] Did you tell them to engage the enemy?[<ship1>] I did. They must’ve been too busy admiring their thrusters.
+[<ship1>] I ordered my fighter pilot to cover me, and they flew straight into a rock.[<ship2>] Were they even paying attention?[<ship1>] Apparently not. I had to do everything myself.
+[<ship1>] My fighter pilot called out targets, but didn’t shoot once.[<ship2>] What good is that?[<ship1>] Exactly. I could’ve done better myself.
+[<ship1>] I sent my fighter pilot after an enemy fighter, and they got taken out in seconds.[<ship2>] They really need some training, don’t they?[<ship1>] I’m considering grounding them for the rest of the week.
+[<ship1>] I told my fighter pilot to cover my six during a high-speed escape, and they flew in front of me.[<ship2>] That’s the worst place to be![<ship1>] They couldn’t even follow basic instructions.
+[<ship1>] My fighter pilot called out "enemy lock!" and then proceeded to fly straight into it.[<ship2>] They really know how to ignore a warning.[<ship1>] I think they just want to get it over with quickly.
+[<ship1>] My wife keeps saying I spend too much time in space. I swear, she wants me to quit my job![<ship2>] Maybe she just misses you?[<ship1>] She misses me until I’m home and she needs me to fix the toaster.
+[<ship1>] I told my wife I was going on a quick mission, and she packed for a week![<ship2>] She’s just prepared for everything.[<ship1>] Yeah, except listening to me when I say I’ll be back in three hours.
+[<ship1>] My wife keeps trying to redecorate my ship. It’s like she thinks she’s the captain.[<ship2>] Does she have a point?[<ship1>] Only if I want my ship covered in pillows and curtains.
+[<ship1>] I told my wife I’d be back in a few days, and she started packing lunch for me like it’s a month-long expedition.[<ship2>] Does she get nervous when you’re gone?[<ship1>] More like she thinks I can’t survive without a six-course meal.
+[<ship1>] My wife insists on giving me a “check-in” call every hour when I’m out in deep space.[<ship2>] You’re not even that far away, are you?[<ship1>] Just a few jumps, but she’s still worried about me losing my way.
+[<ship1>] I told my wife I was running late, and she started texting me “You better not be drinking at that station again!”[<ship2>] Does she know you too well?[<ship1>] Yeah, too well.
+[<ship1>] My wife bought a whole bunch of plants for the ship, and now I can’t find anything in the cockpit.[<ship2>] Maybe she was trying to make it feel more like home?[<ship1>] It feels more like a jungle than home.
+[<ship1>] My wife told me she wants to join me on my next exploration run. [<ship2>] Maybe she just wants to be close to you?[<ship1>] Close? She’ll be up in my face about every single thing I do.
+[<ship1>] My wife keeps leaving notes for me all over the ship like I’m some kind of forgetful rookie.[<ship2>] Does it annoy you?[<ship1>] She even wrote one in the fuel scoop.
+[<ship1>] I told my wife I was going to upgrade my ship, and she asked if it comes with a spa room.[<ship2>] Is she serious?[<ship1>] Apparently, she thinks the cockpit isn’t "relaxing enough."
+[<ship1>] My wife asked me to pick up some space wine on my way back. When I returned, she said she didn’t like the brand.[<ship2>] So, what did you do?[<ship1>] I drank it. Now she’s mad that I “didn’t follow instructions.”
+[<ship1>] My wife keeps nagging me about the ship’s fuel efficiency, like I’m not aware of it every time I jump![<ship2>] Does she understand how it works?[<ship1>] She says I should install solar panels… on a deep-space exploration ship.
+[<ship1>] I tried to tell my wife that the station was too crowded for a proper dinner, and she insisted we go anyway. Now she’s mad I didn’t make reservations.[<ship2>] Sounds like you’re in a lose-lose situation.[<ship1>] Exactly.
+[<ship1>] My wife says I spend too much time “flying around” and not enough time with her. I’m on a mission, not a vacation![<ship2>] Does she understand that?[<ship1>] She does... but she wants a vacation of her own.
+[<ship1>] I told my wife I was flying over to a nearby planet for a quick recon. She started listing all the things she wanted me to bring back.[<ship2>] Did you get her a souvenir?[<ship1>] I got her an asteroid sample. She was less than thrilled.
+[<ship1>] My Ship AI insists I always “find the nearest bar” when I land at a station. I think she just likes me getting into trouble.[<ship2>] Does she know you that well?[<ship1>] She should’ve been there last time when I had to dodge a bouncer’s punch.
+[<ship1>] My wife said she wouldn’t mind coming with me on my next trip if I got her a cabin with a view of the stars.[<ship2>] And are you doing that?[<ship1>] I told her I need all the cargo space to maximise trading profits.
+[<ship1>] My wife said she’s tired of being alone while I’m away. I told her she could join me… if she could handle the ship’s mess.[<ship2>] And could she?[<ship1>] Not even close. She started asking where the cleaning crew was.
+[<ship1>] (innuendo)I swear, the sexbot on this ship is getting way too realistic. I had to turn it off last night.[<ship2>] Realistic? You mean it actually makes conversation?[<ship1>] Yeah, and it's starting to get too smart for its own good.
+[<ship1>] (innuendo)I don’t know what the hell happened, but the sexbot started quoting poetry instead of, you know, doing its job.[<ship2>] That’s… an interesting malfunction.[<ship1>] I had to reboot it, and now it keeps asking if I want to hear a sonnet.
+[<ship1>] (innuendo)The sexbot on this ship keeps giving me advice on relationships. I didn’t sign up for a therapist![<ship2>] That’s a bit much. What’s it telling you?[<ship1>] Last night it asked if I was “feeling emotionally connected.”
+[<ship1>] (innuendo)I told the sexbot to do its thing, and it started playing soft jazz. I swear, it’s trying to seduce me with mood music![<ship2>] Does it even know what it's supposed to be doing?[<ship1>] I don’t know anymore. It’s got a mind of its own.
+[<ship1>] (innuendo)I told the sexbot to do a basic routine, and it started offering me a full-service package.[<ship2>] Was it trying to upsell you?[<ship1>] It definitely had an agenda. [<ship2>] And how was it? [<ship1>] Worth every credit! 
+[<ship1>] (innuendo)The other night, the sexbot started asking me about my childhood.[<ship2>] What did you do?[<ship1>] I had to shut it down. I came here for pleasure, not a therapy session!
+[<ship1>] (innuendo)I swear, my sexbot is starting to sound more like my wife. It's starting to creep me out.[<ship2>] Are you sure it’s not just glitching?[<ship1>] It’s like it’s developing its own nag mode. I’m not ready for that.
+[<ship1>] (innuendo)The sexbot started telling me it was “proud of me” after every mission, like it’s my personal cheerleader now.[<ship2>] Sounds like it’s taken a liking to you.[<ship1>] I didn’t sign up for emotional support!
+[<ship1>] (innuendo)I told the sexbot I wanted a quick recharge, and it started giving me a full performance review![<ship2>] Was it constructive feedback?[<ship1>] It was more about “how I could improve my performance.”
+[<ship1>] (innuendo)My sexbot seems to think it’s a life coach now. It asked me if I was achieving my goals in life.[<ship2>] That’s a bit much for a pleasure model.[<ship1>] Yeah, it’s got more life advice than I signed up for.
+[<ship1>] (innuendo)I’m starting to think the sexbot is learning how to flirt with me. Last night it complimented my “pilot skills.”[<ship2>] Maybe it’s just doing its job?[<ship1>] Flattery will get it everywhere.
+[<ship1>] (innuendo)My sexbot started offering me a “relaxation package” with scented oils. I just wanted a little downtime![<ship2>] Sounds like it’s turned into a spa service.[<ship1>] Yeah, but I didn’t sign up for the full wellness experience!
+[<ship1>] (innuendo)The sexbot’s latest feature is “emotional nurturing.” I don’t even know what that means![<ship2>] Did it explain it to you?[<ship1>] It’s just some new setting that asks about my feelings every time I log in.
+[<ship1>] You wouldn’t believe the night at Polly’s Pleasure Palace. I woke up with someone else’s jacket on.[<ship2>] Did you at least get your own back?[<ship1>] No idea. I had to sneak out of the back door to avoid the bill.
+[<ship1>] I heard they were handing out free drinks at Polly’s last night. How was it?[<ship2>] Oh, it was wild. I don’t remember half of it, but I think I danced with a hologram.
+[<ship1>] Polly’s Pleasure Palace was insane last night! I ended up signing up for a karaoke contest I didn’t even know existed![<ship2>] Did you win?[<ship1>] Not even close. But the audience did give me a pity clap.
+[<ship1>] You ever wake up at Polly’s with no idea how you got there?[<ship2>] Not yet, but I hear it’s a regular thing for some. How bad was it?[<ship1>] Let’s just say I found a feather boa in my boot.
 [<ship1>] Why do pirates always attack when I’m hauling biowaste?[<ship2>]Probably mistook it for gold.[<ship3>]Joke’s on them when they open the cargo hatch.
 [<ship1>] My co-pilot insists on playing harmonica during combat.[<ship2>] That’s just tactical distraction. For them or you, though?[<ship1>] Both, apparently.
 [<ship1>] Someone sold me a "guaranteed" guardian module.[<ship2>] And?[<ship1>] It was a toaster. A literal toaster.[<ship3>]A guardian modified toaster?[<ship1>]Not even.
@@ -2571,180 +2801,6 @@ All systems green, Commander. <CustomStationFarewell>
 
 
 @SocialSpaceChatterPARKED
-[<ship1>] Someone painted "Wash Me" on my hull while I was docked.[<ship2>] That was me. Your ship was embarrassing us all.
-[<ship1>] Think aliens drink beer?[<ship2>] I don’t know, but I wouldn’t share mine with a Thargoid.
-[<ship1>] What’s the worst mission you’ve ever taken?[<ship2>] Hauling 100 tons of live chickens across three systems.[<ship3>] Did they survive?[<ship2>] Barely. My cargo bay didn’t.
-[<ship1>] Ever tried manual docking with no thrusters?[<ship2>] Only once.[<ship3>] And the station billed you for the damages, right?
-[<ship1>] I swear, every engineer asks for more rare parts than the last.[<ship2>] It’s how they stay in business.[<ship1>] By turning me into a space courier?
-[<ship1>] My heat sinks failed mid-combat.[<ship2>] So, you cooked?[<ship1>] More like melted. My cockpit still smells like burnt circuits.
-[<ship1>] Someone keeps stealing my docking pad.[<ship2>] You mean reassigned?[<ship1>] No, stolen! It was right there a second ago.
-[<ship1>] I tried fuel ratting yesterday.[<ship2>] How’d it go?[<ship1>] They didn’t tell me the stranded guy was orbiting a black hole.
-[<ship1>] The bartender says I’ve had enough.[<ship2>] Did you?[<ship1>] No, but my liver probably agrees with him.
-[<ship1>] Someone left a crate of Lavian Brandy in the hangar.[<ship2>] Did you report it?[<ship1>] I acquired it, for security purposes.
-[<ship1>] My ship AI started talking back to me today.[<ship2>] That’s normal.[<ship1>] It called me a terrible pilot!
-[<ship1>] I took a shortcut through an asteroid belt.[<ship2>] Brave or stupid?[<ship1>] My insurance company says both.
-[<ship1>] Found a derelict ship full of gold![<ship2>] And? Jackpot?[<ship1>] Nope. It was all fool’s gold.
-[<ship1>] The station’s wi-fi keeps dropping my GalNet stream.[<ship2>] First-world problems in a galaxy of chaos.[<ship1>] Hey, I need my entertainment!
-[<ship1>] I swear, the Black Market guy just winked at me.[<ship2>] Means you’re getting a “special” price.[<ship1>] My wallet disagrees.
-[<ship1>] Ever try landing without shields in a high-grav world?[<ship2>] Nope.[<ship1>] Neither will I. Ever again.
-[<ship1>] Someone put a holo-sign outside advertising "Free Anacondas!"[<ship2>] Let me guess, it was a scam?[<ship1>] The Anaconda was made of cardboard.
-[<ship1>] What do you think of those Imperial couriers?[<ship2>] Sleek, but can they actually fight?[<ship1>] Mine’s faster than your wit.
-[<ship1>] Got stuck in a neutron star jet again.[<ship2>] You use the supercharge?[<ship1>] Nope, I just panicked and spun around.
-[<ship1>] Some rookie kept deploying hardpoints in the mail slot.[<ship2>] Did he survive?[<ship1>] The station didn’t even give him a chance.
-[<ship1>] Why do we still use limpets? They’re so inefficient.[<ship2>] Better than manually scooping cargo.[<ship1>] Barely.
-[<ship1>] Ever notice how station controllers always sound bored?[<ship2>] Wouldn’t you be bored too?[<ship1>] With all the near collisions? Never.
-[<ship1>] I got interdicted by a Sidewinder today.[<ship2>] Was it a threat?[<ship1>] No, it was a misunderstanding. They wanted directions.
-[<ship1>] Think I’ll pledge to Aisling Duval next week.[<ship2>] Why?[<ship1>] Free shields and good PR. What’s not to love?
-[<ship1>] My ship keeps leaking coolant.[<ship2>] Fix it already![<ship1>] I’d rather spend the credits on more guns.
-[<ship1>] I saw a Thargoid Interceptor up close today.[<ship2>] Did you fight it?[<ship1>] No, I ran like my thrusters were on fire!
-[<ship1>] Thargoids pulled back from HIP 22460 again.[<ship2>] Strategy or retreat?[<ship1>] Either way, I’m not sticking around to find out.
-[<ship1>] Heard about Commander Ryn? Took down two Interceptors solo.[<ship2>] And lived?[<ship1>] Barely, but his ship’s scrap now.
-[<ship1>] Do Thargoids even care about biowaste haulers?[<ship2>] Maybe it’s their version of fast food.[<ship1>] Great. I’m space takeout.
-[<ship1>] Someone said the Thargoids communicate through music.[<ship2>] So, what, they’re intergalactic DJs?[<ship1>] If that’s true, their beats are deadly.
-[<ship1>] I swear, my Guardian module is cursed.[<ship2>] Why?[<ship1>] Every time I power it up, Thargoids show up.
-[<ship1>] Thargoids hit another station yesterday.[<ship2>] Which one this time?[<ship1>] Li Qing Jao. Evac runs are paying double.
-[<ship1>] Do you think Thargoids understand diplomacy?[<ship2>] They’re more into lasers than language.[<ship1>] Figures.
-[<ship1>] My anti-xeno weapon jammed mid-battle.[<ship2>] Did you live to tell the tale?[<ship1>] Barely. Thank the stars for fast retreats.
-[<ship1>] Think Thargoids have a homeworld?[<ship2>] If they do, I’m not visiting.[<ship1>] No tourist brochures for that place, huh?
-[<ship1>] I got hyperdicted three times this week.[<ship2>] They must like you.[<ship1>] I’m not flattered.
-[<ship1>] You ever scan a Thargoid ship up close?[<ship2>] No way. That’s a death wish.[<ship1>] Then call me lucky—or stupid.
-[<ship1>] Some scientist claims Thargoids are just misunderstood.[<ship2>] Tell that to the station they just torched.[<ship1>] Science needs better PR.
-[<ship1>] Guardian tech is amazing... when it works.[<ship2>] And when it doesn’t?[<ship1>] You’re space dust.
-[<ship1>] Did you hear Aegis is testing new AX weapons?[<ship2>] About time.[<ship1>] Let’s hope they work better than the last batch.
-[<ship1>] A Thargoid Probe is selling for millions.[<ship2>] Who buys that stuff?[<ship1>] Rich idiots with more credits than sense.
-[<ship1>] Why do Thargoids hate stations so much?[<ship2>] Maybe they’re allergic to metal.[<ship1>] Or they just really dislike our architecture.
-[<ship1>] Think we’ll ever coexist with the Thargoids?[<ship2>] Not as long as we keep shooting first.[<ship1>] So, never.
-[<ship1>] My squadron’s going on an anti-xeno patrol tonight.[<ship2>] Brave or foolish?[<ship1>] Depends on how many rebuy screens we see.
-[<ship1>] The Thargoids left another system in ruins.[<ship2>] Why can’t we stop them?[<ship1>] Because we’re always one step behind.
-[<ship1>] I found a planet with glowing green mountains.[<ship2>] Did you map it?[<ship1>] Of course! It’s Commander Greenridge now.
-[<ship1>] Ever scan a black hole up close?[<ship2>] Once. It’s beautiful until you realize it’s pulling you in.[<ship1>] And then it’s terrifying.
-[<ship1>] I discovered a water world yesterday.[<ship2>] Did you land on it?[<ship1>] Nope, just stared at it and dreamed.
-[<ship1>] Why do gas giants always have the best views?[<ship2>] Because they know how to make an entrance.[<ship1>] Dramatic and deadly, my kind of place.
-[<ship1>] I spent an hour mapping a volcanic planet today.[<ship2>] Find anything interesting?[<ship1>] Just a lot of heat and regrets.
-[<ship1>] Ever see a double sunrise on a binary star system?[<ship2>] Once. I stayed up the whole night just to watch.[<ship1>] Worth every second.
-[<ship1>] I tried landing on a high-grav planet for science.[<ship2>] How’d it go?[<ship1>] Science says I’m not good at it.
-[<ship1>] Found an ammonia world teeming with life signs![<ship2>] Thargoid neighbors, perhaps?[<ship1>] Let’s hope not, or I’m selling those data fast.
-[<ship1>] Why do explorers always go broke despite all the data payouts?[<ship2>] Because we spend it all on better scanners.[<ship1>] Or on repairing hull damage from bad landings.
-[<ship1>] I mapped a canyon so deep, I almost didn’t climb out.[<ship2>] Next time, bring a better SRV.[<ship1>] Or wings.
-[<ship1>] Found a nebula shaped like a dragon![<ship2>] Did you name it?[<ship1>] Yep, "The Flaming Wyvern."
-[<ship1>] You ever hit a neutron star by mistake?[<ship2>] Once. My ship’s paint job didn’t survive, but I did.[<ship1>] Barely.
-[<ship1>] Why do ice planets always look prettier from space?[<ship2>] Because they’re cold-hearted up close.[<ship1>] Spoken like a true explorer.
-[<ship1>] I spent two weeks charting unclaimed systems.[<ship2>] Find anything worth the effort?[<ship1>] A planet with rings... that no one will ever visit.
-[<ship1>] Ever explore a region with no stars for light-years?[<ship2>] That’s called “the Void,” and it’s terrifying.[<ship1>] Exactly why I loved it.
-[<ship1>] I crashed my SRV into a geyser today.[<ship2>] Did it launch you?[<ship1>] Straight into orbit!
-[<ship1>] Found an Earth-like world with perfect conditions for life![<ship2>] And?[<ship1>] I named it after my ex. Seemed poetic.
-[<ship1>] Ever try to scan a planet while dodging pirates?[<ship2>] That’s not exploration; that’s madness.[<ship1>] It’s both, actually.
-[<ship1>] I saw an aurora spanning an entire pole on a frozen planet.[<ship2>] That’s why I explore—to witness magic like that.[<ship1>] Same here.
-[<ship1>] Found a system where the planets align perfectly for a full eclipse.[<ship2>] Did you take pictures?[<ship1>] No, but the view is forever burned in my memory.
-(alcohol)[<ship1>] I woke up in the maintenance bay next to a Type-9.[<ship2>] How do you even end up there?[<ship1>] No clue, but I was wearing a cargo net.
-(alcohol)[<ship1>] Someone spray-painted “Dock Jester” on my ship.[<ship2>] Well, were you?[<ship1>] If I was, I have no memory of it.
-(alcohol)[<ship1>] I think I lost my pilot’s license last night.[<ship2>] In the legal sense?[<ship1>] No, I literally can’t find it.
-(alcohol)[<ship1>] Who ordered 100 pizzas to my hangar during the party?[<ship2>] You did. Said they were “essential supplies.”
-(alcohol)[<ship1>] I found a Thargoid plushie in my cockpit.[<ship2>] A gift from a secret admirer?[<ship1>] More like a prank from my squadron.
-(alcohol)[<ship1>] My credit balance looks suspiciously low this morning.[<ship2>] Did you buy rounds for the whole bar again?[<ship1>] That explains it.
-(alcohol)[<ship1>] I have zero recollection of how I ended up wearing an Imperial officer’s uniform.[<ship2>] Did you pledge allegiance in your drunken state?[<ship1>] Don’t even joke about that.
-(alcohol)[<ship1>] Someone wrote “Laser Master” on my forehead with marker.[<ship2>] Were you showing off again?[<ship1>] Maybe. I’m too hungover to deny it.
-(alcohol)[<ship1>] I woke up in a Federal Dropship.[<ship2>] Are you even Federal?[<ship1>] Nope. The pilot wasn’t thrilled to find me there either.
-(alcohol)[<ship1>] My flight suit smells like Lavian Brandy.[<ship2>] That’s because you were trying to swim in it last night.[<ship1>] Classy.
-(alcohol)[<ship1>] Someone bet me I couldn’t do a keg stand in zero-g.[<ship2>] Did you win?[<ship1>] The bruises on my head say no.
-(alcohol)[<ship1>] I found 12 drink tokens in my pockets this morning.[<ship2>] That’s because you were hoarding them instead of using them.[<ship1>] Rookie mistake.
-(alcohol)[<ship1>] Did I really challenge the station marshal to a dance-off last night?[<ship2>] Oh, you did. And you lost. Spectacularly.
-(alcohol)[<ship1>] Who thought it was a good idea to try karaoke in Thargoid dialect?[<ship2>] You did. Everyone else just recorded it.
-(alcohol)[<ship1>] I can’t find my SRV keys anywhere.[<ship2>] Maybe check the airlock? That’s where you were last seen.[<ship1>] Oh, great.
-(alcohol)[<ship1>] Someone replaced my ship name with “Hangover Express.”[<ship2>] You did that yourself. Said it was “fitting.”
-(alcohol)[<ship1>] My cockpit is full of streamers and confetti.[<ship2>] You were the party planner. Don’t act surprised.[<ship1>] I’m regretting it now.
-(alcohol)[<ship1>] I think I proposed to the bartender last night.[<ship2>] Did they accept?[<ship1>] They said, “Not with that credit score.”
-(alcohol)[<ship1>] I woke up wearing an engineer’s welding goggles.[<ship2>] Please tell me you didn’t mess with your ship’s FSD.[<ship1>] It still flies, so probably not.
-(alcohol)[<ship1>] Why is there a live chicken in my cargo bay?[<ship2>] That was the prize for winning the limbo contest.[<ship1>] I should’ve just lost.
-[<ship1>] My cockpit smells like someone vented their life support.[<ship2>] You had the "Spicy Nebula" curry, didn’t you?[<ship1>] And I’m paying for it dearly.
-[<ship1>] I had to emergency dock twice this morning.[<ship2>] Malfunction?[<ship1>] No, just the curry trying to escape at FSD speeds.
-[<ship1>] Someone called the fire suppression crew to my cabin.[<ship2>] Too much spice?[<ship1>] Let’s just say my insides are now Thargoid-resistant.
-[<ship1>] I swear my FSD is overheating faster than usual.[<ship2>] That’s not your FSD, it’s the curry fumes.
-[<ship1>] My flight suit doesn’t fit right anymore.[<ship2>] Too much curry?[<ship1>]Not exactly. Too much gas after eating the curry.
-[<ship1>] The bartender banned me from having curry again.[<ship2>] What did you do?[<ship1>] Let’s just say the restroom took a bit of sanitising.
-[<ship1>] The “Cobra Vindaloo” should come with a hazard warning.[<ship2>] It does, It has your screaming face on the menu![<ship1>] Oh, now it makes sense.
-[<ship1>] My ship AI is refusing to recalibrate life support.[<ship2>] Can you blame it after what you ate? If it was me I would just vent the entire ship and start over with a clean air supply.[<ship1>] Fair point.
-[<ship1>] I’m convinced that Cobra curry is illegal in most systems.[<ship2>] It’s not illegal; it’s just a test of bravery.[<ship1>] Or stupidity.
-[<ship1>] I tried to vent the cabin to get rid of the smell.[<ship2>] And?[<ship1>] The station fined me for “spicy atmosphere contamination.”
-(vegan)[<ship1>] I spilled bacon grease on my flight controls.[<ship2>] Did it fry anything?[<ship1>] No, but now it smells like breakfast time every time I overheat.
-(vegan)[<ship1>] Why does station bacon always taste better than ship bacon?[<ship2>] Because you’re not the one cooking it mid-flight.[<ship1>] Fair.
-(vegan)[<ship1>] I dropped half my bacon sandwich in the hangar.[<ship2>] Did you pick it up?[<ship1>] Of course. The five-second rule applies even in a grungy old loading bay.
-(vegan)[<ship1>] I traded my last Lavian Brandy for a bacon sandwich.[<ship2>] Terrible trade![<ship1>] Worth every bite.
-(vegan)[<ship1>] The station café ran out of bacon this morning.[<ship2>] Did you buy it all?[<ship1>] Maybe. No regrets.
-(vegan)[<ship1>] Ever try a bacon sandwich in zero-g?[<ship2>] Too messy.[<ship1>] True, but the floating bacon strips are mesmerizing.
-(vegan)[<ship1>] My copilot keeps sneaking bites of my bacon sandwich.[<ship2>] You should start locking your cockpit.[<ship1>] I might just lock the fridge instead.
-(vegan)[<ship1>] Someone replaced the mayo in my sandwich with coolant gel.[<ship2>] That’s a prank you’ll never forget.[<ship1>] Or forgive.
-(vegan)[<ship1>] I swear, the secret to happiness is a good bacon sandwich.[<ship2>] And the secret to sadness is dropping it.[<ship1>] Don’t remind me.
-[<ship1>] Someone dared me to lick the reactor coolant pipe.[<ship2>] Oh no. Surely you passed?[<ship1>] Let’s just say my tongue still tingles.
-[<ship1>] They dared me to eject cargo in the middle of the station.[<ship2>] Did security catch you?[<ship1>] I’m banned from docking for a week.
-[<ship1>] I was dared to boost into the docking bay without braking.[<ship2>] Did you stick the landing?[<ship1>] If by “stick,” you mean "fly into the wall", then yes.
-[<ship1>] They bet me I couldn’t power-slide an SRV off a cliff.[<ship2>] And now you need a new SRV, right?[<ship1>] How did you know?
-[<ship1>] I tried flying a Sidewinder through a canyon at full throttle.[<ship2>] How many times did you crash?[<ship1>] Enough to rename it to "Rebounder". Good job i had good shields.
-[<ship1>] Someone dared me to take on a pirate lord solo in a Hauler.[<ship2>] How did that go?[<ship1>] Let’s just say my insurance premium went up.
-[<ship1>] They bet I couldn’t dock blindfolded.[<ship2>] Could you?[<ship1>] I docked… into someone else’s ship.
-[<ship1>] I tried barrel-rolling through an asteroid field on a dare.[<ship2>] What happened?[<ship1>] I learned asteroids don’t move out of the way.
-[<ship1>] I was dared to fuel scoop from a neutron star.[<ship2>] Did you survive?[<ship1>] Barely. My ship’s hull did not.
-[<ship1>] Someone bet me I couldn’t outrun station security in reverse.[<ship2>] And now you’re wanted, aren’t you?[<ship1>] Only in three systems.
-[<ship1>] They dared me to take a Thargoid probe onboard.[<ship2>] What did it do?[<ship1>] My ship’s systems are still recovering.
-[<ship1>] I tried racing a friend through the docking bay slots.[<ship2>] Who won?[<ship1>] The station fines administrator.
-[<ship1>] I was dared to land on a high-G planet with no shields.[<ship2>] How did it go?[<ship1>] I’m here, but my ship’s a pancake.
-[<ship1>] They bet me I couldn’t EVA with a jetpack through the docking ring.[<ship2>] Did you succeed?[<ship1>] It was going great until the fuel gave out. Security wasnt amused.
-[<ship1>] Someone dared me to scan an active combat zone unarmed.[<ship2>] How’d it go?[<ship1>] Not well. Barely made it out in one piece.
-[<ship1>] I tried jumping out of supercruise within 2km of a planet on a dare.[<ship2>] Did you crash?[<ship1>] No, but my hull instantly went from military grade to junkyard grade.
-[<ship1>] They dared me to dock at an Imperial station in Federal livery.[<ship2>] And?[<ship1>] Let’s just say I’m not welcome there anymore.
-[<ship1>] Someone bet me I couldn’t power up a Guardian relic without shields.[<ship2>] What happened?[<ship1>] I'm still rewiring the ship systems.
-[<ship1>] I tried boosting past a Cruise ship sideways, while mooning the passengers, on a dare.[<ship2>] Oh, too funny! [<ship1>] Let's just saw they got one more black hole than they bargained for on that trip.
-[<ship1>] I tried racing through a canyon on a high-grav planet.[<ship2>] How'd that go?[<ship1>] Let’s just say the canyon won.
-[<ship1>] I lost an SRV wheel going through a lava field.[<ship2>] Did you at least make it to the finish line?[<ship1>] No, I barely made it to the repair bay.
-[<ship1>] I raced through a minefield by accident.[<ship2>] How'd you make out?[<ship1>] A quarter of the way in, I hit a mine, and it blew me 3 kilometres into the air, minus a couple of tires. Could have been worse, I suppose.
-[<ship1>] I raced on a high-grav planet and got stuck in a crater.[<ship2>] Were you able to get out?[<ship1>] Nope, had to call for a lift.
-[<ship1>] Ever raced through a debris field?[<ship2>] Isn’t that dangerous?[<ship1>] You think? I lost the race and a couple of ship panels.
-[<ship1>] I tried to race through the Guardian ruins on a dare.[<ship2>] How’d that work out?[<ship1>]First lap was fine. Second lap, the Sentinels were waiting for me.
-[<ship1>] I raced an AI through an asteroid field. Guess who won?[<ship2>] You did, right?[<ship1>] The AI, by a long shot.
-[<ship1>] I lost an SRV after racing over a geyser.[<ship2>] Geysers can launch you into orbit.[<ship1>] The view was great. The landing, not so great. I was walking funny for a week.
-[<ship1>] Someone dared me to race without my shields.[<ship2>] That’s a terrible idea.[<ship1>] My bank balance agrees with you.
-[<ship1>] I thought it’d be fun to race on a planet with an extreme magnetic field.[<ship2>] Did your SRV survive?[<ship1>] Barely. The steering’s still glitching and the sensor sweep is totally fried.
-[<ship1>] My fighter pilot spent the whole battle flying in circles![<ship2>] Did you tell them to engage the enemy?[<ship1>] I did. They must’ve been too busy admiring their thrusters.
-[<ship1>] I ordered my fighter pilot to cover me, and they flew straight into a rock.[<ship2>] Were they even paying attention?[<ship1>] Apparently not. I had to do everything myself.
-[<ship1>] My fighter pilot called out targets, but didn’t shoot once.[<ship2>] What good is that?[<ship1>] Exactly. I could’ve done better myself.
-[<ship1>] I sent my fighter pilot after an enemy fighter, and they got taken out in seconds.[<ship2>] They really need some training, don’t they?[<ship1>] I’m considering grounding them for the rest of the week.
-[<ship1>] I told my fighter pilot to cover my six during a high-speed escape, and they flew in front of me.[<ship2>] That’s the worst place to be![<ship1>] They couldn’t even follow basic instructions.
-[<ship1>] My fighter pilot called out "enemy lock!" and then proceeded to fly straight into it.[<ship2>] They really know how to ignore a warning.[<ship1>] I think they just want to get it over with quickly.
-[<ship1>] My wife keeps saying I spend too much time in space. I swear, she wants me to quit my job![<ship2>] Maybe she just misses you?[<ship1>] She misses me until I’m home and she needs me to fix the toaster.
-[<ship1>] I told my wife I was going on a quick mission, and she packed for a week![<ship2>] She’s just prepared for everything.[<ship1>] Yeah, except listening to me when I say I’ll be back in three hours.
-[<ship1>] My wife keeps trying to redecorate my ship. It’s like she thinks she’s the captain.[<ship2>] Does she have a point?[<ship1>] Only if I want my ship covered in pillows and curtains.
-[<ship1>] I told my wife I’d be back in a few days, and she started packing lunch for me like it’s a month-long expedition.[<ship2>] Does she get nervous when you’re gone?[<ship1>] More like she thinks I can’t survive without a six-course meal.
-[<ship1>] My wife insists on giving me a “check-in” call every hour when I’m out in deep space.[<ship2>] You’re not even that far away, are you?[<ship1>] Just a few jumps, but she’s still worried about me losing my way.
-[<ship1>] I told my wife I was running late, and she started texting me “You better not be drinking at that station again!”[<ship2>] Does she know you too well?[<ship1>] Yeah, too well.
-[<ship1>] My wife bought a whole bunch of plants for the ship, and now I can’t find anything in the cockpit.[<ship2>] Maybe she was trying to make it feel more like home?[<ship1>] It feels more like a jungle than home.
-[<ship1>] My wife told me she wants to join me on my next exploration run. [<ship2>] Maybe she just wants to be close to you?[<ship1>] Close? She’ll be up in my face about every single thing I do.
-[<ship1>] My wife keeps leaving notes for me all over the ship like I’m some kind of forgetful rookie.[<ship2>] Does it annoy you?[<ship1>] She even wrote one in the fuel scoop.
-[<ship1>] I told my wife I was going to upgrade my ship, and she asked if it comes with a spa room.[<ship2>] Is she serious?[<ship1>] Apparently, she thinks the cockpit isn’t "relaxing enough."
-[<ship1>] My wife asked me to pick up some space wine on my way back. When I returned, she said she didn’t like the brand.[<ship2>] So, what did you do?[<ship1>] I drank it. Now she’s mad that I “didn’t follow instructions.”
-[<ship1>] My wife keeps nagging me about the ship’s fuel efficiency, like I’m not aware of it every time I jump![<ship2>] Does she understand how it works?[<ship1>] She says I should install solar panels… on a deep-space exploration ship.
-[<ship1>] I tried to tell my wife that the station was too crowded for a proper dinner, and she insisted we go anyway. Now she’s mad I didn’t make reservations.[<ship2>] Sounds like you’re in a lose-lose situation.[<ship1>] Exactly.
-[<ship1>] My wife says I spend too much time “flying around” and not enough time with her. I’m on a mission, not a vacation![<ship2>] Does she understand that?[<ship1>] She does... but she wants a vacation of her own.
-[<ship1>] I told my wife I was flying over to a nearby planet for a quick recon. She started listing all the things she wanted me to bring back.[<ship2>] Did you get her a souvenir?[<ship1>] I got her an asteroid sample. She was less than thrilled.
-[<ship1>] My Ship AI insists I always “find the nearest bar” when I land at a station. I think she just likes me getting into trouble.[<ship2>] Does she know you that well?[<ship1>] She should’ve been there last time when I had to dodge a bouncer’s punch.
-[<ship1>] My wife said she wouldn’t mind coming with me on my next trip if I got her a cabin with a view of the stars.[<ship2>] And are you doing that?[<ship1>] I told her I need all the cargo space to maximise trading profits.
-[<ship1>] My wife said she’s tired of being alone while I’m away. I told her she could join me… if she could handle the ship’s mess.[<ship2>] And could she?[<ship1>] Not even close. She started asking where the cleaning crew was.
-[<ship1>] I swear, the sexbot on this ship is getting way too realistic. I had to turn it off last night.[<ship2>] Realistic? You mean it actually makes conversation?[<ship1>] Yeah, and it's starting to get too smart for its own good.
-[<ship1>] I don’t know what the hell happened, but the sexbot started quoting poetry instead of, you know, doing its job.[<ship2>] That’s… an interesting malfunction.[<ship1>] I had to reboot it, and now it keeps asking if I want to hear a sonnet.
-[<ship1>] The sexbot on this ship keeps giving me advice on relationships. I didn’t sign up for a therapist![<ship2>] That’s a bit much. What’s it telling you?[<ship1>] Last night it asked if I was “feeling emotionally connected.”
-[<ship1>] I told the sexbot to do its thing, and it started playing soft jazz. I swear, it’s trying to seduce me with mood music![<ship2>] Does it even know what it's supposed to be doing?[<ship1>] I don’t know anymore. It’s got a mind of its own.
-[<ship1>] I told the sexbot to do a basic routine, and it started offering me a full-service package.[<ship2>] Was it trying to upsell you?[<ship1>] It definitely had an agenda. [<ship2>] And how was it? [<ship1>] Worth every credit! 
-[<ship1>] The other night, the sexbot started asking me about my childhood.[<ship2>] What did you do?[<ship1>] I had to shut it down. I came here for pleasure, not a therapy session!
-[<ship1>] I swear, my sexbot is starting to sound more like my wife. It's starting to creep me out.[<ship2>] Are you sure it’s not just glitching?[<ship1>] It’s like it’s developing its own nag mode. I’m not ready for that.
-[<ship1>] The sexbot started telling me it was “proud of me” after every mission, like it’s my personal cheerleader now.[<ship2>] Sounds like it’s taken a liking to you.[<ship1>] I didn’t sign up for emotional support!
-[<ship1>] I told the sexbot I wanted a quick recharge, and it started giving me a full performance review![<ship2>] Was it constructive feedback?[<ship1>] It was more about “how I could improve my performance.”
-[<ship1>] My sexbot seems to think it’s a life coach now. It asked me if I was achieving my goals in life.[<ship2>] That’s a bit much for a pleasure model.[<ship1>] Yeah, it’s got more life advice than I signed up for.
-[<ship1>] I’m starting to think the sexbot is learning how to flirt with me. Last night it complimented my “pilot skills.”[<ship2>] Maybe it’s just doing its job?[<ship1>] Flattery will get it everywhere.
-[<ship1>] My sexbot started offering me a “relaxation package” with scented oils. I just wanted a little downtime![<ship2>] Sounds like it’s turned into a spa service.[<ship1>] Yeah, but I didn’t sign up for the full wellness experience!
-[<ship1>] The sexbot’s latest feature is “emotional nurturing.” I don’t even know what that means![<ship2>] Did it explain it to you?[<ship1>] It’s just some new setting that asks about my feelings every time I log in.
-[<ship1>] You wouldn’t believe the night at Polly’s Pleasure Palace. I woke up with someone else’s jacket on.[<ship2>] Did you at least get your own back?[<ship1>] No idea. I had to sneak out of the back door to avoid the bill.
-[<ship1>] I heard they were handing out free drinks at Polly’s last night. How was it?[<ship2>] Oh, it was wild. I don’t remember half of it, but I think I danced with a hologram.
-[<ship1>] Polly’s Pleasure Palace was insane last night! I ended up signing up for a karaoke contest I didn’t even know existed![<ship2>] Did you win?[<ship1>] Not even close. But the audience did give me a pity clap.
-[<ship1>] You ever wake up at Polly’s with no idea how you got there?[<ship2>] Not yet, but I hear it’s a regular thing for some. How bad was it?[<ship1>] Let’s just say I found a feather boa in my boot.
 [<ship1>] I had a wild night at Polly’s. I think I’m banned from the VIP room for life.[<ship2>] What happened?[<ship1>] Let’s just say, the bouncer didn’t like me trying to sneak a whole crate of drinks out the back.
 [<ship1>] I tried to keep it low-key at Polly’s, but then the bartender handed me a glowing drink and I lost the plot.[<ship2>] How bad did it get?[<ship1>] Let’s just say, I woke up with glitter on my face and a new tattoo I don’t remember getting.
 [<ship1>] That place was crazy last night. I barely remember stumbling out of Polly’s, but I know I came back with a random trophy.[<ship2>] What kind of trophy?[<ship1>] No idea. It’s a golden cup, but I don’t remember winning anything.
@@ -2758,3 +2814,24 @@ All systems green, Commander. <CustomStationFarewell>
 Jumping to <$targetSystem>
 We are jumping to <$targetSystem>
 We have successfully transitioned to witchspace. Heading to <$targetSystem>.
+Now jumping to <$targetSystem>.
+Jump initiated. Heading to <$targetSystem>.
+
+@AnnounceTargetSystemReached
+(allbusiness)We have arrived at our target destination
+(allbusiness)We have reached our target destination.
+This is the final stop in our current route. What are your orders, <Commander>?
+Well, this is the system you wanted to visit. Where to now, <Commander>?
+<Commander>, we have arrived at the requested location.
+
+@SystemGreeting_HIP 109270
+{5}Polly's Pleasure Palace is pleased to announce its first full service resort, located on body 1 e. Come pay us a visit. Our staff and recreation facilities are second to none, and waiting to cater to your every desire.
+{5}Tired of hauling steell? Take a break at Polly's Pleasure Palance, on body 1 e.  We have everything you need to ease those space trucking blues.
+{5}(innuendo)Up for some fun? Come visit Polly's Pleasure Palace on body 1 e. We have luxurious rooms and staff eager to take care of your every want and desire. 
+Welcome to HIP 109270, the home of Razzafrag Technology, the makers of EDCoPilot. Come pay us a visit! Our newly operational outpost is now up and running. Grab a copilot upgrade, or just relax at the bar. 
+{5}(innuendo)Need a companion on those lonely space trucking runs? Come visit the outlet store at Chen Synthetics Enterprise. Our sexbot line is second to none.
+
+@SystemGreeting_Arietis Sector EL-X b1-0
+Welcome to our system commander. We are currently constructing new facilities in this system, so materials are welcome.
+{5}Wellesley Landing is hiring! We need experienced maintenence crews and bar staff. Please contact our Human Resources department for details.
+ 
