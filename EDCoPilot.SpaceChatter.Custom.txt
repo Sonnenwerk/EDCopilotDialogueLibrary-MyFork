@@ -74,3 +74,33 @@
 [<stationname>] This is <stationname> control. By the time you land, you will be number one.
 [<ship1>] Copy that.
 [\example]
+
+[example]
+[<ship3>] Control, I’m inbound for repairs at <stationname>. Had a close call with an asteroid out near <starsystem>.
+[<stationname>] Understood, <ship3>. Proceed to Docking Bay 8, and our techs will check you over.
+[\example]
+
+[example]
+[<ship1>] Control, what’s with the line at <stationname>? I’ve been in queue forever.
+[<stationname>] Apologies, <ship1>. VIP transport's taking priority.
+[<ship1>] Some senator’s personal yacht gets priority over paying traders? Love that.
+[\example]
+
+[example]
+[<ship4>] <ship4> to Control. I think my ship’s AI just sighed at me. That’s… not normal, right?
+[<stationname>] Confirming, <ship4>. That’s a negative on normal. Have you updated your firmware lately?
+[<ship4>] I thought I did. Maybe it’s just tired of my jokes?
+[<stationname>] Or maybe it’s trying to tell you to stop making them.
+[\example]
+
+[example]
+[<ship2>] <ship2> to <stationname>. I’m in a bit of a pickle here. Can you send a tow?
+[<stationname>] <ship2>, you’re not even supposed to be in this sector. What are you doing here?
+[<ship2>] I was… exploring? Yeah, that’s it. Exploring.
+[\example]
+
+[example]
+[<ship1>] <ship1> to Control. I’m carrying some delicate cargo and need special handling.
+[<stationname>] Noted, <ship1>. Proceed to docking bay 6 for careful unloading.
+[<ship1>] Thanks, Control.
+[\example]
