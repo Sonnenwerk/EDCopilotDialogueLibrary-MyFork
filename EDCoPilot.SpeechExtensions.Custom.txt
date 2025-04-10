@@ -258,3 +258,18 @@ New system discovered, <Commander>. Time to ruin its pristine reputation by show
 (profanity)Well, fuck me, <Commander>. A new system discovered! Let’s hope it doesn’t suck.
 (profanity)<Commander>, we are the first here. Now let’s try not to piss off whatever lives here.
 (profanity)<Commander>, we have found a new system. Let’s hope it’s worth the goddamn fuel we burned getting here
+
+@AdditionalCommanderAddressMaleIfDateIs12-24 
+<!-- your Characters birthday
+Happy birthday <Commander> ! Are you giving a station party tonight ?
+
+@AdditionalCommanderAddressMaleIfDateIs20-09 
+<!-- Elite Dangerous first publication in 1984
+Happy birthday to myself ! I never thought i would get that old and yet looking better than ever!
+
+@AdditionalCommanderAddressMaleIfDateIs12-16 
+<!-- Elite Dangerous first publication in 2014
+Happy Birtday my younger Brother!
+
+@AdditionalCommanderAddressMaleIfDateIs01-01 Birthday Boy 
+<!-- Some special days in the Elite Universe
